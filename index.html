@@ -19,12 +19,15 @@
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://tuongtacthuoc.github.io/">
     <link rel="stylesheet" href="style.css">
+    <!-- Mở rộng: favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Mở rộng: Open Graph cho Facebook/Zalo -->
     <meta property="og:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
     <meta property="og:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tuongtacthuoc.github.io/">
     <meta property="og:image" content="https://tuongtacthuoc.github.io/og-image.png">
+    <!-- Mở rộng: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
     <meta name="twitter:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí.">
@@ -37,26 +40,18 @@
         <input type="text" id="search-input" placeholder="Nhập tên hoạt chất hoặc thuốc...">
         <div class="suggestions" id="suggestions"></div>
     </div>
-    <div id="circle-visualization-container">
-        <!-- Sơ đồ vòng tròn sẽ được vẽ ở đây -->
-    </div>
     <div class="two-column-layout">
+        <!-- Cột trái: Danh sách đã chọn -->
         <div class="selected-column">
             <h2>Danh sách đã chọn (<span id="selected-count">0</span>)</h2>
             <div class="selected-list" id="selected-drugs"></div>
         </div>
+        <!-- Cột phải: Kết quả tương tác -->
         <div class="results-column">
             <h2>Kết quả tương tác</h2>
             <div id="results"></div>
         </div>
     </div>
-    <footer class="footer-copyright">
-        <div>
-            © 2025 Bản quyền thuộc về <strong>Bùi Đạt Hiếu</strong>.<br>
-            Mọi quyền được bảo lưu.<br>
-            Liên hệ: <a href="mailto:dathieu102@email.com">dathieu102@email.com</a>
-        </div>
-    </footer>
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>
