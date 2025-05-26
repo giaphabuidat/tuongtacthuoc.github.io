@@ -1,3 +1,6 @@
+// © 2025 Bùi Đạt Hiếu - Bản quyền thuộc về tác giả. Mọi quyền được bảo lưu.
+// Liên hệ: dathieu102@email.com
+
 // app.js
 document.addEventListener("DOMContentLoaded", function() {
     const data = window.tuongTacData;
