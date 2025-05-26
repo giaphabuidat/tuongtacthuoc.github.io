@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tra cứu tương tác thuốc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tra cứu tương tác thuốc</h1>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Nhập tên hoạt chất hoặc thuốc...">
+        <div class="suggestions" id="suggestions"></div>
+    </div>
+    <div class="two-column-layout">
+        <!-- Cột trái: Danh sách đã chọn -->
+        <div class="selected-column">
+            <h2>Danh sách đã chọn (<span id="selected-count">0</span>)</h2>
+            <div class="selected-list" id="selected-drugs"></div>
+        </div>
+        <!-- Cột phải: Kết quả tương tác -->
+        <div class="results-column">
+            <h2>Kết quả tương tác</h2>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
