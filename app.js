@@ -1,10 +1,12 @@
 // © 2025 Bùi Đạt Hiếu - Bản quyền thuộc về tác giả. Mọi quyền được bảo lưu.
 // Liên hệ: dathieu102@email.com
 
-// app.js
+let data, allDrugs, selectedDrugs, selectedCount, selectedContainer, results, input, suggestions;
+
 document.addEventListener("DOMContentLoaded", function() {
-    const data = window.tuongTacData;
-    const allDrugs = new Set();
+    data = window.tuongTacData;
+    allDrugs = new Set();
+    selectedDrugs = new Set();
 
     // Tạo danh sách tất cả hoạt chất và thuốc tương tác
     data.forEach(item => {
@@ -12,12 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
         item.tuong_tac.forEach(t => allDrugs.add(t.thuoc));
     });
 
-    const input = document.getElementById('search-input');
-    const suggestions = document.getElementById('suggestions');
-    const results = document.getElementById('results');
-    const selectedContainer = document.getElementById('selected-drugs');
-    const selectedCount = document.getElementById('selected-count');
-    const selectedDrugs = new Set();
+    input = document.getElementById('search-input');
+    suggestions = document.getElementById('suggestions');
+    results = document.getElementById('results');
+    selectedContainer = document.getElementById('selected-drugs');
+    selectedCount = document.getElementById('selected-count');
 
     // Autocomplete & chọn hoạt chất
     input.addEventListener('input', debounce(function(e) {
@@ -76,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Hiển thị danh sách đã chọn (cột trái)
-    function updateSelectedDrugs() {
+    window.updateSelectedDrugs = function() {
         selectedContainer.innerHTML = '';
         let index = 1;
         selectedDrugs.forEach(drug => {
@@ -109,10 +110,13 @@ document.addEventListener("DOMContentLoaded", function() {
             });
             selectedContainer.appendChild(clearBtn);
         }
-    }
+
+        // GỌI VẼ VÒNG TRÒN
+        showCircleVisualization();
+    };
 
     // Tìm tương tác giữa tất cả các cặp hoạt chất đã chọn (cột phải)
-    function findInteractions() {
+    window.findInteractions = function() {
         results.innerHTML = '';
         if (selectedDrugs.size < 2) return;
 
@@ -157,10 +161,10 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             results.innerHTML = `<div class="result-card">Không tìm thấy tương tác nào giữa các hoạt chất đã chọn.</div>`;
         }
-    }
+    };
 
     // Tạo thẻ kết quả
-    function createResultCard(hoatChat, interaction) {
+    window.createResultCard = function(hoatChat, interaction) {
         const card = document.createElement('div');
         card.className = 'result-card mucdo-' + interaction.muc_do;
 
@@ -174,9 +178,19 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
 
         return card;
-    }
+    };
 
-    function getSeverityText(mucdo) {
+    // Hàm debounce
+    window.debounce = function(func, timeout = 300) {
+        let timer;
+        return (...args) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => func.apply(this, args), timeout);
+        };
+    };
+
+    // Hàm mức độ
+    window.getSeverityText = function(mucdo) {
         const levels = {
             1: 'Theo dõi',
             2: 'Thận trọng',
@@ -184,113 +198,94 @@ document.addEventListener("DOMContentLoaded", function() {
             4: 'Nguy hiểm'
         };
         return levels[mucdo] || 'Không xác định';
-    }
+    };
 
-    // Hàm debounce
-    function debounce(func, timeout = 300) {
-        let timer;
-        return (...args) => {
-            clearTimeout(timer);
-            timer = setTimeout(() => func.apply(this, args), timeout);
-        };
-    }
-});
-
-// Tìm vùng hiển thị vòng tròn
-const circleContainer = document.getElementById('circle-visualization-container');
-
-// Hàm vẽ sơ đồ vòng tròn
-function showCircleVisualization() {
-    circleContainer.innerHTML = '';
-    if (selectedDrugs.size !== 1) {
-        circleContainer.style.display = 'none';
-        return;
-    }
-    circleContainer.style.display = 'block';
-
-    const centerDrug = Array.from(selectedDrugs)[0];
-
-    // Tìm các chất có tương tác với hoạt chất trung tâm
-    let related = [];
-    data.forEach(item => {
-        if (item.hoat_chat === centerDrug) {
-            related = related.concat(item.tuong_tac.map(t => ({
-                name: t.thuoc,
-                muc_do: t.muc_do
-            })));
+    // VẼ VÒNG TRÒN
+    window.showCircleVisualization = function() {
+        const circleContainer = document.getElementById('circle-visualization-container');
+        circleContainer.innerHTML = '';
+        if (selectedDrugs.size !== 1) {
+            circleContainer.style.display = 'none';
+            return;
         }
-    });
-    data.forEach(item => {
-        item.tuong_tac.forEach(t => {
-            if (t.thuoc === centerDrug) {
-                related.push({
-                    name: item.hoat_chat,
+        circleContainer.style.display = 'block';
+
+        const centerDrug = Array.from(selectedDrugs)[0];
+
+        // Tìm các chất có tương tác với hoạt chất trung tâm
+        let related = [];
+        data.forEach(item => {
+            if (item.hoat_chat === centerDrug) {
+                related = related.concat(item.tuong_tac.map(t => ({
+                    name: t.thuoc,
                     muc_do: t.muc_do
-                });
+                })));
             }
         });
-    });
+        data.forEach(item => {
+            item.tuong_tac.forEach(t => {
+                if (t.thuoc === centerDrug) {
+                    related.push({
+                        name: item.hoat_chat,
+                        muc_do: t.muc_do
+                    });
+                }
+            });
+        });
 
-    // Loại bỏ trùng lặp
-    related = related.filter((v, i, arr) =>
-        arr.findIndex(x => x.name === v.name) === i && v.name !== centerDrug
-    );
+        // Loại bỏ trùng lặp
+        related = related.filter((v, i, arr) =>
+            arr.findIndex(x => x.name === v.name) === i && v.name !== centerDrug
+        );
 
-    // Vẽ hoạt chất trung tâm
-    const center = document.createElement('div');
-    center.className = 'circle-center';
-    center.innerHTML = centerDrug;
-    circleContainer.appendChild(center);
+        // Vẽ hoạt chất trung tâm
+        const center = document.createElement('div');
+        center.className = 'circle-center';
+        center.innerHTML = centerDrug;
+        circleContainer.appendChild(center);
 
-    // Tính toán vị trí các node trên vòng tròn
-    const R = 120; // Bán kính vòng tròn
-    const cx = circleContainer.offsetWidth / 2;
-    const cy = circleContainer.offsetHeight / 2;
-    const n = related.length;
+        // Tính toán vị trí các node trên vòng tròn
+        const R = Math.min(circleContainer.offsetWidth, circleContainer.offsetHeight) / 2 - 60;
+        const cx = circleContainer.offsetWidth / 2;
+        const cy = circleContainer.offsetHeight / 2;
+        const n = related.length;
 
-    related.forEach((rel, idx) => {
-        const angle = (2 * Math.PI * idx) / n;
-        const x = cx + R * Math.cos(angle) - 35;
-        const y = cy + R * Math.sin(angle) - 35;
+        related.forEach((rel, idx) => {
+            const angle = (2 * Math.PI * idx) / n;
+            const x = cx + R * Math.cos(angle) - 35;
+            const y = cy + R * Math.sin(angle) - 35;
 
-        // Vẽ đường nối
-        const link = document.createElement('div');
-        link.className = 'circle-link';
-        const dx = x + 35 - (cx);
-        const dy = y + 35 - (cy);
-        const length = Math.sqrt(dx*dx + dy*dy);
-        link.style.height = length + 'px';
-        link.style.left = (cx) + 'px';
-        link.style.top = (cy) + 'px';
-        link.style.transform = `rotate(${Math.atan2(dy, dx)}rad)`;
-        link.style.background = rel.muc_do == 4 ? '#d32f2f' : rel.muc_do == 3 ? '#fbc02d' : rel.muc_do == 2 ? '#fb8c00' : '#1976d2';
-        circleContainer.appendChild(link);
+            // Vẽ đường nối
+            const link = document.createElement('div');
+            link.className = 'circle-link';
+            const dx = x + 35 - cx;
+            const dy = y + 35 - cy;
+            const length = Math.sqrt(dx*dx + dy*dy);
+            link.style.height = length + 'px';
+            link.style.left = cx + 'px';
+            link.style.top = cy + 'px';
+            link.style.transform = `rotate(${Math.atan2(dy, dx)}rad)`;
+            link.style.background = rel.muc_do == 4 ? '#d32f2f' : rel.muc_do == 3 ? '#fbc02d' : rel.muc_do == 2 ? '#fb8c00' : '#1976d2';
+            circleContainer.appendChild(link);
 
-        // Vẽ node
-        const node = document.createElement('div');
-        node.className = 'circle-node mucdo-' + rel.muc_do;
-        node.innerHTML = rel.name;
-        node.style.left = x + 'px';
-        node.style.top = y + 'px';
-        node.title = `Mức độ: ${getSeverityText(rel.muc_do)}`;
-        node.onclick = () => {
-            // Thêm vào danh sách đã chọn nếu chưa có
-            if (!selectedDrugs.has(rel.name)) {
-                selectedDrugs.add(rel.name);
-                updateSelectedDrugs();
-                findInteractions();
-            }
-        };
-        circleContainer.appendChild(node);
-    });
-}
+            // Vẽ node
+            const node = document.createElement('div');
+            node.className = 'circle-node mucdo-' + rel.muc_do;
+            node.innerHTML = rel.name;
+            node.style.left = x + 'px';
+            node.style.top = y + 'px';
+            node.title = `Mức độ: ${getSeverityText(rel.muc_do)}`;
+            node.onclick = () => {
+                if (!selectedDrugs.has(rel.name)) {
+                    selectedDrugs.add(rel.name);
+                    updateSelectedDrugs();
+                    findInteractions();
+                }
+            };
+            circleContainer.appendChild(node);
+        });
+    };
 
-// Gọi hàm này mỗi khi updateSelectedDrugs
-// => Thêm vào cuối hàm updateSelectedDrugs():
-updateSelectedDrugs = function() {
-    // ... phần cũ ...
-    selectedCount.textContent = selectedDrugs.size;
-    // ... phần cũ ...
-    showCircleVisualization(); // <-- thêm dòng này
-}
-
+    // Khởi tạo lần đầu
+    updateSelectedDrugs();
+});
