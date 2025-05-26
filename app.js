@@ -1,12 +1,19 @@
 // © 2025 Bùi Đạt Hiếu - Bản quyền thuộc về tác giả. Mọi quyền được bảo lưu.
 // Liên hệ: dathieu102@email.com
 
-let data, allDrugs, selectedDrugs, selectedCount, selectedContainer, results, input, suggestions;
+// Định nghĩa debounce ở phạm vi toàn cục
+function debounce(func, timeout = 300) {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => func.apply(this, args), timeout);
+    };
+}
 
 document.addEventListener("DOMContentLoaded", function() {
-    data = window.tuongTacData;
-    allDrugs = new Set();
-    selectedDrugs = new Set();
+    const data = window.tuongTacData;
+    const allDrugs = new Set();
+    const selectedDrugs = new Set();
 
     // Tạo danh sách tất cả hoạt chất và thuốc tương tác
     data.forEach(item => {
@@ -14,11 +21,12 @@ document.addEventListener("DOMContentLoaded", function() {
         item.tuong_tac.forEach(t => allDrugs.add(t.thuoc));
     });
 
-    input = document.getElementById('search-input');
-    suggestions = document.getElementById('suggestions');
-    results = document.getElementById('results');
-    selectedContainer = document.getElementById('selected-drugs');
-    selectedCount = document.getElementById('selected-count');
+    const input = document.getElementById('search-input');
+    const suggestions = document.getElementById('suggestions');
+    const results = document.getElementById('results');
+    const selectedContainer = document.getElementById('selected-drugs');
+    const selectedCount = document.getElementById('selected-count');
+    const circleContainer = document.getElementById('circle-visualization-container');
 
     // Autocomplete & chọn hoạt chất
     input.addEventListener('input', debounce(function(e) {
@@ -77,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Hiển thị danh sách đã chọn (cột trái)
-    window.updateSelectedDrugs = function() {
+    function updateSelectedDrugs() {
         selectedContainer.innerHTML = '';
         let index = 1;
         selectedDrugs.forEach(drug => {
@@ -107,16 +115,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 selectedDrugs.clear();
                 updateSelectedDrugs();
                 results.innerHTML = '';
+                showCircleVisualization();
             });
             selectedContainer.appendChild(clearBtn);
         }
 
-        // GỌI VẼ VÒNG TRÒN
         showCircleVisualization();
-    };
+    }
 
     // Tìm tương tác giữa tất cả các cặp hoạt chất đã chọn (cột phải)
-    window.findInteractions = function() {
+    function findInteractions() {
         results.innerHTML = '';
         if (selectedDrugs.size < 2) return;
 
@@ -161,10 +169,10 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             results.innerHTML = `<div class="result-card">Không tìm thấy tương tác nào giữa các hoạt chất đã chọn.</div>`;
         }
-    };
+    }
 
     // Tạo thẻ kết quả
-    window.createResultCard = function(hoatChat, interaction) {
+    function createResultCard(hoatChat, interaction) {
         const card = document.createElement('div');
         card.className = 'result-card mucdo-' + interaction.muc_do;
 
@@ -178,19 +186,10 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
 
         return card;
-    };
-
-    // Hàm debounce
-    window.debounce = function(func, timeout = 300) {
-        let timer;
-        return (...args) => {
-            clearTimeout(timer);
-            timer = setTimeout(() => func.apply(this, args), timeout);
-        };
-    };
+    }
 
     // Hàm mức độ
-    window.getSeverityText = function(mucdo) {
+    function getSeverityText(mucdo) {
         const levels = {
             1: 'Theo dõi',
             2: 'Thận trọng',
@@ -198,11 +197,10 @@ document.addEventListener("DOMContentLoaded", function() {
             4: 'Nguy hiểm'
         };
         return levels[mucdo] || 'Không xác định';
-    };
+    }
 
-    // VẼ VÒNG TRÒN
-    window.showCircleVisualization = function() {
-        const circleContainer = document.getElementById('circle-visualization-container');
+    // Vẽ vòng tròn gợi ý các chất tương tác khi chỉ chọn 1 hoạt chất
+    function showCircleVisualization() {
         circleContainer.innerHTML = '';
         if (selectedDrugs.size !== 1) {
             circleContainer.style.display = 'none';
@@ -284,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function() {
             };
             circleContainer.appendChild(node);
         });
-    };
+    }
 
     // Khởi tạo lần đầu
     updateSelectedDrugs();
