@@ -1,12 +1,12 @@
 // © 2025 Bùi Đạt Hiếu - Bản quyền thuộc về tác giả. Mọi quyền được bảo lưu.
 // Liên hệ: dathieu102@email.com
 
-// Định nghĩa debounce ở phạm vi toàn cục
-function debounce(func, timeout = 300) {
+// Định nghĩa debounce ở đầu file để không lỗi ReferenceError
+function debounce(func, delay = 300) {
     let timer;
-    return (...args) => {
+    return function(...args) {
         clearTimeout(timer);
-        timer = setTimeout(() => func.apply(this, args), timeout);
+        timer = setTimeout(() => func.apply(this, args), delay);
     };
 }
 
