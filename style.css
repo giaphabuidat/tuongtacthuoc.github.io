@@ -216,3 +216,41 @@ h1 {
         margin-bottom: 30px;
     }
 }
+
+@media (max-width: 600px) {
+  .two-column-layout {
+    grid-template-columns: 1fr !important;
+    padding: 10px !important;
+    gap: 15px !important;
+  }
+
+  #search-input {
+    font-size: 18px !important;
+    padding: 16px !important;
+  }
+
+  .selected-item {
+    font-size: 18px !important;
+    padding: 14px 16px !important;
+  }
+
+  .remove-btn {
+    font-size: 24px !important;
+    padding: 0 10px !important;
+  }
+
+  .clear-all {
+    font-size: 18px !important;
+    padding: 12px 0 !important;
+  }
+
+  .result-card {
+    padding: 20px 20px !important;
+    font-size: 16px !important;
+  }
+
+  .severity {
+    font-size: 18px !important;
+  }
+}
+
