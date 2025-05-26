@@ -28,7 +28,6 @@ h1 {
     outline: none;
     box-sizing: border-box;
     transition: border-color 0.2s;
-    background: #fff;
 }
 
 #search-input:focus {
@@ -208,90 +207,6 @@ h1 {
     color: #333;
 }
 
-/* Vòng tròn gợi ý tương tác */
-#circle-visualization-container {
-    width: 100%;
-    max-width: 440px;
-    height: 340px;
-    margin: 0 auto 30px auto;
-    position: relative;
-    min-height: 340px;
-    display: none;
-}
-.circle-center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 90px;
-    height: 90px;
-    margin-left: -45px;
-    margin-top: -45px;
-    background: #1976d2;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 1.1em;
-    box-shadow: 0 4px 12px #1976d233;
-    z-index: 2;
-    text-align: center;
-    padding: 10px;
-}
-.circle-node {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background: #fff;
-    color: #1976d2;
-    border: 2px solid #1976d2;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 0.95em;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s, border 0.2s;
-    box-shadow: 0 2px 8px #1976d233;
-    text-align: center;
-    padding: 8px;
-    z-index: 1;
-}
-.circle-node:hover {
-    background: #1976d2;
-    color: #fff;
-    border-color: #1565c0;
-}
-.circle-link {
-    position: absolute;
-    width: 2px;
-    background: #1976d2;
-    transform-origin: top left;
-    z-index: 0;
-}
-.mucdo-4 { border-color: #d32f2f !important; }
-.mucdo-3 { border-color: #fbc02d !important; }
-.mucdo-2 { border-color: #fb8c00 !important; }
-.mucdo-1 { border-color: #1976d2 !important; }
-
-/* Footer bản quyền */
-.footer-copyright {
-    background: #1976d2;
-    color: #fff;
-    text-align: center;
-    padding: 18px 6px 16px 6px;
-    font-size: 15px;
-    margin-top: 40px;
-    border-radius: 0 0 10px 10px;
-}
-.footer-copyright a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-/* Responsive tối ưu cho tablet và điện thoại */
 @media (max-width: 900px) {
     .two-column-layout {
         display: block !important;
@@ -314,25 +229,6 @@ h1 {
     }
     .result-card {
         margin: 18px 0;
-    }
-    #circle-visualization-container {
-        max-width: 98vw;
-        min-height: 300px;
-        height: 300px;
-    }
-    .circle-center {
-        width: 68px;
-        height: 68px;
-        margin-left: -34px;
-        margin-top: -34px;
-        font-size: 1em;
-        padding: 6px;
-    }
-    .circle-node {
-        width: 48px;
-        height: 48px;
-        font-size: 0.8em;
-        padding: 4px;
     }
 }
 
@@ -359,22 +255,5 @@ h1 {
         font-size: 20px;
         padding: 10px 0;
     }
-    #circle-visualization-container {
-        min-height: 180px;
-        height: 180px;
-    }
-    .circle-center {
-        width: 44px;
-        height: 44px;
-        margin-left: -22px;
-        margin-top: -22px;
-        font-size: 0.9em;
-        padding: 2px;
-    }
-    .circle-node {
-        width: 30px;
-        height: 30px;
-        font-size: 0.6em;
-        padding: 1px;
-    }
 }
+
