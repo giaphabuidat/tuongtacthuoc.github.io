@@ -257,4 +257,89 @@ h1 {
     }
 }
 
+#circle-visualization-container {
+    width: 100%;
+    max-width: 440px;
+    height: 340px;
+    margin: 0 auto 30px auto;
+    position: relative;
+    min-height: 340px;
+    display: none; /* Chỉ hiện khi có 1 hoạt chất được chọn */
+}
+
+.circle-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 4px 12px #1976d233;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+}
+
+.circle-node {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    color: #1976d2;
+    border: 2px solid #1976d2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    box-shadow: 0 2px 8px #1976d233;
+    text-align: center;
+    padding: 8px;
+    z-index: 1;
+}
+.circle-node:hover {
+    background: #1976d2;
+    color: #fff;
+    border-color: #1565c0;
+}
+.circle-link {
+    position: absolute;
+    width: 2px;
+    background: #1976d2;
+    transform-origin: top left;
+    z-index: 0;
+}
+@media (max-width: 600px) {
+    #circle-visualization-container {
+        max-width: 98vw;
+        min-height: 300px;
+        height: 300px;
+    }
+    .circle-center {
+        width: 68px;
+        height: 68px;
+        margin-left: -34px;
+        margin-top: -34px;
+        font-size: 1em;
+        padding: 6px;
+    }
+    .circle-node {
+        width: 48px;
+        height: 48px;
+        font-size: 0.8em;
+        padding: 4px;
+    }
+}
 
