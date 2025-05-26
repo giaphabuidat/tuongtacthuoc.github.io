@@ -1,3 +1,5 @@
+// © 2025 Bùi Đạt Hiếu - Bản quyền thuộc về tác giả. Mọi quyền được bảo lưu.
+// Liên hệ: dathieu102@email.com
 // data.js
 window.tuongTacData = [
   {
