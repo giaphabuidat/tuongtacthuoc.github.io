@@ -207,15 +207,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Nhưng để đảm bảo an toàn, nếu selectedGroup rỗng thì dùng hoatChat
     const mainDrug = selectedGroup.length > 0 ? selectedGroup.join(", ") : hoatChat;
 
-    // Lọc danh sách nhóm để hiển thị "Thuộc nhóm" (không bao gồm mainDrug)
-    const groupList = selectedGroup.filter(d => d !== hoatChat).join(", ");
-
     card.innerHTML = `
         <h3>${mainDrug} ↔ ${interaction.thuoc}</h3>
         <div class="severity mucdo-${interaction.muc_do}">
             Mức độ ${interaction.muc_do}: ${getSeverityText(interaction.muc_do)}
         </div>
-        ${groupList ? `<div class="group-info">Thuộc nhóm: ${groupList}</div>` : ''}
         <p><strong>Phân tích:</strong> ${interaction.phan_tich}</p>
         <p><strong>Xử lý:</strong> ${interaction.xu_ly}</p>
     `;
