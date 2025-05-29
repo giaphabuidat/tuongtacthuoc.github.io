@@ -129,11 +129,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Hàm xóa trùng lặp kết quả
+    // Hàm xóa trùng lặp kết quả (kiểm tra cả thứ tự thuốc để loại bỏ trùng lặp)
     function removeDuplicates(interactions) {
         const seen = new Set();
         return interactions.filter(({ hoatChat, interaction }) => {
-            const key = `${hoatChat}-${interaction.thuoc}-${interaction.muc_do}`;
+            // Tạo key duy nhất cho mỗi cặp tương tác (không quan tâm thứ tự)
+            const drugs = [hoatChat, interaction.thuoc].sort();
+            const key = `${drugs[0]}-${drugs[1]}-${interaction.muc_do}`;
             return seen.has(key) ? false : seen.add(key);
         });
     }
@@ -186,9 +188,10 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
 
-        // Hiển thị kết quả với thông tin nhóm
-        if (foundInteractions.length > 0) {
-            const uniqueInteractions = removeDuplicates(foundInteractions);
+        // Loại bỏ trùng lặp trước khi hiển thị
+        const uniqueInteractions = removeDuplicates(foundInteractions);
+
+        if (uniqueInteractions.length > 0) {
             uniqueInteractions.forEach(({ hoatChat, interaction, group }) => {
                 results.appendChild(createResultCard(hoatChat, interaction, group));
             });
@@ -197,28 +200,28 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-   function createResultCard(hoatChat, interaction, group) {
-    const card = document.createElement('div');
-    card.className = `result-card mucdo-${interaction.muc_do}`;
-    
-    // Lọc chỉ những thuốc trong nhóm đã được chọn
-    const selectedGroup = [...new Set(group)].filter(d => selectedDrugs.has(d));
-    // Nếu không có thuốc nào trong nhóm được chọn (trường hợp này không xảy ra vì hoatChat đã được chọn)
-    // Nhưng để đảm bảo an toàn, nếu selectedGroup rỗng thì dùng hoatChat
-    const mainDrug = selectedGroup.length > 0 ? selectedGroup.join(", ") : hoatChat;
+    // Tạo thẻ kết quả (chỉ hiển thị hoạt chất đã chọn, bỏ phần "Thuộc nhóm")
+    function createResultCard(hoatChat, interaction, group) {
+        const card = document.createElement('div');
+        card.className = `result-card mucdo-${interaction.muc_do}`;
+        
+        // Lọc chỉ những thuốc trong nhóm đã được chọn
+        const selectedGroup = [...new Set(group)].filter(d => selectedDrugs.has(d));
+        // Nếu không có thuốc nào trong nhóm được chọn (trường hợp này không xảy ra vì hoatChat đã được chọn)
+        // Nhưng để đảm bảo an toàn, nếu selectedGroup rỗng thì dùng hoatChat
+        const mainDrug = selectedGroup.length > 0 ? selectedGroup.join(", ") : hoatChat;
 
-    card.innerHTML = `
-        <h3>${mainDrug} ↔ ${interaction.thuoc}</h3>
-        <div class="severity mucdo-${interaction.muc_do}">
-            Mức độ ${interaction.muc_do}: ${getSeverityText(interaction.muc_do)}
-        </div>
-        <p><strong>Phân tích:</strong> ${interaction.phan_tich}</p>
-        <p><strong>Xử lý:</strong> ${interaction.xu_ly}</p>
-    `;
+        card.innerHTML = `
+            <h3>${mainDrug} ↔ ${interaction.thuoc}</h3>
+            <div class="severity mucdo-${interaction.muc_do}">
+                Mức độ ${interaction.muc_do}: ${getSeverityText(interaction.muc_do)}
+            </div>
+            <p><strong>Phân tích:</strong> ${interaction.phan_tich}</p>
+            <p><strong>Xử lý:</strong> ${interaction.xu_ly}</p>
+        `;
 
-    return card;
-}
-
+        return card;
+    }
 
     function getSeverityText(mucdo) {
         const levels = {
