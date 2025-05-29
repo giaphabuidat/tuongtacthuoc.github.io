@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Hàm xóa trùng lặp kết quả (dựa trên nhóm thuốc đã chọn và thuốc tương tác)
+    // Hàm xóa trùng lặp nhóm thuốc (loại bỏ trùng lặp nhóm thuốc đã chọn)
     function removeDuplicates(interactions) {
         const seen = new Set();
         const unique = [];
@@ -139,10 +139,21 @@ document.addEventListener("DOMContentLoaded", function() {
             if (selectedGroup.length === 0) continue; // Bỏ qua nếu không có thuốc nào trong nhóm được chọn
             // Sắp xếp tên nhóm thuốc để tạo key duy nhất
             const groupSorted = selectedGroup.sort();
-            const key = `${groupSorted.join(",")}-${item.interaction.thuoc}-${item.interaction.muc_do}`;
-            if (!seen.has(key)) {
-                seen.add(key);
-                unique.push(item);
+            // Kiểm tra interaction.thuoc có phải là mảng không (trường hợp tương tác với nhiều thuốc)
+            const interactingDrugs = Array.isArray(item.interaction.thuoc) ? item.interaction.thuoc : [item.interaction.thuoc];
+            for (const interactingDrug of interactingDrugs) {
+                // Tạo key dựa trên nhóm thuốc đã chọn, thuốc tương tác và mức độ
+                const key = `${groupSorted.join(",")}-${interactingDrug}-${item.interaction.muc_do}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    unique.push({
+                        ...item,
+                        interaction: {
+                            ...item.interaction,
+                            thuoc: interactingDrug
+                        }
+                    });
+                }
             }
         }
         return unique;
@@ -156,6 +167,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const drugsArray = Array.from(selectedDrugs);
         const foundInteractions = [];
 
+        // Kiểm tra tương tác từng cặp thuốc
         drugsArray.forEach((drug1, i) => {
             drugsArray.slice(i + 1).forEach(drug2 => {
                 data.forEach(item => {
