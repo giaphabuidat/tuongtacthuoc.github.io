@@ -197,27 +197,32 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Tạo thẻ kết quả (cập nhật hỗ trợ hiển thị nhóm thuốc)
-    function createResultCard(hoatChat, interaction, group) {
-        const card = document.createElement('div');
-        card.className = `result-card mucdo-${interaction.muc_do}`;
-        
-        // Hiển thị tất cả thuốc trong nhóm
-        const groupList = [...new Set(group)].filter(d => d !== hoatChat).join(", ");
-        const mainDrug = group.includes(hoatChat) ? group.join(", ") : hoatChat;
+   function createResultCard(hoatChat, interaction, group) {
+    const card = document.createElement('div');
+    card.className = `result-card mucdo-${interaction.muc_do}`;
+    
+    // Lọc chỉ những thuốc trong nhóm đã được chọn
+    const selectedGroup = [...new Set(group)].filter(d => selectedDrugs.has(d));
+    // Nếu không có thuốc nào trong nhóm được chọn (trường hợp này không xảy ra vì hoatChat đã được chọn)
+    // Nhưng để đảm bảo an toàn, nếu selectedGroup rỗng thì dùng hoatChat
+    const mainDrug = selectedGroup.length > 0 ? selectedGroup.join(", ") : hoatChat;
 
-        card.innerHTML = `
-            <h3>${mainDrug} ↔ ${interaction.thuoc}</h3>
-            <div class="severity mucdo-${interaction.muc_do}">
-                Mức độ ${interaction.muc_do}: ${getSeverityText(interaction.muc_do)}
-            </div>
-            ${groupList ? `<div class="group-info">Thuộc nhóm: ${groupList}</div>` : ''}
-            <p><strong>Phân tích:</strong> ${interaction.phan_tich}</p>
-            <p><strong>Xử lý:</strong> ${interaction.xu_ly}</p>
-        `;
+    // Lọc danh sách nhóm để hiển thị "Thuộc nhóm" (không bao gồm mainDrug)
+    const groupList = selectedGroup.filter(d => d !== hoatChat).join(", ");
 
-        return card;
-    }
+    card.innerHTML = `
+        <h3>${mainDrug} ↔ ${interaction.thuoc}</h3>
+        <div class="severity mucdo-${interaction.muc_do}">
+            Mức độ ${interaction.muc_do}: ${getSeverityText(interaction.muc_do)}
+        </div>
+        ${groupList ? `<div class="group-info">Thuộc nhóm: ${groupList}</div>` : ''}
+        <p><strong>Phân tích:</strong> ${interaction.phan_tich}</p>
+        <p><strong>Xử lý:</strong> ${interaction.xu_ly}</p>
+    `;
+
+    return card;
+}
+
 
     function getSeverityText(mucdo) {
         const levels = {
