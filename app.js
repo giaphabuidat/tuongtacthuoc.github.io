@@ -129,15 +129,23 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Hàm xóa trùng lặp kết quả (kiểm tra cả thứ tự thuốc để loại bỏ trùng lặp)
+    // Hàm xóa trùng lặp kết quả (dựa trên nhóm thuốc đã chọn và thuốc tương tác)
     function removeDuplicates(interactions) {
         const seen = new Set();
-        return interactions.filter(({ hoatChat, interaction }) => {
-            // Tạo key duy nhất cho mỗi cặp tương tác (không quan tâm thứ tự)
-            const drugs = [hoatChat, interaction.thuoc].sort();
-            const key = `${drugs[0]}-${drugs[1]}-${interaction.muc_do}`;
-            return seen.has(key) ? false : seen.add(key);
-        });
+        const unique = [];
+        for (const item of interactions) {
+            // Lọc chỉ những thuốc trong nhóm đã được chọn
+            const selectedGroup = [...new Set(item.group)].filter(d => selectedDrugs.has(d));
+            if (selectedGroup.length === 0) continue; // Bỏ qua nếu không có thuốc nào trong nhóm được chọn
+            // Sắp xếp tên nhóm thuốc để tạo key duy nhất
+            const groupSorted = selectedGroup.sort();
+            const key = `${groupSorted.join(",")}-${item.interaction.thuoc}-${item.interaction.muc_do}`;
+            if (!seen.has(key)) {
+                seen.add(key);
+                unique.push(item);
+            }
+        }
+        return unique;
     }
 
     // Tìm tương tác giữa các cặp hoạt chất (hỗ trợ hoat_chat là mảng/chuỗi và cac_thuoc_trong_nhom)
