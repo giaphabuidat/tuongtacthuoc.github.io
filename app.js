@@ -5,14 +5,24 @@ document.addEventListener("DOMContentLoaded", function() {
     const data = window.tuongTacData;
     const allDrugs = new Set();
 
-    // Tạo danh sách tất cả hoạt chất và thuốc tương tác
+    // Tạo danh sách tất cả hoạt chất và thuốc tương tác (chỉ hoat_chat và thuoc)
     data.forEach(item => {
-        allDrugs.add(item.hoat_chat);
+        // Thêm hoat_chat
+        if (item.hoat_chat) {
+            allDrugs.add(String(item.hoat_chat));
+        }
+        // Thêm các thuốc tương tác
         item.tuong_tac.forEach(t => {
-            if (Array.isArray(t.thuoc)) {
-                t.thuoc.forEach(th => allDrugs.add(th));
-            } else {
-                allDrugs.add(t.thuoc);
+            if (t.thuoc) {
+                if (Array.isArray(t.thuoc)) {
+                    t.thuoc.forEach(th => {
+                        if (th) {
+                            allDrugs.add(String(th));
+                        }
+                    });
+                } else {
+                    allDrugs.add(String(t.thuoc));
+                }
             }
         });
     });
@@ -33,9 +43,10 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        const filtered = Array.from(allDrugs).filter(d =>
-            d.toLowerCase().includes(query) && !selectedDrugs.has(d)
-        );
+        // Chỉ lọc các thuốc là chuỗi, bỏ qua giá trị null/undefined
+        const filtered = Array.from(allDrugs)
+            .filter(d => typeof d === 'string')
+            .filter(d => String(d).toLowerCase().includes(query) && !selectedDrugs.has(d));
 
         if (filtered.length > 0) {
             filtered.forEach(drug => {
@@ -141,19 +152,22 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (processedPairs.has(pairKey)) return;
                 processedPairs.add(pairKey);
 
+                // Kiểm tra tương tác từng cặp thuốc
                 data.forEach(item => {
                     // Chỉ kiểm tra tương tác giữa hoat_chat và thuoc
                     item.tuong_tac.forEach(t => {
                         const interactingDrugs = Array.isArray(t.thuoc) ? t.thuoc : [t.thuoc];
-                        if (
-                            (item.hoat_chat === drug1 && interactingDrugs.includes(drug2)) ||
-                            (item.hoat_chat === drug2 && interactingDrugs.includes(drug1))
-                        ) {
-                            foundInteractions.push({
-                                hoatChat: item.hoat_chat,
-                                interaction: { ...t, thuoc: interactingDrugs.includes(drug1) ? drug1 : drug2 }
-                            });
-                        }
+                        interactingDrugs.forEach(thuoc => {
+                            if (
+                                (item.hoat_chat === drug1 && thuoc === drug2) ||
+                                (item.hoat_chat === drug2 && thuoc === drug1)
+                            ) {
+                                foundInteractions.push({
+                                    hoatChat: item.hoat_chat,
+                                    interaction: { ...t, thuoc: thuoc }
+                                });
+                            }
+                        });
                     });
                 });
             });
