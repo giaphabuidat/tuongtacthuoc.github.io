@@ -5,11 +5,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const data = window.tuongTacData;
     const allDrugs = new Set();
 
-    // Tạo danh sách tất cả hoạt chất và thuốc tương tác (chỉ hoat_chat và thuoc)
+    // Tạo danh sách tất cả hoạt chất và thuốc tương tác (bao gồm cả cac_thuoc_trong_nhom)
     data.forEach(item => {
         // Thêm hoat_chat
         if (item.hoat_chat) {
             allDrugs.add(String(item.hoat_chat));
+        }
+        // Thêm cac_thuoc_trong_nhom
+        if (item.cac_thuoc_trong_nhom) {
+            const drugs = Array.isArray(item.cac_thuoc_trong_nhom) 
+                ? item.cac_thuoc_trong_nhom 
+                : [item.cac_thuoc_trong_nhom];
+            drugs.forEach(d => d && allDrugs.add(String(d)));
         }
         // Thêm các thuốc tương tác
         item.tuong_tac.forEach(t => {
@@ -136,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Hàm tìm tương tác giữa các cặp hoạt chất (chỉ kiểm tra hoat_chat ↔ thuoc)
+    // Hàm tìm tương tác giữa các cặp hoạt chất (kiểm tra cả nhóm thuốc)
     function findInteractions() {
         results.innerHTML = '';
         if (selectedDrugs.size < 2) return;
@@ -154,21 +161,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Kiểm tra tương tác từng cặp thuốc
                 data.forEach(item => {
-                    // Chỉ kiểm tra tương tác giữa hoat_chat và thuoc
-                    item.tuong_tac.forEach(t => {
-                        const interactingDrugs = Array.isArray(t.thuoc) ? t.thuoc : [t.thuoc];
-                        interactingDrugs.forEach(thuoc => {
-                            if (
-                                (item.hoat_chat === drug1 && thuoc === drug2) ||
-                                (item.hoat_chat === drug2 && thuoc === drug1)
-                            ) {
+                    // Tạo mảng kết hợp hoat_chat và cac_thuoc_trong_nhom
+                    const allRelatedDrugs = [
+                        ...(Array.isArray(item.hoat_chat) ? item.hoat_chat : [item.hoat_chat]),
+                        ...(item.cac_thuoc_trong_nhom || [])
+                    ];
+
+                    // Kiểm tra drug1 có trong nhóm
+                    if (allRelatedDrugs.includes(drug1)) {
+                        item.tuong_tac.forEach(t => {
+                            const interactingDrugs = Array.isArray(t.thuoc) ? t.thuoc : [t.thuoc];
+                            if (interactingDrugs.includes(drug2)) {
                                 foundInteractions.push({
-                                    hoatChat: item.hoat_chat,
-                                    interaction: { ...t, thuoc: thuoc }
+                                    hoatChat: drug1,
+                                    interaction: { ...t, thuoc: drug2 }
                                 });
                             }
                         });
-                    });
+                    }
+
+                    // Kiểm tra drug2 có trong nhóm
+                    if (allRelatedDrugs.includes(drug2)) {
+                        item.tuong_tac.forEach(t => {
+                            const interactingDrugs = Array.isArray(t.thuoc) ? t.thuoc : [t.thuoc];
+                            if (interactingDrugs.includes(drug1)) {
+                                foundInteractions.push({
+                                    hoatChat: drug2,
+                                    interaction: { ...t, thuoc: drug1 }
+                                });
+                            }
+                        });
+                    }
                 });
             });
         });
