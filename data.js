@@ -8863,7 +8863,7 @@ window.tuongTacData = [
     "Fluorouracil"
   ],
   "chu_y_khi_chi_dinh": {
-    "mo_ta": "Thuốc này phải do thầy thuốc chuyên khoa kê đơn. Vì vậy, các chống chỉ định phải được cân nhắc tuỳ theo tình trạng người bệnh và phải được nhà chuyên khoa đánh giá."
+    "mo_ta1": "Thuốc này phải do thầy thuốc chuyên khoa kê đơn. Vì vậy, các chống chỉ định phải được cân nhắc tuỳ theo tình trạng người bệnh và phải được nhà chuyên khoa đánh giá."
   },
   "tuong_tac": [
     {
@@ -12209,7 +12209,6 @@ window.tuongTacData = [
   ]
 }
   
-
 
 
 ];
