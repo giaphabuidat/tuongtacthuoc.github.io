@@ -3,17 +3,22 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const data = window.tuongTacData;
-    const allDrugs = new Set();
+    const allDrugs = new Set(); // Lưu tên thuốc đúng chuẩn (không bắt buộc lowercase)
+    const allDrugsLower = new Set(); // Lưu tên thuốc dạng lowercase để so sánh
 
     // Tạo danh sách tất cả thuốc trong nhóm và thuốc tương tác (KHÔNG thêm hoat_chat)
     data.forEach(item => {
-        // KHÔNG thêm hoat_chat vào allDrugs
         // Thêm cac_thuoc_trong_nhom
         if (item.cac_thuoc_trong_nhom) {
             const drugs = Array.isArray(item.cac_thuoc_trong_nhom) 
                 ? item.cac_thuoc_trong_nhom 
                 : [item.cac_thuoc_trong_nhom];
-            drugs.forEach(d => d && allDrugs.add(String(d)));
+            drugs.forEach(d => {
+                if (d) {
+                    allDrugs.add(String(d));
+                    allDrugsLower.add(String(d).toLowerCase());
+                }
+            });
         }
         // Thêm các thuốc tương tác
         item.tuong_tac.forEach(t => {
@@ -22,10 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     t.thuoc.forEach(th => {
                         if (th) {
                             allDrugs.add(String(th));
+                            allDrugsLower.add(String(th).toLowerCase());
                         }
                     });
                 } else {
                     allDrugs.add(String(t.thuoc));
+                    allDrugsLower.add(String(t.thuoc).toLowerCase());
                 }
             }
         });
@@ -37,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const selectedContainer = document.getElementById('selected-drugs');
     const selectedCount = document.getElementById('selected-count');
     const selectedDrugs = new Set();
+    const selectedDrugsLower = new Set(); // Lưu tên thuốc đã chọn dạng lowercase
 
     // Autocomplete & chọn hoạt chất
     input.addEventListener('input', debounce(function(e) {
@@ -47,10 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        // Chỉ lọc các thuốc là chuỗi, bỏ qua giá trị null/undefined
+        // Lọc các thuốc có chứa query (không phân biệt hoa/thường)
         const filtered = Array.from(allDrugs)
             .filter(d => typeof d === 'string')
-            .filter(d => String(d).toLowerCase().includes(query) && !selectedDrugs.has(d));
+            .filter(d => String(d).toLowerCase().includes(query) && !selectedDrugsLower.has(d.toLowerCase()));
 
         if (filtered.length > 0) {
             filtered.forEach(drug => {
@@ -58,8 +66,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 div.className = 'suggestion-item';
                 div.textContent = drug;
                 div.onclick = () => {
-                    if (!selectedDrugs.has(drug)) {
+                    const drugLower = drug.toLowerCase();
+                    if (!selectedDrugsLower.has(drugLower)) {
                         selectedDrugs.add(drug);
+                        selectedDrugsLower.add(drugLower);
                         updateSelectedDrugs();
                         findInteractions();
                     }
@@ -85,10 +95,17 @@ document.addEventListener("DOMContentLoaded", function() {
     input.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             const value = input.value.trim();
-            if (value && allDrugs.has(value) && !selectedDrugs.has(value)) {
-                selectedDrugs.add(value);
-                updateSelectedDrugs();
-                findInteractions();
+            if (value) {
+                // Tìm thuốc trùng khớp (không phân biệt hoa/thường)
+                const found = Array.from(allDrugs).find(d => 
+                    String(d).toLowerCase() === value.toLowerCase()
+                );
+                if (found && !selectedDrugsLower.has(value.toLowerCase())) {
+                    selectedDrugs.add(found);
+                    selectedDrugsLower.add(found.toLowerCase());
+                    updateSelectedDrugs();
+                    findInteractions();
+                }
             }
             input.value = '';
             suggestions.style.display = 'none';
@@ -109,6 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             div.querySelector('.remove-btn').addEventListener('click', () => {
                 selectedDrugs.delete(drug);
+                selectedDrugsLower.delete(drug.toLowerCase());
                 updateSelectedDrugs();
                 findInteractions();
             });
@@ -123,6 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
             clearBtn.textContent = 'Xóa tất cả';
             clearBtn.addEventListener('click', () => {
                 selectedDrugs.clear();
+                selectedDrugsLower.clear();
                 updateSelectedDrugs();
                 results.innerHTML = '';
             });
@@ -134,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function removeDuplicates(interactions) {
         const seen = new Set();
         return interactions.filter(({ groupDrugs, interaction }) => {
-            const drugs = [...groupDrugs, interaction.thuoc].sort();
+            const drugs = [...groupDrugs, interaction.thuoc].map(d => String(d).toLowerCase()).sort();
             const key = drugs.join("-");
             return seen.has(key) ? false : seen.add(key);
         });
@@ -151,8 +170,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         drugsArray.forEach((drug1, i) => {
             drugsArray.slice(i + 1).forEach(drug2 => {
-                // Tránh kiểm tra trùng lặp cặp thuốc
-                const pairKey = [drug1, drug2].sort().join("-");
+                // Tránh kiểm tra trùng lặp cặp thuốc (không phân biệt hoa/thường)
+                const pairKey = [drug1.toLowerCase(), drug2.toLowerCase()].sort().join("-");
                 if (processedPairs.has(pairKey)) return;
                 processedPairs.add(pairKey);
 
@@ -165,20 +184,26 @@ document.addEventListener("DOMContentLoaded", function() {
                             : [item.cac_thuoc_trong_nhom])
                         : [];
                     
-                    // Kiểm tra drug1 và drug2 có trong nhóm hoặc là thuốc tương tác
+                    // Kiểm tra drug1 và drug2 có trong nhóm hoặc là thuốc tương tác (không phân biệt hoa/thường)
+                    const groupDrugsLower = groupDrugs.map(d => String(d).toLowerCase());
+                    const drug1Lower = drug1.toLowerCase();
+                    const drug2Lower = drug2.toLowerCase();
+
                     item.tuong_tac.forEach(t => {
                         const interactingDrugs = Array.isArray(t.thuoc) ? t.thuoc : [t.thuoc];
+                        const interactingDrugsLower = interactingDrugs.map(d => String(d).toLowerCase());
+
                         // Nếu drug1 thuộc nhóm và drug2 là thuốc tương tác
-                        if (groupDrugs.includes(drug1) && interactingDrugs.includes(drug2)) {
+                        if (groupDrugsLower.includes(drug1Lower) && interactingDrugsLower.includes(drug2Lower)) {
                             foundInteractions.push({
-                                groupDrugs: groupDrugs.filter(d => selectedDrugs.has(d)),
+                                groupDrugs: groupDrugs.filter(d => selectedDrugsLower.has(String(d).toLowerCase())),
                                 interaction: { ...t, thuoc: drug2 }
                             });
                         }
                         // Nếu drug2 thuộc nhóm và drug1 là thuốc tương tác
-                        if (groupDrugs.includes(drug2) && interactingDrugs.includes(drug1)) {
+                        if (groupDrugsLower.includes(drug2Lower) && interactingDrugsLower.includes(drug1Lower)) {
                             foundInteractions.push({
-                                groupDrugs: groupDrugs.filter(d => selectedDrugs.has(d)),
+                                groupDrugs: groupDrugs.filter(d => selectedDrugsLower.has(String(d).toLowerCase())),
                                 interaction: { ...t, thuoc: drug1 }
                             });
                         }
