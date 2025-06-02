@@ -582,7 +582,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Alopurinol",
+        "Allopurinol",
         "Febuxostat",
         "Colchicin",
         "Thiocolchicosid"
@@ -685,10 +685,10 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Alopurinol hoặc dẫn chất",
+  "hoat_chat": "Allopurinol hoặc dẫn chất",
   "mo_ta": "Thuốc chống bệnh thống phong (gút), ức chế tổng hợp acid uric.",
   "cac_thuoc_trong_nhom": [
-    "Alopurinol",
+    "Allopurinol",
     "Apo-Allopurinol",
     "Domedol",
     "Milurit",
@@ -732,13 +732,13 @@ window.tuongTacData = [
     {
       "thuoc": ["Azathioprin", "Mercaptopurin"],
       "muc_do": 2,
-      "phan_tich": "Alopurinol ức chế chuyển hoá oxy hoá của azathioprin, mercaptopurin, gây nguy cơ tích luỹ các chất kháng chuyển hoá.",
+      "phan_tich": "Allopurinol ức chế chuyển hoá oxy hoá của azathioprin, mercaptopurin, gây nguy cơ tích luỹ các chất kháng chuyển hoá.",
       "xu_ly": "Nếu cần phối hợp, giảm liều chất kháng chuyển hoá xuống 25-30%."
     },
     {
       "thuoc": ["Cyclophosphamid", "Ifosfamid"],
       "muc_do": 2,
-      "phan_tich": "Sử dụng đồng thời alopurinol với cyclophosphamid có thể làm tăng tác dụng ức chế tuỷ xương.",
+      "phan_tich": "Sử dụng đồng thời allopurinol với cyclophosphamid có thể làm tăng tác dụng ức chế tuỷ xương.",
       "xu_ly": "Nếu cần phối hợp, phải theo dõi huyết đồ chặt chẽ."
     },
     {
@@ -757,18 +757,18 @@ window.tuongTacData = [
       "thuoc": ["Pentostatin"],
       "muc_do": 2,
       "phan_tich": "Pentostatin có thể làm tăng nồng độ acid uric.",
-      "xu_ly": "Nên dùng alopurinol thay cho các chất gây urat niệu để tránh nguy cơ bệnh thận vì urat."
+      "xu_ly": "Nên dùng allopurinol thay cho các chất gây urat niệu để tránh nguy cơ bệnh thận vì urat."
     },
     {
       "thuoc": ["Glibenclamid", "Glimepirid", "Gliclazid", "Chlorpropamid"],
       "muc_do": 2,
-      "phan_tich": "Alopurinol có thể ức chế bài tiết clorpropamid qua ống thận, tăng nguy cơ hạ glucose máu nặng.",
+      "phan_tich": "Allopurinol có thể ức chế bài tiết clorpropamid qua ống thận, tăng nguy cơ hạ glucose máu nặng.",
       "xu_ly": "Cần đặc biệt cảnh giác với người suy thận dùng hai thuốc này. Theo dõi chặt chẽ glucose máu."
     },
     {
       "thuoc": ["Theophylin", "Aminophylin"],
       "muc_do": 2,
-      "phan_tich": "Dùng alopurinol liều cao với theophylin sẽ giảm độ thanh lọc theophylin ở thận và làm tăng nồng độ trong huyết thanh.",
+      "phan_tich": "Dùng allopurinol liều cao với theophylin sẽ giảm độ thanh lọc theophylin ở thận và làm tăng nồng độ trong huyết thanh.",
       "xu_ly": "Phải theo dõi chặt chẽ nồng độ theophylin, điều chỉnh liều lượng."
     },
     {
@@ -792,8 +792,8 @@ window.tuongTacData = [
     {
       "thuoc": ["Nhôm hydroxyd", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
       "muc_do": 2,
-      "phan_tich": "Làm giảm hấp thu alopurinol theo đường tiêu hoá.",
-      "xu_ly": "Cần để một khoảng thời gian 1-2 giờ giữa lúc uống thuốc kháng acid và alopurinol."
+      "phan_tich": "Làm giảm hấp thu allopurinol theo đường tiêu hoá.",
+      "xu_ly": "Cần để một khoảng thời gian 1-2 giờ giữa lúc uống thuốc kháng acid và allopurinol."
     }
   ]
 },
@@ -1629,16 +1629,16 @@ window.tuongTacData = [
       "xu_ly": "Khoảng cách giữa hai thuốc từ 3 tháng tới một năm tuỳ theo mức độ giảm miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol", "Probenecid"],
+      "thuoc": ["Allopurinol", "Probenecid"],
       "muc_do": 2,
       "phan_tich": "Asparaginase làm tăng nồng độ acid uric trong máu.",
-      "xu_ly": "Phối hợp cần thực hiện ở bệnh viện. Điều chỉnh liệu pháp chống gút. Để tránh sỏi uric, nên dùng alopurinol hơn là các thuốc gây acid uric niệu."
+      "xu_ly": "Phối hợp cần thực hiện ở bệnh viện. Điều chỉnh liệu pháp chống gút. Để tránh sỏi uric, nên dùng allopurinol hơn là các thuốc gây acid uric niệu."
     },
     {
       "thuoc": ["Colchicin", "Thiocolchicosid"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng nồng độ acid uric. Hơn nữa còn tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Tránh phối hợp hai thuốc cùng một lúc, nếu không, liệu pháp chống gút sẽ thất bại. Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn dùng các thuốc gây acid uric niệu để tránh các bệnh thận."
+      "xu_ly": "Tránh phối hợp hai thuốc cùng một lúc, nếu không, liệu pháp chống gút sẽ thất bại. Nên dùng allopurinol (ức chế tổng hợp acid uric) hơn dùng các thuốc gây acid uric niệu để tránh các bệnh thận."
     },
     {
       "thuoc": [
@@ -1697,9 +1697,9 @@ window.tuongTacData = [
   },
   "tuong_tac": [
     {
-      "thuoc": ["Alopurinol"],
+      "thuoc": ["Allopurinol"],
       "muc_do": 3,
-      "phan_tich": "Tác dụng của azathioprin và mercaptopurin tăng lên rõ rệt khi phối hợp với alopurinol. Alopurinol ức chế chuyển hoá oxy hoá azathioprin và mercaptopurin bằng cách ức chế xanthin oxydase, gây nguy cơ tích luỹ azathioprin và mercaptopurin.",
+      "phan_tich": "Tác dụng của azathioprin và mercaptopurin tăng lên rõ rệt khi phối hợp với allopurinol. Allopurinol ức chế chuyển hoá oxy hoá azathioprin và mercaptopurin bằng cách ức chế xanthin oxydase, gây nguy cơ tích luỹ azathioprin và mercaptopurin.",
       "xu_ly": "Liều lượng azathioprin và mercaptopurin phải giảm tới khoảng 1/3 hoặc 1/4 khi dùng thuốc đường uống để giảm gây ngộ độc. Phải giám sát chặt người bệnh."
     },
     {
@@ -4211,7 +4211,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin"],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời một thuốc kìm tế bào và một thuốc chống bệnh gút làm tăng hàm lượng acid uric. Ngoài ra còn tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc đồng thời, nếu không điều trị chống gút sẽ thất bại. Nên dùng alopurinol (thuốc ức chế tổng hợp acid uric) hơn là dùng các thuốc gây acid uric niệu để tránh các bệnh thận."
+      "xu_ly": "Nên tránh dùng hai thuốc đồng thời, nếu không điều trị chống gút sẽ thất bại. Nên dùng allopurinol (thuốc ức chế tổng hợp acid uric) hơn là dùng các thuốc gây acid uric niệu để tránh các bệnh thận."
     },
     {
       "thuoc": ["Digitoxin", "Digoxin", "Deslanosid", "Metildigoxin"],
@@ -6132,7 +6132,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng hàm lượng acid uric. Ngoài ra, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại. Nên dùng alopurinol (thuốc ức chế tổng hợp acid uric) hơn là các thuốc bài acid uric qua đường tiết niệu để tránh các bệnh thận."
+      "xu_ly": "Nên tránh dùng hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại. Nên dùng allopurinol (thuốc ức chế tổng hợp acid uric) hơn là các thuốc bài acid uric qua đường tiết niệu để tránh các bệnh thận."
     },
     {
       "thuoc": ["Clozapin"],
@@ -6196,7 +6196,7 @@ window.tuongTacData = [
       "thuoc": ["Pentostatin"],
       "muc_do": 2,
       "phan_tich": "Pentostatin có thể làm tăng hàm lượng acid uric. Điều chỉnh liều của thuốc chống gút có thể cần để kiểm soát tăng acid uric máu.",
-      "xu_ly": "Nên dùng alopurinol (chất ức chế tổng hợp acid uric) hơn là dùng những chất đào thải acid uric, vì có thể gặp nguy cơ bệnh thận với acid uric."
+      "xu_ly": "Nên dùng allopurinol (chất ức chế tổng hợp acid uric) hơn là dùng những chất đào thải acid uric, vì có thể gặp nguy cơ bệnh thận với acid uric."
     },
     {
       "thuoc": ["Rượu"],
@@ -6424,9 +6424,9 @@ window.tuongTacData = [
       "xu_ly": "Khoảng cách cần tôn trọng giữa 2 thuốc là từ 3 tháng đến 1 năm và tuỳ thuộc vào cường độ của sự ức chế miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol"],
+      "thuoc": ["Allopurinol"],
       "muc_do": 2,
-      "phan_tich": "Dùng đồng thời alopurinol với cyclophosphamid có thể làm tăng tác dụng ức chế tuỷ xương, do đó tăng nguy cơ chảy máu hoặc nhiễm khuẩn.",
+      "phan_tich": "Dùng đồng thời Allopurinol với cyclophosphamid có thể làm tăng tác dụng ức chế tuỷ xương, do đó tăng nguy cơ chảy máu hoặc nhiễm khuẩn.",
       "xu_ly": "Nếu cần phối hợp, theo dõi chặt chẽ huyết đồ."
     },
     {
@@ -6465,7 +6465,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng hàm lượng acid uric. Ngoài ra, có sự tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc cùng thời gian nếu không điều trị chống gút sẽ thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric) hơn là các thuốc thải acid uric để tránh các bệnh thận."
+      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc cùng thời gian nếu không điều trị chống gút sẽ thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric) hơn là các thuốc thải acid uric để tránh các bệnh thận."
     },
     {
       "thuoc": ["Clozapin"],
@@ -8056,16 +8056,16 @@ window.tuongTacData = [
       "xu_ly": "Khoảng cách cần tôn trọng giữa hai thuốc là từ ba tháng đến một năm, tuỳ theo mức độ ức chế miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol", "Febuxostat"],
+      "thuoc": ["Allopurinol", "Febuxostat"],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng nồng độ acid uric. Ngoài ra, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Tốt nhất nên tránh phối hợp hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại. Nên dùng alopurinol (ức chế sinh tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
+      "xu_ly": "Tốt nhất nên tránh phối hợp hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại. Nên dùng Allopurinol (ức chế sinh tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
     },
     {
       "thuoc": ["Colchicin", "Thiocolchicosid"],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng nồng độ acid uric. Ngoài ra, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Tốt nhất nên tránh phối hợp hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại. Nên dùng alopurinol (ức chế sinh tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
+      "xu_ly": "Tốt nhất nên tránh phối hợp hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại. Nên dùng Allopurinol (ức chế sinh tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
     },
     {
       "thuoc": ["Amphotericin B"],
@@ -8281,6 +8281,528 @@ window.tuongTacData = [
     }
   ]
 },
+ {
+  "hoat_chat": "Ergotamin hoặc dẫn chất",
+  "mo_ta": "Alcaloid nấm cựa gà dùng với tính chất trợ đẻ hoặc vận mạch và kháng serotonin (dihydroergotamin)",
+  "cac_thuoc_trong_nhom": [
+    "Ergotamin",
+    "Dihydroergotamin",
+    "Dihydroergocornin",
+    "Dihydroergocristin",
+    "Dihydroergotoxin",
+    "Diergo-Spray",
+    "Ikaran",
+    "Seglor lyoc",
+    "Tamik",
+    "Brekiya",
+    "Atzumi"
+  ],
+  "chu_y_khi_chi_dinh": {
+    "can_nhac_nguy_co_loi_ich": "mức độ 3",
+    "mang_thai": "Ergotamin làm tăng trương lực cơ tử cung, tăng tần số co và rút ngắn giai đoạn duỗi cơ. Dihydroergotamin làm tăng trương lực cơ tử cung yếu hơn rõ rệt. Khả năng trợ đẻ được sử dụng trong kiểm soát chảy máu sau đẻ.",
+    "cho_con_bu": "Ergotamin làm giảm tiết sữa bằng cách ức chế tiết prolactin, và qua được sữa mẹ kèm theo nguy cơ ngộ độc (tiêu chảy, nôn, rối loạn huyết áp) cho trẻ đang bú.",
+    "tre_em": "Cần tránh dùng ergotamin cho trẻ em do có độc tính với tim mạch.",
+    "suy_mach_vanh": "Tăng huyết áp tĩnh mạch do ergotamin làm tăng nhu cầu chuyển hoá của cơ tim, có nguy cơ dẫn đến cơn đau thắt ngực trong trường hợp có bẩm chất dễ mắc.",
+    "suy_gan": "Mặc dầu chuyển hoá của ergotamin còn chưa rõ, người ta biết rằng suy gan làm tăng độc tính và nguy cơ ngộ độc ergotin cấp (thiếu máu cục bộ động mạch liên quan đến tác dụng co mạch ngoại vi). Dihydroergotamin ít co mạch hơn, nên nguy cơ thấp hơn.",
+    "tang_huyet_ap": "Ergotamin làm tăng huyết áp do tác dụng co mạch trực tiếp, mặc dầu lưu lượng tim giảm.",
+    "suy_than": "Do chậm đào thải, suy thận tạo thuận lợi cho nguy cơ thiếu máu cục bộ động mạch.",
+    "cuong_giap": "Trường hợp cường giáp, tác dụng của ergotamin kéo dài và khuếch đại.",
+    "can_theo_doi": "Theo dõi lâm sàng sát khi phối hợp với thuốc chẹn beta, hỏi người bệnh về tuần hoàn ngoại vi."
+  },
+  "tuong_tac": [
+    {
+      "thuoc": ["Erythromycin", "Clarithromycin", "Azithromycin", "Telithromycin", "Josamycin", "Roxithromycin", "Troleandomycin", "Dirithromycin", "Spiramycin"],
+      "muc_do": 4,
+      "phan_tich": "Nguy cơ tai biến thiếu máu cục bộ nặng các đầu chi, có thể dẫn đến hoại tử, do ức chế chuyển hoá ergotamin ở gan (hiện nay chưa được mô tả với spiramycin)",
+      "xu_ly": "Bắt buộc phải hết sức thận trọng, vì thông báo chính thức áp dụng cho mọi thuốc macrolid, người kê đơn phải tránh những phối hợp này. Chống chỉ định phối hợp với tất cả các macrolid, trừ spiramycin."
+    },
+    {
+      "thuoc": ["Sumatriptan", "Zolmitriptan", "Rizatriptan", "Eletriptan", "Almotriptan", "Frovatriptan", "Naratriptan"],
+      "muc_do": 4,
+      "phan_tich": "Hai thuốc này có thể được kê đơn riêng rẽ trong bối cảnh migren khó chữa. Người bị migren cũng có thể không biết nên đã trộn lẫn hai thuốc. Đó là tương tác dược lực vì phối hợp hai thuốc co mạch, nhất là khi dùng sumatriptan dạng tiêm.",
+      "xu_ly": "Phối hợp này chống chỉ định vì nguy cơ xuất hiện co mạch vành và / hoặc phổi. Thay đổi cách điều trị. Thông báo cho người bệnh migren không phối hợp hai thuốc (dihydroergotamin có thể có trong tủ thuốc gia đình)."
+    },
+    {
+      "thuoc": ["Amprenavir", "Indinavir", "Ritonavir", "Saquinavir", "Nelfinavir", "Lopinavir", "Atazanavir", "Darunavir", "Fosamprenavir", "Tipranavir"],
+      "muc_do": 4,
+      "phan_tich": "Có thể tăng nguy cơ nhiễm độc nấm cựa gà (như co mạch ngoại biên, thiếu máu cục bộ đầu chi). Tương tác xảy ra chậm. Cơ chế: do thuốc ức chế protease có thể cản trở chuyển hoá ergotamin ở gan (CYP3A4).",
+      "xu_ly": "Chống chỉ định phối hợp thuốc ức chế protease với alkaloid nấm cựa gà."
+    },
+    {
+      "thuoc": ["Delavirdine", "Efavirenz", "Etravirine", "Nevirapine", "Rilpivirine"],
+      "muc_do": 4,
+      "phan_tich": "Có thể tăng nguy cơ nhiễm độc nấm cựa gà (như co mạch ngoại biên, thiếu máu cục bộ đầu chi). Tương tác xảy ra chậm. Cơ chế do thuốc ức chế NNRT có thể ức chế chuyển hoá ergotamin ở gan (CYP3A4).",
+      "xu_ly": "Chống chỉ định phối hợp hai thuốc."
+    },
+    {
+      "thuoc": ["Bromocriptin", "Cabergolin", "Pergolid", "Quinagolid", "Ropinirol", "Pramipexol"],
+      "muc_do": 3,
+      "phan_tich": "Phối hợp các thuốc co mạch, nguy cơ có đợt kịch phát tăng huyết áp với các alcaloid nấm cựa gà có tính chất co mạch.",
+      "xu_ly": "Cần tránh phối hợp. Thay đổi cách điều trị."
+    },
+    {
+      "thuoc": ["Amyl nitrit", "Nitroglycerin", "Isosorbide mononitrate", "Isosorbide dinitrate"],
+      "muc_do": 3,
+      "phan_tich": "Sinh khả dụng của dihydroergotamin dạng uống có thể tăng, làm tăng huyết áp tâm thu trung bình thế đứng. Tính đối kháng về tác dụng giữa dihydroergotamin và nitroglycerin có thể làm giảm tác dụng chống đau thắt ngực. Cơ chế: Nitroglycerin do thông qua làm tăng lưu lượng máu nội tạng, nên làm giảm chuyển hoá bước đầu của dihydroergotamin, do đó làm tăng sinh khả dụng dihydroergotamin chống lại giãn mạch của động mạch vành.",
+      "xu_ly": "Nồng độ trong huyết tương của dihydroergotamin tăng, nên có thể gây nhiễm độc nấm cựa gà. Liều lượng dihydroergotamin có thể phải giảm. Theo dõi người bệnh và khuyên người bệnh chú ý phát hiện những dấu hiệu thiếu máu cục bộ ngoại biên."
+    },
+    {
+      "thuoc": ["Ephedrin", "Adrenalin", "Dopamin", "Noradrenalin", "Isoprenalin"],
+      "muc_do": 3,
+      "phan_tich": "Với ephedrin, adrenalin và dopamin, nguy cơ thiếu máu cục bộ ngoại vi, hoại thư và cả tăng huyết áp nặng (một số hiếm trường hợp tai biến mạch máu não đã được mô tả) khi chúng được phối hợp với ergotamin, dihydroergotamin, methysergid.",
+      "xu_ly": "Tránh phối hợp này vì các hậu quả nghiêm trọng có thể xảy ra."
+    },
+    {
+      "thuoc": ["Propranolol", "Metoprolol", "Atenolol", "Bisoprolol", "Carvedilol", "Nebivolol", "Sotalol"],
+      "muc_do": 2,
+      "phan_tich": "Đó là các thuốc chẹn beta; gặp phối hợp này trong những trường hợp migren khó chữa. Có thông báo về một số hiếm trường hợp thiếu máu cục bộ ngoại vi nặng kèm với hoại thư, phải cắt cụt. Phải theo dõi rất cẩn thận các phối hợp với propranolol, oxprenolol. Methylsergid cũng có thể có liên quan.",
+      "xu_ly": "Có thể phối hợp được, nhưng cần theo dõi lâm sàng, nhất là khi bắt đầu và trong những tuần đầu điều trị. Ngừng điều trị ngay tức khắc nếu thấy có dấu hiệu báo động. Hỏi người bệnh thường xuyên về những cảm giác tuần hoàn kém ở các đầu chi, nếu có."
+    }
+  ]
+},
+ {
+  "hoat_chat": "Estrogen hoặc thuốc ngừa thai estroprogestogen",
+  "mo_ta": "Trong nhóm này có những thuốc ngừa thai estroprogestogen và các thuốc chứa estrogen liều cao hơn.",
+  "cac_thuoc_trong_nhom": [
+    "Estradiol",
+    "Benzo-estradiol",
+    "Benzo-Gynoestryl",
+    "Estreva",
+    "Estraderm TTS 100",
+    "Estraderm TTS 25",
+    "Estraderm TTS 50",
+    "Vagifem",
+    "Ethinylestradiol",
+    "Ethinyl-Oestradiol",
+    "Mikrofollin forte",
+    "Estriol",
+    "Ovestin",
+    "EstroGel liên hợp",
+    "Plentiva",
+    "Plentiva Cycle",
+    "Prempak",
+    "Prempak-C",
+    "Hydroxyestron",
+    "Colpormon",
+    "Promestrien",
+    "Colposeptine",
+    "Colpotrophine",
+    "Diane-35",
+    "Evra",
+    "Gynera",
+    "Marvelon",
+    "Mercilon",
+    "New-choice",
+    "Novynette",
+    "Regulon",
+    "Rigevidon",
+    "Trigegol"
+  ],
+  "chu_y_khi_chi_dinh": {
+    "chong_chi_dinh": {
+      "muc_do": 4,
+      "cho_con_bu": "Estrogen qua được sữa mẹ có thể gây chứng to vú (có hồi phục) ở trẻ trai đang bú sữa mẹ. Ngoài ra chúng làm giảm tiết sữa. Chống chỉ định dùng trong thời kỳ cho con bú.",
+      "mang_thai": "Ít tác dụng trên sự phát triển trước khi sinh. Một vài trường hợp dị tật tim và chân tay, đã được thông báo sau khi dùng liều cao trong hai tháng đầu, vì vậy tránh dùng estrogen trong thời kỳ này. Dùng diethylstilboestrol nguy hiểm (nguy cơ ung thư tuyến, cổ tử cung và âm đạo)",
+      "tang_huyet_ap": "Các oestrogen gây giữ muối và nước nên có thể làm tăng huyết áp động mạch nặng thêm.",
+      "suy_mach_vanh": "Các oestrogen có thể làm tăng nguy cơ huyết khối tắc mạch, tai biến mạch máu não và nhồi máu cơ tim do tăng lipid máu, thay đổi chuyển hoá glucid và nhiều yếu tố đông máu.",
+      "suy_gan": "Có thể biến đổi một số chức năng gan. Chậm đào thải bilirubin ở tế bào gan do ức chế cạnh tranh kèm với nguy cơ vàng da. U tuyến gan đã được mô tả ở phụ nữ uống thuốc ngừa thai.",
+      "suy_than": "Lưu ý đến các tác dụng không mong muốn (giữ muối và nước).",
+      "loan_chuyen_hoa_porphyrin": "Các estrogen gây tăng tổng hợp porphyrin ở gan do cảm ứng ALA-synthetase. Chúng có thể gây cơn loạn chuyển hoá porphyrin cấp.",
+      "truong_hop_khac": "Chống chỉ định dùng các estroprogestogen trong những trường hợp u ác tính tuyến vú, tử cung và u tuyến yên, do có thể làm nặng thêm những bệnh này. Chống chỉ định tương đối trong tăng lipid máu. Có bệnh hoặc tiền sử huyết khối tắc mạch, bệnh van tim, rối loạn nhịp tim gây huyết khối, bệnh não nguồn gốc mạch máu, bệnh mắt nguồn gốc mạch máu, chảy máu phụ khoa nguồn gốc không rõ, tăng prolactin máu, tiết nhiều sữa, xơ cứng tai, viêm mô liên kết."
+    },
+    "can_nhac_nguy_co_loi_ich": {
+      "muc_do": 3,
+      "tieu_duong": "Các estrogen tự nhiên (estradiol, estron) làm giảm glucose máu, còn các estrogen tổng hợp (diethylstilboestrol, ethinylestradiol) có tác dụng gây tiểu đường. Tác dụng này phụ thuộc liều dùng.",
+      "truong_hop_khac": "Tăng lipid máu, béo phì, u tuyến vú lành tính, loạn dưỡng tử cung, lạc màng trong tử cung, tiền sử sỏi không mổ."
+    },
+    "can_theo_doi": {
+      "muc_do": 1,
+      "tram_cam": "Suy nhược và khuynh hướng trầm cảm.",
+      "suy_ho_hap_hen": "Vì nguy cơ huyết khối tắc mạch."
+    }
+  },
+  "tuong_tac": [
+    {
+      "thuoc": ["Methyldopa"],
+      "muc_do": 4,
+      "phan_tich": "Tăng huyết áp do uống thuốc ngừa thai gây ra thường kháng với điều trị bằng methyldopa. Cơ chế chưa rõ.",
+      "xu_ly": "Trong trường hợp này khống chế huyết áp rất khó, thậm chí không thể được. Thay đổi cách điều trị."
+    },
+    {
+      "thuoc": ["Acid chenodesoxycholic", "Acid ursodeoxycholic"],
+      "muc_do": 3,
+      "phan_tich": "Acid ursochenodesoxycholic góp phần làm tăng tỷ số acid mật/ cholesterol. Bằng cách lập lại cân bằng những thành phần của mật, thuốc có thể góp phần thoái triển sỏi mật chứa cholesterol. Bằng cách phức hợp acid ursodesoxycholic (cholestyramin và kháng acid) hoặc bằng cách làm tăng độ bão hoà của mật (estrogen, progestogen, fibrat, neomycin uống), có sự giảm tác dụng của acid ursodesoxycholic.",
+      "xu_ly": "điều trị bằng acid ursodesoxycholic phải lâu dài (từ 6 tháng đến 1 năm). Nên tránh thất bại điều trị và không phối hợp với các thuốc làm giảm hiệu quả của acid chenodesoxycholic, trừ khi chỉ điều trị đồng thời trong thời gian rất ngắn."
+    },
+    {
+      "thuoc": ["Phenobarbital", "Thiopental", "Pentobarbital", "Secobarbital", "Carbamazepin", "Gluthetimid", "Griseofulvin", "Phenytoin", "Primidon", "Rifabutin"],
+      "muc_do": 3,
+      "phan_tich": "Tăng chuyển hoá các estroprogestogen ở gan, do cảm ứng enzym, do đó có nguy cơ thụ thai.",
+      "xu_ly": "Tránh dùng các thuốc ngừa thai liều thấp và nên dùng các thuốc ngừa thai liều cao hoặc khuyên dùng phương pháp ngừa thai khác, nếu điều trị bằng barbituric kéo dài. Cần nhớ cảm ứng enzym không bao giờ là một hiện tượng tức thời."
+    },
+    {
+      "thuoc": ["Bromocriptin", "Cabergolin", "Pergolid", "Quinagolid", "Ropinirol", "Pramipexol"],
+      "muc_do": 3,
+      "phan_tich": "Bromocriptin là chất chủ vận dopaminergic, ức chế prolactin. Phối hợp có thể dẫn đến vô kinh và / hoặc tiết ít sữa, ảnh hưởng đến tác dụng của bromocriptin.",
+      "xu_ly": "Không nên dùng phối hợp này, nhất là ở những người bệnh điều trị vô kinh hoặc giảm tiết sữa."
+    },
+    {
+      "thuoc": ["Modafinil"],
+      "muc_do": 3,
+      "phan_tich": "Modafinil là một sản phẩm mới, được coi có tiềm năng cảm ứng enzym. Với vai trò đó, nó có thể kích thích chuyển hoá của các thuốc ngừa thai estroprogestogen, đặc biệt là loại liều thấp.",
+      "xu_ly": "Chống chỉ định phối hợp. Thay đổi phương pháp ngừa thai, vì điều trị với modafinil là một điều trị dài ngày."
+    },
+    {
+      "thuoc": ["Rifampicin"],
+      "muc_do": 3,
+      "phan_tich": "Tăng chuyển hoá các progestogen ở gan, do cảm ứng enzym, do đó có nguy cơ thụ thai.",
+      "xu_ly": "Tránh dùng các thuốc ngừa thai liều thấp và nên dùng các thuốc ngừa thai liều cao hoặc khuyên dùng phương pháp ngừa thai khác, nếu điều trị bằng rifampicin kéo dài. Nên nhớ cảm ứng enzym không bao giờ là một hiện tượng tức thời."
+    },
+    {
+      "thuoc": ["Ritonavir"],
+      "muc_do": 3,
+      "phan_tich": "Giảm diện tích dưới đường cong (AUC) của thuốc estroprogestogen. Cơ chế chưa rõ. Nguy cơ thụ thai.",
+      "xu_ly": "Nên dùng một phương pháp ngừa thai khác."
+    },
+    {
+      "thuoc": ["Tacrin"],
+      "muc_do": 3,
+      "phan_tich": "Nguy cơ tăng độc tính với gan.",
+      "xu_ly": "Nếu cần, tăng cường theo dõi gan. Tránh các phối hợp có nguy cơ ở người cao tuổi."
+    },
+    {
+      "thuoc": ["Tamoxifen"],
+      "muc_do": 3,
+      "phan_tich": "Đối kháng dược lý giữa một kháng estrogen và một estrogen.",
+      "xu_ly": "Thường dùng tamoxifen ở cơ sở chuyên khoa; phối hợp này tỏ ra không hợp lý về mặt điều trị."
+    },
+    {
+      "thuoc": ["Amineptin", "Carmustin", "Dantrolen", "Fluvoxamin", "Isoniazid", "Erythromycin", "Clarithromycin", "Azithromycin", "Roxithromycin", "Josamycin", "Methotrexat", "Valproat natri", "Progabid", "Ketoconazol", "Miconazol", "Clotrimazol", "Itraconazol", "Fluconazol", "Voriconazol"],
+      "muc_do": 2,
+      "phan_tich": "Phối hợp những thuốc có tiềm năng độc với gan (cộng hợp các tác dụng không mong muốn).",
+      "xu_ly": "Khi phối hợp hai thuốc độc với gan, theo dõi chặt chẽ chức năng gan (ASAT, ALAT, phosphatase kiềm, bilirubin) hoặc nếu có thể, hoãn một trong hai liệu trình. Xác minh là người bệnh không uống rượu thường xuyên và không có tiền sử viêm gan do virus. Các triệu chứng lâm sàng chính không đặc hiệu: buồn nôn, sốt, vàng da. Nếu có phối hợp ban da, ngứa và hạch to, thì có khả năng do thuốc. Nên phân biệt tuỳ theo kết quả xét nghiệm sinh học, nguy cơ xuất hiện viêm gan tiêu tế bào không hồi phục với viêm gan ứ mật hồi phục được khi ngừng điều trị."
+    },
+    {
+      "thuoc": ["Diazepam", "Chlordiazepoxide", "Flurazepam", "Triazolam", "Midazolam", "Alprazolam", "Clonazepam", "Bromazepam", "Nitrazepam"],
+      "muc_do": 2,
+      "phan_tich": "Các estrogen có thể ức chế các enzym tham gia oxy hoá các benzodiazepin ở gan (chlorazepat, flurazepam, diazepam, triazolam), do đó kéo dài nửa đời của chúng. Điều này còn bàn cãi đối với các benzodiazepin chịu quá trình liên hợp glucuronic. Nguy cơ tăng tác dụng của benzodiazepin lâu dài.",
+      "xu_ly": "Có thể phải giảm liều benzodizepin ở những phụ nữ đang dùng thuốc ngừa thai dài hạn. Chú ý khi lái xe, vận hành máy móc hoặc cần phải tỉnh táo."
+    },
+    {
+      "thuoc": ["Acebutolol", "Alprenolol", "Betaxolol", "Labetalol", "Metoprolol", "Oxprenolol", "Propranolol", "Timolol"],
+      "muc_do": 2,
+      "phan_tich": "Có thể có sự ức chế của estrogen đối với các enzym ở microsom gan làm nhiệm vụ xúc tác cho chuyển hoá một số thuốc chẹn beta khi qua gan lần đầu (acebutolol, alprenolol, betaxolol, labetalol, metoprolol, oxprenolol, propranolol, timolol). Các thuốc chẹn beta khác có tương tác ít hơn.",
+      "xu_ly": "Nguy cơ tăng tác dụng của một số thuốc chẹn beta. Phối hợp cần được theo dõi lâm sàng."
+    },
+    {
+      "thuoc": ["Cholestyramin"],
+      "muc_do": 2,
+      "phan_tich": "Giảm hấp thu các estrogen và thuốc ngừa thai estroprogestogen qua đường tiêu hoá do có thể bị gắn bởi cholestyramin.",
+      "xu_ly": "Nếu kê đơn hai thuốc, khuyên dùng các estrogen và thuốc ngừa thai estroprogestogen trước hai giờ hoặc sau 4 giờ khi dùng cholestyramin."
+    },
+    {
+      "thuoc": ["Didanosin"],
+      "muc_do": 2,
+      "phan_tich": "Hiệp đồng các tác dụng không mong muốn. Tăng nguy cơ xuất hiện viêm tuỵ do thuốc",
+      "xu_ly": "Theo dõi lâm sàng và nếu cần, khi bị đau bụng, khuyên theo dõi sinh học chức năng tuỵ (amylase máu và amylase nước tiểu)"
+    },
+    {
+      "thuoc": ["Prednison", "Prednisolon", "Hydrocortison", "Dexamethason", "Betamethason"],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng và độc tính của một số glucocorticoid (prednison và prednisolon) do chậm chuyển hoá, khi chúng được dùng cùng với các thuốc ngừa thai uống.",
+      "xu_ly": "Phải theo dõi bệnh nhân về tác dụng và độc tính của corticoid để tránh quá liều. Nên giảm liều nếu cần thiết."
+    },
+    {
+      "thuoc": ["Guanethidin", "Reserpin"],
+      "muc_do": 2,
+      "phan_tich": "Tăng huyết áp do các thuốc ngừa thai uống gây ra thường kháng với điều trị bằng guanethidin. Cơ chế chưa biết rõ.",
+      "xu_ly": "Khống chế huyết áp trong trường hợp này rất khó, thậm chí không thể được. Thay đổi cách điều trị. Tránh methyldopa cũng vì lý do như vậy."
+    },
+    {
+      "thuoc": ["Levothyroxin", "Liothyronin"],
+      "muc_do": 2,
+      "phan_tich": "Nồng độ trong huyết tương của thyroxin tự do có thể bị giảm, làm tăng nồng độ huyết tương thyrotropin và làm tăng nhu cầu hormon giáp. Tương tác xảy ra chậm. Cơ chế: Thay đổi nồng độ huyết tương của thyroxin và thyrotropin do dùng estrogen có thể do tăng nồng độ huyết tương của globulin gắn vào thyroxin ở phụ nữ bị suy tuyến giáp.",
+      "xu_ly": "ở nữ bị suy tuyến giáp, định lượng nồng độ trong huyết tương của thyrotropin khoảng 12 tuần sau khi bắt đầu dùng estrogen và điều chỉnh liều hormon giáp nếu cần."
+    },
+    {
+      "thuoc": ["Insulin", "Glibenclamid", "Gliclazid", "Glipizid", "Glimepirid", "Tolbutamid", "Chlorpropamid"],
+      "muc_do": 2,
+      "phan_tich": "Có thể có những biến đổi không hằng định của glucose máu vì tính chất gây tăng nhẹ glucose máu của estroprogestogen; có thể thấy giảm tác dụng của insulin.",
+      "xu_ly": "Thông tin cho người bệnh về khả năng biến đổi glucose máu này. Điều chỉnh liều insulin theo đáp ứng sinh học."
+    },
+    {
+      "thuoc": ["Diphenhydramin", "Promethazin", "Alimemazin", "Hydroxyzin", "Ketotifen", "Oxadomid", "Flunarizin"],
+      "muc_do": 2,
+      "phan_tich": "Nguy cơ tiết nhiều sữa (chỉ thông báo với flunarizin, Sibelium)",
+      "xu_ly": "Theo dõi lâm sàng. Thông tin cho người bệnh."
+    },
+    {
+      "thuoc": ["Nelfinavir"],
+      "muc_do": 2,
+      "phan_tich": "Giảm diện tích dưới đường cong (AUC) của estroprogestogen, cơ chế chưa rõ. Nguy cơ thụ thai.",
+      "xu_ly": "Đề xuất cách ngừa thai khác"
+    },
+    {
+      "thuoc": ["Penicilin", "Ampicilin", "Amoxicilin", "Tetracyclin", "Doxycyclin", "Minocyclin"],
+      "muc_do": 2,
+      "phan_tich": "Do làm giảm hệ vi khuẩn đường ruột, điều trị kháng sinh có thể làm giảm tái hấp thu các steroid trong chu trình ruột-gan. Nguy cơ giảm tác dụng estroprogestogen. Không tiên đoán được.",
+      "xu_ly": "Nguy cơ này tuỳ thuộc vào thời gian điều trị và những tổn hại đến hệ vi khuẩn đường ruột. Tuy nhiên cần phải xem xét nguy cơ này, nếu xuất hiện tiêu chảy ở phụ nữ đang dùng estroprogestogen cùng thời gian."
+    },
+    {
+      "thuoc": ["Tetracosactid"],
+      "muc_do": 2,
+      "phan_tich": "Các estrogen có thể gây cản trở chuyển hoá và liên kết protein của các glucocorticoid, làm tăng nửa đời đào thải kèm với nguy cơ tăng tác dụng điều trị và độc tính của các glucocorticoid.",
+      "xu_ly": "Vẫn cần phải xác nhận tương tác dược động học này bằng cách nhận xét lâm sàng. Người kê đơn vẫn phải chú ý liều lượng của glucocorticoid và cân nhắc nguy cơ tuỳ theo các liều estrogen đã dùng."
+    },
+    {
+      "thuoc": ["Dầu vô cơ (paraffin)"],
+      "muc_do": 2,
+      "phan_tich": "Sử dụng các dầu vô cơ cùng với các estroprogestogen làm giảm hấp thu và giảm tác dụng của estroprogestogen.",
+      "xu_ly": "Hậu quả của tương tác này có thể tránh bằng cách khuyên người bệnh dùng những thuốc này xa nhau nhiều giờ (2 giờ trước hoặc 4 giờ sau khi dùng dầu vô cơ)."
+    },
+    {
+      "thuoc": ["Ciclosporin"],
+      "muc_do": 1,
+      "phan_tich": "Nồng độ của ciclosporin trong tuần hoàn có thể tăng, do giảm đào thải ở gan và tăng creatinin và transaminase trong máu.",
+      "xu_ly": "Lưu ý các nguy cơ này và tiến hành định lượng ciclosporin máu thường xuyên (do có sự biến động nhiều giữa các cá thể), đặc biệt ở phụ nữ đang dùng thuốc ngừa thai uống. Việc kê đơn ciclosporin do thầy thuốc chuyên khoa đảm nhiệm."
+    },
+    {
+      "thuoc": ["Lansoprazol", "Omeprazol", "Pantoprazol", "Rabeprazol", "Esomeprazol"],
+      "muc_do": 1,
+      "phan_tich": "Tương tác dược động học. Phải thận trọng với các thuốc được chuyển hoá bởi cytochrom P450, vì có nguy cơ giảm tác dụng của những sản phẩm này do cảm ứng enzym, nên có thể dẫn đến thất bại điều trị.",
+      "xu_ly": "Lansoprazol là thuốc tương đối mới, nên còn thiếu các nhận xét lâm sàng. Xem xét nguy cơ trong bối cảnh điều trị vì thất bại trong việc dùng estroprogestogen liều thấp có thể gây tác hại cho phụ nữ dùng thuốc. Do thận trọng, nên cần thay đổi chất ức chế bơm proton hoặc thuốc chống loét."
+    },
+    {
+      "thuoc": ["Phenylbutazon"],
+      "muc_do": 1,
+      "phan_tich": "Phenylbutazon là chất cảm ứng enzym. Dùng dài ngày, có thể có giảm tác dụng của các estrogen và các thuốc ngừa thai estroprogestogen do cảm ứng enzym, làm tăng dị hoá các thuốc này ở gan.",
+      "xu_ly": "Tuỳ theo thời gian điều trị ở phụ nữ đang dùng thuốc estroprogestogen liều thấp, thay đổi thuốc chống viêm."
+    }
+  ]
+},
+ {
+  "hoat_chat": "ETHAMBUTOL",
+  "mo_ta": "Thuốc chống lao",
+  "cac_thuoc_trong_nhom": [
+    "ETHAMBUTOL",
+    "Combutol",
+    "Dexambutol",
+    "Lybutol",
+    "Mycobutol",
+    "Servambutol"
+  ],
+  "chu_y_khi_chi_dinh": {
+    "chong_chi_dinh": {
+      "muc_do": 4,
+      "noi_dung": "Chống chỉ định: mức độ 4"
+    },
+    "mang_thai": "Tác dụng gây quái thai ở súc vật.",
+    "can_nhac_nguy_co_loi_ich": {
+      "muc_do": 3,
+      "noi_dung": "Cân nhắc nguy cơ/ lợi ích: mức độ 3"
+    },
+    "suy_than": "Trường hợp suy thận, thuốc có thể bị giữ lại và tăng nguy cơ viêm dây thần kinh thị giác.",
+    "truong_hop_khac": [
+      "Viêm dây thần kinh thị giác: cần khám mắt trước, rồi đều đặn sau đó trong quá trình điều trị. Ngừng thuốc ngay nếu có bất kỳ dấu hiệu viêm dây thần kinh thị giác nào.",
+      "Quá mẫn với thuốc."
+    ]
+  },
+  "tuong_tac": [
+    {
+      "thuoc": [
+        "Aluminium hydroxide",
+        "Magnesium hydroxide",
+        "Calcium carbonate",
+        "Sodium bicarbonate",
+        "Phosphalugel",
+        "Maalox",
+        "Gaviscon",
+        "Than hoạt"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Giảm hấp thu ethambutol qua đường tiêu hoá bởi chất kháng acid.",
+      "xu_ly": "Cần uống hai thuốc cách nhau ít nhất hai giờ. Nên nhớ rằng các kháng acid thường uống 1 giờ 30 phút sau các bữa ăn, vì ăn uống là nguồn gốc tăng tiết dịch dạ dày."
+    }
+  ]
+},
+{
+  "hoat_chat": "ETHOSUXIMID",
+  "mo_ta": "Thuốc dùng chủ yếu để kiểm soát cơn động kinh nhỏ",
+  "cac_thuoc_trong_nhom": [
+    "ETHOSUXIMID",
+    "Zarontin"
+  ],
+  "chu_y_khi_chi_dinh": {
+    "can_nhac_nguy_co_loi_ich": {
+      "muc_do": 3,
+      "cho_con_bu": "Không có dữ liệu.",
+      "mang_thai": "Có đặc tính sinh quái thai ở động vật, nên kê thuốc khác cho phụ nữ đang tuổi sinh đẻ hoặc đang mang thai.",
+      "man_cam": "Mẫn cảm với thuốc trong họ."
+    },
+    "can_theo_doi": {
+      "muc_do": 1,
+      "suy_gan_suy_than": "Đã có thông báo về tổn thương gan và thận, nên cần giám sát các chức năng gan và thận khi có suy một trong hai cơ quan đó."
+    }
+  },
+  "tuong_tac": [
+    {
+      "thuoc": ["Rượu"],
+      "muc_do": 3,
+      "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, dẫn đến tăng tác dụng an thần gây buồn ngủ. Một số thuốc trong họ có thể gây tác dụng tâm thần - vận động, nhất là trong tuần điều trị đầu tiên.",
+      "xu_ly": "Không nên uống rượu hoặc chế phẩm có rượu khi dùng thuốc này. Nguy cơ gây an thần buồn ngủ, đặc biệt nguy hiểm ở người lái xe hoặc vận hành máy."
+    },
+    {
+      "thuoc": ["Tacrin"],
+      "muc_do": 3,
+      "phan_tich": "Nguy cơ tăng độc với gan.",
+      "xu_ly": "Nếu cần kết hợp, tăng cường giám sát chức năng gan. Tránh các phối hợp có nguy cơ ở người cao tuổi."
+    },
+    {
+      "thuoc": [
+        "Baclofen",
+        "Metoclopramid",
+        "Sulpirid",
+        "Amisulprid",
+        "Levosulpirid",
+        "Dextropropoxyphen",
+        "Reserpin"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng ức chế thần kinh trung ương, dẫn đến tăng tác dụng an thần gây buồn ngủ.",
+      "xu_ly": "Điều chỉnh liều của hai thuốc nếu cần phối hợp. Chú ý giảm tỉnh táo ở người lái xe hoặc vận hành máy. Khuyên không uống rượu và không dùng các chế phẩm có rượu."
+    },
+    {
+      "thuoc": [
+        "Diazepam",
+        "Alprazolam",
+        "Clonazepam",
+        "Bromazepam",
+        "Midazolam",
+        "Triazolam",
+        "Nitrazepam",
+        "Clordiazepoxyd",
+        "Gluthetimid",
+        "Interferon alpha tái tổ hợp",
+        "Medifoxamin",
+        "Paroxetin",
+        "Phenothiazin",
+        "Primidon",
+        "Procarbazin"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, dẫn đến tăng tác dụng an thần gây buồn ngủ.",
+      "xu_ly": "Chú ý giảm tỉnh táo ở người lái xe hoặc vận hành máy. Khuyên không uống rượu và không dùng các chế phẩm có rượu."
+    },
+    {
+      "thuoc": ["Carbamazepin"],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, dẫn đến tăng tác dụng an thần gây buồn ngủ. Nồng độ ethosuximid giảm trong huyết tương do cảm ứng enzym.",
+      "xu_ly": "Điều chỉnh liều của hai thuốc nếu cần phối hợp. Khuyên không uống rượu và không dùng chế phẩm có rượu. Giám sắt lâm sàng hiệu quả điều trị động kinh."
+    },
+    {
+      "thuoc": [
+        "Clonidin",
+        "Rilmenidin"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, dẫn đến tăng tác dụng an thần gây buồn ngủ. Rilmenidin không làm tăng tác dụng ức chế hệ thần kinh trung ương với liều thông thường.",
+      "xu_ly": "Chú ý giảm tỉnh táo ở người lái xe hoặc vận hành máy. Khuyên không uống rượu và không dùng các chế phẩm có rượu."
+    },
+    {
+      "thuoc": ["Isoniazid"],
+      "muc_do": 2,
+      "phan_tich": "Làm tăng nồng độ trong huyết tương của ethosuximid, tăng nguy cơ độc tính do ức chế chuyển hoá.",
+      "xu_ly": "Thận trọng giám sát lâm sàng khi phối hợp."
+    },
+    {
+      "thuoc": ["Lamotrigin"],
+      "muc_do": 2,
+      "phan_tich": "Nồng độ lamotrigin trong huyết thanh có thể giảm do cảm ứng enzym của ethosuximid.",
+      "xu_ly": "Điều chỉnh liều lamotrigin khi bắt đầu, ngừng hoặc thay đổi liều ethosuximid. Theo dõi đáp ứng lâm sàng."
+    },
+    {
+      "thuoc": [
+        "Natri valproat",
+        "Valproat"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng ức chế thần kinh trung ương, biến đổi nồng độ trong huyết tương.",
+      "xu_ly": "Điều chỉnh liều nếu cần phối hợp. Khuyên không uống rượu và không dùng các chế phẩm có rượu. Giám sát nồng độ thuốc trong huyết thanh."
+    },
+    {
+      "thuoc": [
+        "Amitriptylin",
+        "Imipramin",
+        "Clomipramin",
+        "Nortriptylin"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Làm hạ thấp ngưỡ gây động kinh, tăng nguy cơ co giật.",
+      "xu_ly": "Lưu ý nguy cơ và điều chỉnh liều nếu cần."
+    },
+    {
+      "thuoc": [
+        "Morphine",
+        "Codeine",
+        "Fentanyl",
+        "Pethidine"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Tăng tác dụng ức chế thần kinh trung ương, ức chế hô hấp, hạ huyết áp, tăng nguy cơ nghiện thuốc.",
+      "xu_ly": "Điều chỉnh liều nếu cần phối hợp. Khuyên không uống rượu và không dùng các chế phẩm có rượu."
+    },
+    {
+      "thuoc": [
+        "Mefloquin",
+        "Chloroquin",
+        "Hydroxychloroquin",
+        "Quinine"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Mefloquin đối kháng tác dụng chống co giật. Chloroquin và hydroxychloroquin đôi khi làm giảm ngưỡng gây co giật.",
+      "xu_ly": "Không dùng mefloquin để dự phòng cho người bị động kinh."
+    },
+    {
+      "thuoc": [
+        "Ethinylestradiol + Levonorgestrel",
+        "Ethinylestradiol + Drospirenone",
+        "Ethinylestradiol + Norgestimate"
+      ],
+      "muc_do": 2,
+      "phan_tich": "Giảm tác dụng ngừa thai do cảm ứng enzym tăng chuyển hoá steroid ngừa thai.",
+      "xu_ly": "Dùng biện pháp ngừa thai khác thay thế."
+    },
+    {
+      "thuoc": [
+        "Amphetamine"
+      ],
+      "muc_do": 1,
+      "phan_tich": "Đối kháng tác dụng, có thể tăng tính hung hãn ở người nghiện.",
+      "xu_ly": "Lưu ý tương tác dược lực, khuyên người bệnh gặp lại thầy thuốc nếu hiệu quả điều trị không rõ rệt."
+    },
+    {
+      "thuoc": [
+        "Barbituric",
+        "Dantrolen",
+        "Diphenhydramin",
+        "Fluvoxamin",
+        "Fluoxetin",
+        "Viloxazin"
+      ],
+      "muc_do": 1,
+      "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, gây an thần buồn ngủ.",
+      "xu_ly": "Chú ý giảm tỉnh táo ở người lái xe hoặc vận hành máy. Khuyên không uống rượu."
+    },
+    {
+      "thuoc": [
+        "Methadon"
+      ],
+      "muc_do": 1,
+      "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, an thần buồn ngủ mạnh, nguy hiểm cho người lái xe hoặc vận hành máy.",
+      "xu_ly": "Khuyên không lái xe, không vận hành máy."
+    }
+  ]
+},
 {
   "hoat_chat": "ETRETINAT (dẫn chất)",
   "mo_ta": "Dẫn chất của vitamin A, dùng trong một vài bệnh da (bệnh vảy nến và trứng cá nặng) để tróc lớp sừng da.",
@@ -8363,7 +8885,7 @@ window.tuongTacData = [
     }
   ]
 },
-{
+ {
   "hoat_chat": "EUCALYPTOL",
   "mo_ta": "Thuốc (làm mất sung huyết) đường thông khí trên, chiết từ Eucalyptus",
   "cac_thuoc_trong_nhom": [
@@ -8423,7 +8945,8 @@ window.tuongTacData = [
       "muc_do": 4,
       "noi_dung": "Trẻ em: ở trẻ em dưới 20 tháng tuổi, có nguy cơ xuất hiện co giật."
     }
-  }
+  },
+  "tuong_tac": []
 },
 {
   "hoat_chat": "FENOVERIN",
@@ -8447,7 +8970,8 @@ window.tuongTacData = [
       "muc_do": 2,
       "mang_thai": "Do thận trọng, vì thiếu dữ liệu."
     }
-  }
+  },
+ "tuong_tac": []
 },
 {
   "hoat_chat": "FIBRAT",
@@ -8569,7 +9093,8 @@ window.tuongTacData = [
       "suy_gan": "Cần theo dõi, do thiếu thông tin và nghiên cứu chính xác ở người suy gan.",
       "truong_hop_khac": "Quá mẫn với một trong những thành phần của sản phẩm (hoạt chất hoặc tá dược)"
     }
-  }
+  },
+ "tuong_tac": []
 },
 {
   "hoat_chat": "FLAVOXAT",
@@ -8585,7 +9110,8 @@ window.tuongTacData = [
       "cho_con_bu": "Vì thận trọng, do thiếu dữ liệu.",
       "truong_hop_khac": "Tắc môn vị và tá tràng, thương tổn tắc ruột, chảy máu dạ dày tá tràng."
     }
-  }
+  },
+ "tuong_tac": []
 },
 {
   "hoat_chat": "FLECAINID HOẶC THUỐC TƯƠNG TỰ",
@@ -8712,7 +9238,7 @@ window.tuongTacData = [
     }
   ]
 },
-{
+ {
   "hoat_chat": "FLOCTAFENIN",
   "mo_ta": "Thuốc giảm đau ngoại vi, dẫn chất của acid anthranilic",
   "cac_thuoc_trong_nhom": [
@@ -8853,7 +9379,8 @@ window.tuongTacData = [
       "muc_do": 1,
       "nguoi_cao_tuoi": "Kiểm tra chức năng thận, vì dùng fluor có thể làm hư hại chức năng thận"
     }
-  }
+  },
+  "tuong_tac": []
 },
 {
   "hoat_chat": "FLUORO-5-URACIL",
@@ -8863,7 +9390,7 @@ window.tuongTacData = [
     "Fluorouracil"
   ],
   "chu_y_khi_chi_dinh": {
-    "mo_ta1": "Thuốc này phải do thầy thuốc chuyên khoa kê đơn. Vì vậy, các chống chỉ định phải được cân nhắc tuỳ theo tình trạng người bệnh và phải được nhà chuyên khoa đánh giá."
+    "mo_ta": "Thuốc này phải do thầy thuốc chuyên khoa kê đơn. Vì vậy, các chống chỉ định phải được cân nhắc tuỳ theo tình trạng người bệnh và phải được nhà chuyên khoa đánh giá."
   },
   "tuong_tac": [
     {
@@ -9644,7 +10171,8 @@ window.tuongTacData = [
       "cho_con_bu": "Qua được sữa mẹ với lượng nhỏ.",
       "mang_thai": "Do thận trọng, trong ba tháng đầu của thai kỳ."
     }
-  }
+  },
+"tuong_tac": []
 },
  {
   "hoat_chat": "FUROSEMID HOẶC THUỐC TƯƠNG TỰ",
@@ -10001,7 +10529,8 @@ window.tuongTacData = [
       "muc_do": 3,
       "tre_em": "Trẻ em dưới 30 tháng tuổi, do nguy cơ co thắt thanh quản."
     }
-  }
+  },
+  "tuong_tac": []
 },
 {
   "hoat_chat": "GANCICLOVIR",
@@ -11410,7 +11939,8 @@ window.tuongTacData = [
       "muc_do": 1,
       "noi_dung": "Bệnh dạ dày-tá tràng: Viêm dạ dày, loét dạ dày - tá tràng tiến triển. Các trường hợp khác: Tai biến mạch máu não. Có tiền sử giảm tiểu cầu với heparin có xu hướng chảy máu."
     }
-  }
+  },
+  "tuong_tac": []
 },
 {
   "hoat_chat": "HEPTAMINOL",
@@ -11493,7 +12023,8 @@ window.tuongTacData = [
         "muc_do": 2,
         "noi_dung": "Động kinh: Giảm ngưỡng gây động kinh. Suy hô hấp; hen: Tránh dùng cho người bệnh dị ứng."
       }
-    }
+    },
+	"tuong_tac": []
   },
   {
     "hoat_chat": "HORMON TĂNG TRƯỞNG HOẶC DẪN CHẤT",
@@ -11512,7 +12043,8 @@ window.tuongTacData = [
         "muc_do": 2,
         "noi_dung": "Trẻ em: Chống chỉ định dùng thuốc trong trường hợp các đầu xương dính liền."
       }
-    }
+    },
+	"tuong_tac": []
   },
   {
     "hoat_chat": "HORMON TUYẾN GIÁP",
@@ -11628,7 +12160,8 @@ window.tuongTacData = [
         "muc_do": 3,
         "noi_dung": "Thời kỳ mang thai: Nếu có thể, dùng gama globulin đặc hiệu của người. Các trường hợp khác: Tránh dùng cho những người trước đây đã dùng cùng thứ huyết thanh đó. Dị ứng huyết thanh ngựa. Cơ địa dị ứng."
       }
-    }
+    },
+	"tuong_tac": []
   },
   {
     "hoat_chat": "8-HYDROXYQUINOLEIN (Dẫn chất)",
@@ -11645,7 +12178,8 @@ window.tuongTacData = [
         "muc_do": 3,
         "noi_dung": "Suy gan, suy thận: Nguy cơ tăng aminotransferase (transaminase) khi dùng với tiliquinol. Với liều cao và điều trị kéo dài, gây viêm tuỷ bán cấp, viêm dây thần kinh ngoại biên, viêm dây thần kinh thị giác, gây teo. Viêm da đầu chi do bệnh ruột."
       }
-    }
+    },
+    "tuong_tac": []
   },
   {
     "hoat_chat": "IDOXURIDIN HOẶC THUỐC TƯƠNG TỰ",
@@ -11667,7 +12201,8 @@ window.tuongTacData = [
         "muc_do": 2,
         "noi_dung": "Phụ nữ mang thai: Vì thận trọng, do không có đủ thông tin."
       }
-    }
+    },
+  "tuong_tac": []
   },
  {
   "hoat_chat": "IDROCILAMID",
@@ -11736,7 +12271,8 @@ window.tuongTacData = [
       "muc_do": 3,
       "noi_dung": "Đã được miễn nhiễm; không dung nạp máu hoặc các sản phẩm máu khi tiêm tĩnh mạch."
     }
-  }
+  },
+  "tuong_tac": []
 },
 {
   "hoat_chat": "INDINAVIR",
@@ -12048,7 +12584,7 @@ window.tuongTacData = [
   "hoat_chat": "INSULIN",
   "mo_ta": "Hormon tụy làm hạ glucose máu",
   "cac_thuoc_trong_nhom": [
-    "INSULIN",
+    "Insulin",
     "Actrapid HM",
     "Humulin 70/30",
     "Humulin",
@@ -12208,7 +12744,11 @@ window.tuongTacData = [
     }
   ]
 }
-  
+
+
+
+    
+
 
 
 ];
