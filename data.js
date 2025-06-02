@@ -9464,7 +9464,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng hàm lượng acid uric. Ngoài ra, có sự tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của hai thuốc.",
-      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không, sẽ thấy thất bại điều trị chống gút. Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
+      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không, sẽ thấy thất bại điều trị chống gút. Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
     },
     {
       "thuoc": [
@@ -10288,7 +10288,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu sự phối hợp các thuốc hạ kali máu với amiodaron là cần thiết, ngăn ngừa hạ kali máu bằng tăng cường giám sát và theo dõi điện tâm đồ. Trường hợp xuất hiện xoắn đỉnh, không dùng thuốc chống loạn nhịp. Khuyên người bệnh theo dõi kali máu. Cần nhắc nhở bệnh nhân là hạ kali máu được biểu hiện bằng tình trạng mệt nhọc, yếu cơ, thậm chí co cứng cơ. Nếu những triệu chứng này xuất hiện, khuyên người bệnh gặp lại thầy thuốc điều trị."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin"],
+      "thuoc": ["Allopurinol", "Colchicin"],
       "muc_do": 2,
       "phan_tich": "Furosemid và các thuốc tương tự làm tăng acid uric máu và giảm tác dụng điều trị gút.",
       "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, nếu không sẽ thấy điều trị gút thất bại."
