@@ -17,7 +17,7 @@
     <meta name="author" content="Bùi Đạt Hiếu">
     <meta name="copyright" content="Bùi Đạt Hiếu">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://tuongtacthuoc.github.io/">
+    <link rel="canonical" href="https://tuongtacthuoc.vn/">
     <link rel="stylesheet" href="style.css">
     <!-- Mở rộng: favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -25,13 +25,69 @@
     <meta property="og:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
     <meta property="og:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí. Công cụ hỗ trợ dược sĩ, bác sĩ, sinh viên y dược.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tuongtacthuoc.github.io/">
-    <meta property="og:image" content="https://tuongtacthuoc.github.io/og-image.png">
+    <meta property="og:url" content="https://tuongtacthuoc.vn/">
+    <meta property="og:image" content="https://tuongtacthuoc.vn/og-image.png">
     <!-- Mở rộng: Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
     <meta name="twitter:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí.">
-    <meta name="twitter:image" content="https://tuongtacthuoc.github.io/og-image.png">
+    <meta name="twitter:image" content="https://tuongtacthuoc.vn/og-image.png">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MCCV5GNKXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MCCV5GNKXW');
+</script>
+    <style>
+      /* FAQ styles */
+      #faq-section .faq-item {
+        margin-bottom: 12px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #fff;
+      }
+      #faq-section .faq-question {
+        width: 100%;
+        text-align: left;
+        padding: 14px 18px;
+        background: #f9fafb;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background 0.2s;
+      }
+      #faq-section .faq-question:hover {
+        background: #f1f5f9;
+      }
+      #faq-section .faq-answer {
+        padding: 14px 18px;
+        background: #f3f4f6;
+        font-size: 0.97rem;
+        color: #444;
+        transition: all 0.2s;
+      }
+      #faq-section .icon {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-left: 8px;
+        transition: transform 0.2s;
+      }
+      #faq-section {
+        max-width: 600px; 
+        margin: 40px auto 24px auto;
+      }
+      @media (max-width: 700px) {
+        #faq-section { max-width: 98vw; }
+      }
+    </style>
 </head>
 
 <body>
@@ -52,7 +108,68 @@
             <div id="results"></div>
         </div>
     </div>
+    
+    <!-- FAQ Section: Đặt ngay trên footer hoặc cuối trang -->
+    <div id="faq-section">
+      <h3 style="text-align:center; font-size: 1.1rem; font-weight: 600; margin-bottom: 18px;">Câu Hỏi Thường Gặp</h3>
+      <div class="faq-item">
+        <button class="faq-question">
+          Thông tin trên trang web có chính xác không?
+          <span class="icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Chúng tôi nỗ lực cập nhật thông tin từ các nguồn chính thức của các trường đại học. Tuy nhiên, để đảm bảo tính chính xác tuyệt đối, bạn nên kiểm tra lại thông tin trên trang web chính thức của trường đại học mà bạn quan tâm.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Làm thế nào để tìm kiếm trường đại học phù hợp?
+          <span class="icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Bạn có thể sử dụng bộ lọc tìm kiếm trên trang chủ để tìm kiếm theo tên trường, ngành học, khu vực, hoặc các tiêu chí khác. Chúng tôi cũng cung cấp thông tin chi tiết về từng trường để giúp bạn so sánh và đưa ra quyết định phù hợp.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Tôi có thể đóng góp thông tin cho trang web không?
+          <span class="icon">+</span>
+        </button>
+        <div class="faq-answer" style="display:none;">
+          Chúng tôi luôn hoan nghênh đóng góp từ cộng đồng. Nếu bạn có thông tin cập nhật hoặc phát hiện sai sót, vui lòng liên hệ với chúng tôi qua email hoặc mạng xã hội.
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nếu muốn có footer, thêm ở đây -->
+    <!-- <footer style="text-align:center; padding: 18px 0; color:#777; background:#f8f8f8;">&copy; 2025 Bùi Đạt Hiếu. Mọi quyền được bảo lưu.</footer> -->
+
     <script src="data.js"></script>
     <script src="app.js"></script>
+    <script>
+      // FAQ accordion logic
+      const questions = document.querySelectorAll('.faq-question');
+      questions.forEach((btn) => {
+        btn.addEventListener('click', function() {
+          const answer = this.nextElementSibling;
+          const icon = this.querySelector('.icon');
+          // Đóng các câu trả lời khác
+          questions.forEach(q => {
+            if(q !== this) {
+              q.nextElementSibling.style.display = 'none';
+              q.querySelector('.icon').textContent = '+';
+            }
+          });
+          // Toggle câu trả lời hiện tại
+          if(answer.style.display === 'block') {
+            answer.style.display = 'none';
+            icon.textContent = '+';
+          } else {
+            answer.style.display = 'block';
+            icon.textContent = '-';
+          }
+        });
+      });
+    </script>
 </body>
 </html>
