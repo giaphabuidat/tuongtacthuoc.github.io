@@ -78,7 +78,7 @@ window.tuongTacData = [
       "xu_ly": "Giám sát cẩn thận người bệnh về thay đổi tác dụng của phenytoin khi bắt đầu hoặc ngừng điều trị aciclovir. Điều chỉnh liều của phenytoin khi cần."
     },
     {
-      "thuoc": ["Theophylin"],
+      "thuoc": ["Theophylin", "Theophylin"],
       "muc_do": 2,
       "phan_tich": "Nồng độ trong huyết tương của theophylin có thể tăng, làm tăng tác dụng dược lý và tác dụng không mong muốn. Tương tác chậm. Cơ chế có khả năng ức chế chuyển hoá oxy - hoá của theophylin.",
       "xu_ly": "Giám sát cẩn thận nồng độ trong huyết tương của theophylin và theo dõi các tác dụng có hại trong khi phối hợp với aciclovir. Điều chỉnh liều theophylin nếu cần."
