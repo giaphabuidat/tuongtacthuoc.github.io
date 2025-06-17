@@ -4391,7 +4391,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi chặt chẽ hàm lượng aminoglycosid và chức năng thận. Nếu xuất hiện rối loạn chức năng thận, nên giảm liều hoặc ngừng một hoặc cả hai thuốc và dùng thuốc thay thế."
     },
     {
-     "thuoc": ["Heparin, Indometacin, Aspirin, Diclofenac, Ibuprofen, Naproxen, Piroxicam, Meloxicam, Ketoprofen, Lornoxicam, Tenoxicam, Sulindac, Etodolac, Celecoxib, Etoricoxib, Phenylbutazon, Dipyrone, Metamizol, Acid acetylsalicylic, Sodium salicylate, Methyl salicylate, Ticlopidin, Alteplase, Reteplase, Streptokinase, Urokinase, Warfarin, Acenocoumarol, Phenindion"],
+     "thuoc": ["Heparin", "Indometacin", "Aspirin", "Diclofenac", "Ibuprofen", "Naproxen", "Piroxicam", "Meloxicam", "Ketoprofen", "Lornoxicam", "Tenoxicam", "Sulindac", "Etodolac", "Celecoxib", "Etoricoxib", "Phenylbutazon", "Dipyrone", "Metamizol", "Acid acetylsalicylic", "Sodium salicylate", "Methyl salicylate", "Ticlopidin", "Alteplase", "Reteplase", "Streptokinase", "Urokinase", "Warfarin", "Acenocoumarol", "Phenindion"],
       "muc_do": 3,
       "phan_tich": "Tăng nguy cơ chảy máu, chủ yếu với các cephalosporin có nhân thiomethyltetrazol (latamoxef, cefoperazon, cefamandol, cefmenoxim, cefotetan). Nhân này có tác dụng như một dẫn chất coumarin, có tác dụng chống đông (kháng vitamin K), do đó cộng thêm các tính chất chống đông của nó vào những tính chất kháng vitamin K, hoặc chống kết tập tiểu cầu của các hợp chất khác nhau đã khảo sát.",
       "xu_ly": "Phối hợp này, chủ yếu được mô tả với latamoxef, không nên dùng, vì lý do làm tăng nguy cơ chảy máu. Đặc biệt, đề phòng khi dùng các liều cao của những kháng sinh này."
@@ -9464,7 +9464,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng hàm lượng acid uric. Ngoài ra, có sự tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của hai thuốc.",
-      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không, sẽ thấy thất bại điều trị chống gút. Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
+      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không, sẽ thấy thất bại điều trị chống gút. Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
     },
     {
       "thuoc": [
@@ -10288,7 +10288,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu sự phối hợp các thuốc hạ kali máu với amiodaron là cần thiết, ngăn ngừa hạ kali máu bằng tăng cường giám sát và theo dõi điện tâm đồ. Trường hợp xuất hiện xoắn đỉnh, không dùng thuốc chống loạn nhịp. Khuyên người bệnh theo dõi kali máu. Cần nhắc nhở bệnh nhân là hạ kali máu được biểu hiện bằng tình trạng mệt nhọc, yếu cơ, thậm chí co cứng cơ. Nếu những triệu chứng này xuất hiện, khuyên người bệnh gặp lại thầy thuốc điều trị."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin"],
+      "thuoc": ["Allopurinol", "Colchicin"],
       "muc_do": 2,
       "phan_tich": "Furosemid và các thuốc tương tự làm tăng acid uric máu và giảm tác dụng điều trị gút.",
       "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, nếu không sẽ thấy điều trị gút thất bại."
@@ -14845,7 +14845,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu cần phối hợp giữa thuốc nhuận tràng làm trơn và thuốc lợi niệu thải kali, phòng ngừa hạ kali máu bằng cách bổ sung kali và nếu cần, tuỳ theo lâm sàng, theo dõi điện tâm đồ."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin", "Probenecid"],
+      "thuoc": ["Allopurinol", "Colchicin", "Probenecid"],
       "muc_do": 2,
       "phan_tich": "Thuốc lợi tiểu thải kali làm tăng acid uric máu và làm giảm tác dụng điều trị chống gút.",
       "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại."
@@ -15535,10 +15535,10 @@ window.tuongTacData = [
       "xu_ly": "Khoảng cách giữa lúc dùng hai thứ thuốc từ ba tháng đến một năm, và tùy thuộc vào mức độ ức chế miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin"],
+      "thuoc": ["Allopurinol", "Colchicin"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một chất kìm tế bào với một thuốc chống thống phong (gút) sẽ làm tăng nồng độ acid uric. Ngoài ra, còn có nguy cơ giảm bạch cầu, giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể thất bại trong điều trị bệnh thống phong. Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là các chất gây acid uric niệu để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể thất bại trong điều trị bệnh thống phong. Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là các chất gây acid uric niệu để tránh các bệnh về thận."
     },
     {
       "thuoc": ["Amphotericin B"],
@@ -15635,9 +15635,9 @@ window.tuongTacData = [
       "xu_ly": "Phải bảo đảm khoảng cách giữa lúc dùng hai thuốc này là từ ba tháng đến một năm, và phụ thuộc vào mức độ ức chế miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol"],
+      "thuoc": ["Allopurinol"],
       "muc_do": 2,
-      "phan_tich": "Alopurinol ức chế chuyển hoá oxy hoá azathioprin và mercaptopurin (tác dụng như chất ức chế xanthin oxydase, là enzym xúc tác cho giáng hoá purin thành acid uric), gây nguy cơ tích luỹ các chất chống chuyển hoá gồm các base purin.",
+      "phan_tich": "Allopurinol ức chế chuyển hoá oxy hoá azathioprin và mercaptopurin (tác dụng như chất ức chế xanthin oxydase, là enzym xúc tác cho giáng hoá purin thành acid uric), gây nguy cơ tích luỹ các chất chống chuyển hoá gồm các base purin.",
       "xu_ly": "Nếu cần phối hợp thuốc, phải giảm liều chất chống chuyển hoá từ 25% đến 30%."
     },
     {
@@ -15670,7 +15670,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào với một thuốc chống bệnh thống phong làm tăng nồng độ acid uric. Ngoài ra còn tăng nguy cơ giảm bạch cầu, giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể điều trị bệnh thống phong sẽ thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric) hơn là dùng các thuốc gây acid uric niệu, để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể điều trị bệnh thống phong sẽ thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric) hơn là dùng các thuốc gây acid uric niệu, để tránh các bệnh về thận."
     },
     {
       "thuoc": ["Dactinomycin", "Pentostatin"],
@@ -16042,7 +16042,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống thống phong làm tăng nồng độ acid uric trong máu. Ngoài ra còn có nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric), thay cho việc dùng các thuốc bài acid uric đường niệu để tránh những bệnh về thận."
+      "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric), thay cho việc dùng các thuốc bài acid uric đường niệu để tránh những bệnh về thận."
     },
     {
       "thuoc": ["Dactinomycin"],
@@ -18250,10 +18250,10 @@ window.tuongTacData = [
       "xu_ly": "Dùng hai thuốc cách nhau từ 3 tháng tới 1 năm và tuỳ theo mức độ suy giảm miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol", "Zyloric", "Colchicin", "Probenecid"],
+      "thuoc": ["Allopurinol", "Zyloric", "Colchicin", "Probenecid"],
       "muc_do": 2,
       "phan_tich": "Pentostatin có thể làm tăng acid uric máu. Cần phải hiệu chỉnh liều của thuốc chữa thống phong để kiểm soát tăng acid uric máu.",
-      "xu_ly": "Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là các thuốc đào thải acid uric do nguy cơ acid uric có thể gây bệnh thận."
+      "xu_ly": "Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là các thuốc đào thải acid uric do nguy cơ acid uric có thể gây bệnh thận."
     },
     {
       "thuoc": [
@@ -19682,7 +19682,7 @@ window.tuongTacData = [
       "thuoc": ["Asparaginase"],
       "muc_do": 2,
       "phan_tich": "Asparaginase làm tăng acid uric trong máu.",
-      "xu_ly": "Phối hợp phải được quản lý trong cơ sở bệnh viện. Điều chỉnh phương pháp điều trị chống thống phong. Để tránh sỏi urat, nên chọn alopurinol thay cho các thuốc gây acid uric niệu, vì những thuốc này có thể gây các bệnh thận do acid uric."
+      "xu_ly": "Phối hợp phải được quản lý trong cơ sở bệnh viện. Điều chỉnh phương pháp điều trị chống thống phong. Để tránh sỏi urat, nên chọn Allopurinol thay cho các thuốc gây acid uric niệu, vì những thuốc này có thể gây các bệnh thận do acid uric."
     },
     {
       "thuoc": [
@@ -19708,7 +19708,7 @@ window.tuongTacData = [
       "thuoc": ["Pentostatin", "Nipent"],
       "muc_do": 2,
       "phan_tich": "Pentostatin có thể làm tăng nồng độ acid uric trong máu. Điều chỉnh liều dùng thuốc chống thống phong cần thiết để kiểm soát chứng acid uric máu cao.",
-      "xu_ly": "Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải uric do có thể có nguy cơ gây bệnh thận với acid uric."
+      "xu_ly": "Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải uric do có thể có nguy cơ gây bệnh thận với acid uric."
     },
     {
       "thuoc": [
@@ -19956,7 +19956,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống thống phong làm tăng nồng độ acid uric. Ngoài ra, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu bởi hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng đồng thời hai thuốc, vì nguy cơ điều trị chống thống phong thất bại. Nên dùng alopurinol (ức chế tổng hợp uric) hơn là các thuốc bài acid uric để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh dùng đồng thời hai thuốc, vì nguy cơ điều trị chống thống phong thất bại. Nên dùng Allopurinol (ức chế tổng hợp uric) hơn là các thuốc bài acid uric để tránh các bệnh về thận."
     },
     {
       "thuoc": [
@@ -20542,11 +20542,11 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Alopurinol", "Zyloric"
+          "Allopurinol", "Zyloric"
         ],
         "muc_do": 2,
-        "phan_tich": "Alopurinol có thể không có tác dụng đối với tăng acid uric máu do pyrazinamid, thậm chí làm nặng thêm tình trạng này.",
-        "xu_ly": "Không dùng alopurinol để điều trị tăng acid uric máu do pyrazinamid."
+        "phan_tich": "Allopurinol có thể không có tác dụng đối với tăng acid uric máu do pyrazinamid, thậm chí làm nặng thêm tình trạng này.",
+        "xu_ly": "Không dùng Allopurinol để điều trị tăng acid uric máu do pyrazinamid."
       },
       {
         "thuoc": [
@@ -23787,8 +23787,8 @@ window.tuongTacData = [
     {
       "thuoc": ["Allopurinol", "Zyloric"],
       "muc_do": 2,
-      "phan_tich": "Alopurinol có thể ức chế clopropamid tiết qua ống thận, dẫn tới nguy cơ hạ glucose máu nghiêm trọng do tăng nửa đời của clorpropamid.",
-      "xu_ly": "Đặc biệt cảnh giác khi sử dụng những thuốc này ở người suy thận khi dùng hai thuốc này. Theo dõi chặt chẽ glucose máu lúc bắt đầu, trong khi và sau khi ngừng điều trị alopurinol. Tương tác này mới chỉ được mô tả với clorpropamid và không nói tới các sulfamid chống tiểu đường khác. Như vậy, tốt hơn nên dùng một thuốc chống tiểu đường khác nếu có thể."
+      "phan_tich": "Allopurinol có thể ức chế clopropamid tiết qua ống thận, dẫn tới nguy cơ hạ glucose máu nghiêm trọng do tăng nửa đời của clorpropamid.",
+      "xu_ly": "Đặc biệt cảnh giác khi sử dụng những thuốc này ở người suy thận khi dùng hai thuốc này. Theo dõi chặt chẽ glucose máu lúc bắt đầu, trong khi và sau khi ngừng điều trị Allopurinol. Tương tác này mới chỉ được mô tả với clorpropamid và không nói tới các sulfamid chống tiểu đường khác. Như vậy, tốt hơn nên dùng một thuốc chống tiểu đường khác nếu có thể."
     },
     {
       "thuoc": ["Asparaginase"],
@@ -25104,7 +25104,7 @@ window.tuongTacData = [
     {
       "thuoc": ["Allopurinol", "Zyloric", "Allosig"],
       "muc_do": 2,
-      "phan_tich": "Điều trị bằng alopurinol liều cao (ít nhất 600 mg/ ngày) cùng với theophylin gây giảm độ thanh lọc theophylin qua thận, và tăng nồng độ theophylin trong huyết thanh.",
+      "phan_tich": "Điều trị bằng Allopurinol liều cao (ít nhất 600 mg/ ngày) cùng với theophylin gây giảm độ thanh lọc theophylin qua thận, và tăng nồng độ theophylin trong huyết thanh.",
       "xu_ly": "Cần theo dõi chặt nồng độ theophylin trong huyết thanh và dựa vào đó, hiệu chỉnh liều lượng. Các dấu hiệu ngộ độc theophylin trên lâm sàng gồm: buồn nôn, nôn, đau thượng vị; nhức đầu, trường hợp kích thích mất ngủ; nhịp tim nhanh. Co giật thường là dấu hiệu khẳng định ngộ độc thuốc này, nhưng cũng có thể là dấu hiệu đầu tiên (đặc biệt ở trẻ em). Khuyên người bệnh gặp lại bác sĩ khi thấy dấu hiệu ngộ độc. Cần nhớ theophylin là thuốc có phạm vi điều trị hẹp."
     },
     {
@@ -25322,7 +25322,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một chất kìm tế bào với một thuốc chống bệnh thống phong (gút) làm tăng nồng độ acid uric. Ngoài ra, còn tăng nguy cơ giảm bạch cầu, giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn.",
-      "xu_ly": "Tốt nhất là nên tránh dùng hai thuốc đồng thời, vì có thể liệu pháp chống bệnh thống phong thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric), thay cho các chất gây acid uric niệu để tránh bệnh về thận."
+      "xu_ly": "Tốt nhất là nên tránh dùng hai thuốc đồng thời, vì có thể liệu pháp chống bệnh thống phong thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric), thay cho các chất gây acid uric niệu để tránh bệnh về thận."
     },
     {
       "thuoc": [
@@ -27355,7 +27355,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin", "Colchicine"],
       "muc_do": 2,
       "phan_tich": "Làm tăng tỉ lệ acid uric trong máu. Hơn nữa, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh phối hợp vì liệu pháp chống bệnh thống phong sẽ thất bại. Nên sử dụng alopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải acid uric niệu để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh phối hợp vì liệu pháp chống bệnh thống phong sẽ thất bại. Nên sử dụng Allopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải acid uric niệu để tránh các bệnh về thận."
     },
     {
       "thuoc": ["Digoxin", "Lanoxin", "Digitoxin"],
@@ -28725,10 +28725,10 @@ window.tuongTacData = [
       "xu_ly": "Tốt hơn, nên tránh phối hợp thuốc này và thay thế thuốc."
     },
     {
-      "thuoc": ["Alopurinol", "Zyloric"],
+      "thuoc": ["Allopurinol", "Zyloric"],
       "muc_do": 2,
-      "phan_tich": "Giảm hấp thu alopurinol theo đường tiêu hoá, do đó giảm tác dụng của thuốc này.",
-      "xu_ly": "Phải uống thuốc cách nhau ít nhất 1 đến 2 giờ. Các thuốc kháng acid thường được dùng sau bữa ăn 1 giờ 30 phút, và ăn là nguyên nhân của tăng tiết dịch ở dạ dày. Tương tác này với alopurinol còn cần khẳng định thêm."
+      "phan_tich": "Giảm hấp thu Allopurinol theo đường tiêu hoá, do đó giảm tác dụng của thuốc này.",
+      "xu_ly": "Phải uống thuốc cách nhau ít nhất 1 đến 2 giờ. Các thuốc kháng acid thường được dùng sau bữa ăn 1 giờ 30 phút, và ăn là nguyên nhân của tăng tiết dịch ở dạ dày. Tương tác này với Allopurinol còn cần khẳng định thêm."
     },
     {
       "thuoc": [
@@ -32712,7 +32712,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời một thuốc kìm tế bào với một thuốc chống bệnh thống phong làm tăng nồng độ acid uric trong máu. Ngoài ra còn có nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng phụ của hai thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc đồng thời với nhau, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng alopurinol (thuốc ức chế tổng hợp acid uric) hơn là dùng các thuốc bài acid uric niệu để tránh các bệnh thận."
+      "xu_ly": "Nên tránh dùng hai thuốc đồng thời với nhau, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng Allopurinol (thuốc ức chế tổng hợp acid uric) hơn là dùng các thuốc bài acid uric niệu để tránh các bệnh thận."
     },
     {
       "thuoc": [
