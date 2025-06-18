@@ -252,7 +252,7 @@ window.tuongTacData = [
         "Cholestyramin", "Questran", "Prevalite", "LoCholest",
         "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Levonorgestrel", "Postinor", "Escapelle", "Mifestad", "Mifepristone-Levonorgestrel", "Tetragynon", "New Choice", "Plan B", "Microlut", "Mirena", "Desogestrel", "Cerazette", "Embevin 28", "Defosey", "Herafeme", "Mercifort", "Lovima", "Hana", "Altavera", "Apri", "Azurette", "Bekyree", "Caziant", "Cesia", "Chateal", "Cyclessa", "Cyred", "Cyred EQ", "Desogen", "Emoquette", "Enskyce", "Isibloom", "Juleber", "Kalliga", "Kariva", "Kimidess", "Kurvelo", "Levlen", "Levora", "Marlissa", "Mircette", "Nordette", "Ortho-Cept", "Pimtrea", "Portia", "Reclipsen", "Simliya", "Solia", "Velivet", "Viorele", "Volnea", "Gestodene", "Femodene", "Femodette", "Milligynon", "Minulet", "Gynera", "Meliane", "Triodena", "Triquilar",
         "Bezafibrat", "Bezalip", "Fenofibrat", "Lipanthyl", "Fenbrat", "Gemfibrozil", "Lopid", "Gemfibstad",
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat",
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat",
         "Than hoạt"
       ],
       "muc_do": 3,
