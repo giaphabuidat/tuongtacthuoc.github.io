@@ -170,7 +170,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi pH nước tiểu. Nếu cần kiềm hoá nước tiểu, tránh kê đơn cùng với vitamin C. Thông báo cho người bệnh biết nguy cơ này và yêu cầu tạm ngừng dùng vitamin C liều cao trong khi điều trị bằng sulfamid."
     },
     {
-      "thuoc": [ "Phenobarbital","Luminal","Solfoton","Sezaby", "Thiopental", "Pentothal", "Trapanal", "Pentobarbital","Nembutal", "Secobarbital", "Seconal", "Tuinal", "Vesparax", "Gardenal", "Luminal", "Nembutal", "Seconal" ],
+      "thuoc": ["Phenobarbital","Luminal","Solfoton","Sezaby", "Thiopental", "Pentothal", "Trapanal", "Pentobarbital","Nembutal", "Secobarbital", "Seconal", "Tuinal", "Vesparax", "Gardenal", "Luminal", "Nembutal", "Seconal" ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời thuốc này với vitamin C sẽ tăng đào thải acid ascorbic.",
       "xu_ly": "Nhu cầu vitamin C ở người bệnh điều trị lâu dài bằng barbituric tăng lên, nên có thể kê đơn bổ sung vitamin C."
@@ -554,7 +554,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Doxorubicin", "Adriamycin",
-        "Epirubicin", "Farmorubicin",,
+        "Epirubicin", "Farmorubicin",
         "Idarubicin", "Zavedos",
         "Daunorubicin", "Cerubidine", "Daunoblastina", "Daunorubicin Ebewe", "Daunoxome", "Daunorubicin Medac", "Daunorubicin Kabi"
       ],
@@ -587,7 +587,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",,
+        "Carmustin", "BiCNU", "Carmubris",
         "Lomustin", "CeeNU",
         "Cisplatin",
         "Carboplatin",
@@ -740,7 +740,7 @@ window.tuongTacData = [
       "xu_ly": "Có thể phải hiệu chỉnh liều thuốc chống gút."
     },
     {
-      "thuoc": ["Doxorubicin", "Adriamycin", "Epirubicin", "Farmorubicin",, "Daunorubicin", "Cerubidine", "Daunoblastina", "Daunorubicin Ebewe", "Daunoxome", "Daunorubicin Medac", "Daunorubicin Kabi"
+      "thuoc": ["Doxorubicin", "Adriamycin", "Epirubicin", "Farmorubicin", "Daunorubicin", "Cerubidine", "Daunoblastina", "Daunorubicin Ebewe", "Daunoxome", "Daunorubicin Medac", "Daunorubicin Kabi"
 
 
 
@@ -963,7 +963,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Estrogen", "Griseofulvin", "Isoniazid", "Clarithromycin", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Natri Valproat", "Depakine", "Depakine Chrono", "Encorate", "Defish", "Livdextry", "Viraposime", "Soval", "Sodium Valproate Aguettant", "Encorate", "Progabid", "Rifampicin", "Halothan", "Enfluran", "Isofluran"
+        "Carmustin", "BiCNU", "Carmubris", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Estrogen", "Griseofulvin", "Isoniazid", "Clarithromycin", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Natri Valproat", "Depakine", "Depakine Chrono", "Encorate", "Defish", "Livdextry", "Viraposime", "Soval", "Sodium Valproate Aguettant", "Encorate", "Progabid", "Rifampicin", "Halothan", "Enfluran", "Isofluran"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp các thuốc có tiềm năng độc với gan (hiệp đồng các tác dụng không mong muốn).",
@@ -1057,7 +1057,7 @@ window.tuongTacData = [
       "xu_ly": "Phối hợp thuốc này thường áp dụng tại bệnh viện. Mặc dù dùng aminosid một liều duy nhất mỗi ngày sẽ hạn chế độc tính với tai và với thận, song khi cần phối hợp thuốc, phải hiệu chỉnh liều lượng thuốc theo độ thanh lọc creatinin (áp dụng công thức Cockroft và Gault). Cần đặc biệt theo dõi khi dùng thuốc ở người cao tuổi."
     },
     {
-      "thuoc": ["Carmustin", "BiCNU", "Carmubris",, "Foscarnet", "Lincomycin", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen"],
+      "thuoc": ["Carmustin", "BiCNU", "Carmubris", "Foscarnet", "Lincomycin", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen"],
       "muc_do": 3,
       "phan_tich": "Tăng nguy cơ độc với thận do phối hợp hai thuốc có tiềm năng độc với thận. Hiệp đồng tác dụng không mong muốn.",
       "xu_ly": "Phối hợp thuốc này thường thấy, nhất là tại bệnh viện. Khi cần phối hợp thuốc, phải hiệu chỉnh liều lượng thuốc theo độ thanh lọc creatinin. Cần đặc biệt theo dõi sử dụng ở người cao tuổi."
@@ -1806,7 +1806,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Actinomycin D", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
+        "Actinomycin D", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ ức chế tuỷ xương do tác dụng hiệp đồng, có thể dẫn đến mất bạch cầu hạt.",
@@ -4123,10 +4123,10 @@ window.tuongTacData = [
   ]
 },
   {
-  "hoat_chat": "Carmustin", "BiCNU", "Carmubris",,
+  "hoat_chat": "Carmustin", "BiCNU", "Carmubris",
   "mo_ta": "Thuốc kìm tế bào alcoyl hoá",
   "cac_thuoc_trong_nhom": [
-    "Carmustin", "BiCNU", "Carmubris",,
+    "Carmustin", "BiCNU", "Carmubris",
     "Bicnu"
   ],
   "chu_y_khi_chi_dinh": {
@@ -4726,7 +4726,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Dactinomycin", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex"
+        "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris","Cisplatin", "Dactinomycin", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp hai thuốc ức chế miễn dịch, tăng nguy cơ u lympho giả.",
@@ -5332,7 +5332,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính về máu, do ức chế tuỷ xương, do hiệp đồng các tác dụng, có thể dẫn đến mất bạch cầu hạt.",
@@ -5992,7 +5992,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Phenicol", "Thuốc chống ung thư"
+        "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Phenicol", "Thuốc chống ung thư"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính về máu, do ức chế tuỷ xương, do tác dụng hiệp đồng, có thể dẫn đến mất bạch cầu hạt. Với clozapin chỉ dùng đơn độc, cũng có thể mất bạch cầu hạt nghiêm trọng, thậm chí gây tử vong (độc tính miễn dịch).",
@@ -6128,7 +6128,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Asparaginase", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
+        "Asparaginase", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng hàm lượng acid uric. Ngoài ra, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn của các thuốc.",
@@ -6437,7 +6437,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Thuốc chống ung thư các loại", "Vàng", "Vincristin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Thuốc chống ung thư các loại", "Vàng", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính về máu do ức chế tuỷ xương, do tác dụng hiệp đồng, có thể dẫn đến mất bạch cầu hạt.",
@@ -6675,7 +6675,7 @@ window.tuongTacData = [
     {
       "thuoc": [
   "Amineptin",
-  "Carmustin", "BiCNU", "Carmubris",,
+  "Carmustin", "BiCNU", "Carmubris",
   "Dactinomycin",
   "Estradiol",
   "Estriol",
@@ -8009,7 +8009,7 @@ window.tuongTacData = [
 {
   "hoat_chat": [
     "Doxorubicin", "Adriamycin",
-    "Epirubicin", "Farmorubicin",,
+    "Epirubicin", "Farmorubicin",
     "Idarubicin", "Zavedos",
     "Daunorubicin", "Cerubidine", "Daunoblastina", "Daunorubicin Ebewe", "Daunoxome", "Daunorubicin Medac", "Daunorubicin Kabi"
 
@@ -8024,7 +8024,7 @@ window.tuongTacData = [
   "mo_ta": "Kháng sinh kìm tế bào, thuộc nhóm anthracyclin.",
   "cac_thuoc_trong_nhom": [
     "Doxorubicin", "Adriamycin",
-    "Epirubicin", "Farmorubicin",,
+    "Epirubicin", "Farmorubicin",
     "Idarubicin", "Zavedos",
     "Daunorubicin", "Cerubidine", "Daunoblastina", "Daunorubicin Ebewe", "Daunoxome", "Daunorubicin Medac", "Daunorubicin Kabi"
 
@@ -8091,7 +8091,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Lomustin", "CeeNU", "Cisplatin", "Carboplatin", "Oxaliplatin", "Eloxatin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Tiopronin", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Vinblastin", "Velbe", "Vindesin", "Eldesine"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Lomustin", "CeeNU", "Cisplatin", "Carboplatin", "Oxaliplatin", "Eloxatin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Tiopronin", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Vinblastin", "Velbe", "Vindesin", "Eldesine"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính về máu, do ức chế tuỷ xương, do cộng hợp tác dụng có thể dẫn đến mất bạch cầu hạt.",
@@ -8493,7 +8493,7 @@ window.tuongTacData = [
       "xu_ly": "Thường dùng tamoxifen ở cơ sở chuyên khoa; phối hợp này tỏ ra không hợp lý về mặt điều trị."
     },
     {
-      "thuoc": ["Amineptin", "Carmustin", "BiCNU", "Carmubris",, "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Fluvoxamin", "Isoniazid", "Erythromycin", "Clarithromycin", "Azithromycin", "Roxithromycin", "Josamycin", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Valproat natri", "Progabid", "Ketoconazol", "Miconazol", "Clotrimazol", "Itraconazol", "Fluconazol", "Voriconazol"],
+      "thuoc": ["Amineptin", "Carmustin", "BiCNU", "Carmubris", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Fluvoxamin", "Isoniazid", "Erythromycin", "Clarithromycin", "Azithromycin", "Roxithromycin", "Josamycin", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Valproat natri", "Progabid", "Ketoconazol", "Miconazol", "Clotrimazol", "Itraconazol", "Fluconazol", "Voriconazol"],
       "muc_do": 2,
       "phan_tich": "Phối hợp những thuốc có tiềm năng độc với gan (cộng hợp các tác dụng không mong muốn).",
       "xu_ly": "Khi phối hợp hai thuốc độc với gan, theo dõi chặt chẽ chức năng gan (ASAT, ALAT, phosphatase kiềm, bilirubin) hoặc nếu có thể, hoãn một trong hai liệu trình. Xác minh là người bệnh không uống rượu thường xuyên và không có tiền sử viêm gan do virus. Các triệu chứng lâm sàng chính không đặc hiệu: buồn nôn, sốt, vàng da. Nếu có phối hợp ban da, ngứa và hạch to, thì có khả năng do thuốc. Nên phân biệt tuỳ theo kết quả xét nghiệm sinh học, nguy cơ xuất hiện viêm gan tiêu tế bào không hồi phục với viêm gan ứ mật hồi phục được khi ngừng điều trị."
@@ -9439,7 +9439,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Azathioprin", "Imuran", "Azapress",
-        "Carmustin", "BiCNU", "Carmubris",,
+        "Carmustin", "BiCNU", "Carmubris",
         "Cisplatin",
         "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal",
         "Dactinomycin",
@@ -9480,7 +9480,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống gút làm tăng hàm lượng acid uric. Ngoài ra, có sự tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của hai thuốc.",
-      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không, sẽ thấy thất bại điều trị chống gút. Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
+      "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không, sẽ thấy thất bại điều trị chống gút. Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là dùng các thuốc đào thải acid uric, để tránh các bệnh thận."
     },
     {
       "thuoc": [
@@ -9979,7 +9979,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",,
+        "Carmustin", "BiCNU", "Carmubris",
         "Dantrolen", "Dantrium", "Revonto", "Ryanodex",
         "Estrogen",
         "Ethinylestradiol + Levonorgestrel",
@@ -10304,7 +10304,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu sự phối hợp các thuốc hạ kali máu với amiodaron là cần thiết, ngăn ngừa hạ kali máu bằng tăng cường giám sát và theo dõi điện tâm đồ. Trường hợp xuất hiện xoắn đỉnh, không dùng thuốc chống loạn nhịp. Khuyên người bệnh theo dõi kali máu. Cần nhắc nhở bệnh nhân là hạ kali máu được biểu hiện bằng tình trạng mệt nhọc, yếu cơ, thậm chí co cứng cơ. Nếu những triệu chứng này xuất hiện, khuyên người bệnh gặp lại thầy thuốc điều trị."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma"],
+      "thuoc": ["Allopurinol", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma"],
       "muc_do": 2,
       "phan_tich": "Furosemid và các thuốc tương tự làm tăng acid uric máu và giảm tác dụng điều trị gút.",
       "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, nếu không sẽ thấy điều trị gút thất bại."
@@ -10604,7 +10604,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Azathioprin", "Imuran", "Azapress",
-        "Carmustin", "BiCNU", "Carmubris",,
+        "Carmustin", "BiCNU", "Carmubris",
         "Cisplatin",
         "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma",
         "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal",
@@ -11260,7 +11260,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi người bệnh về giảm đáp ứng điều trị với digoxin. Nếu nghi có tương tác, có thể cần thiết phải tăng liều của digoxin hoặc ngừng acarbose."
     },
     {
-      "thuoc": ["Actinomycin", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex"],
+      "thuoc": ["Actinomycin", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluoro-5-uracil", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex"],
       "muc_do": 2,
       "phan_tich": "Phối hợp với thuốc kìm tế bào dẫn đến kém hấp thu các dẫn chất digitalis khoảng 50% do niêm mạc ruột bị tổn thương nhưng có khả năng hồi phục được.",
       "xu_ly": "Theo dõi cẩn thận hàm lượng các dẫn chất digitalis trong huyết thanh trong suốt quá trình điều trị phối hợp."
@@ -11481,7 +11481,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Amineptin",
-        "Carmustin", "BiCNU", "Carmubris",,
+        "Carmustin", "BiCNU", "Carmubris",
         "Dantrolen", "Dantrium", "Revonto", "Ryanodex",
         "Clotrimazol",
         "Ketoconazol",
@@ -12829,7 +12829,7 @@ window.tuongTacData = [
       {
         "thuoc": [
           "Azathioprin", "Imuran", "Azapress", "Imuran",
-          "Carmustin", "BiCNU", "Carmubris",, "BCNU",
+          "Carmustin", "BiCNU", "Carmubris", "BCNU",
           "Cisplatin", "Platinol",
           "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Cytoxan", "Endoxan",
           "Doxorubicin", "Adriamycin", "Adriamycin",
@@ -13034,7 +13034,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "BCNU"
+        "Carmustin", "BiCNU", "Carmubris", "BCNU"
       ],
       "muc_do": 2,
       "phan_tich": "Mục đích chính là điều trị ung thư biểu mô dạng tuyến thận. Interleukin tỏ ra còn độc với gan. Vậy đây là phối hợp hai thuốc có tiềm năng độc với gan, với thận và ức chế tuỷ xương.",
@@ -13203,7 +13203,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Amineptin", "Survector",
-        "Carmustin", "BiCNU", "Carmubris",, "BCNU",
+        "Carmustin", "BiCNU", "Carmubris", "BCNU",
         "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium",
         "Estradiol", "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Estriol", "Estron", "Diane-35", "Marvelon", "Mercilon", "Gynera", "Evra",
         "Fluvoxamin", "Luvox",
@@ -14861,7 +14861,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu cần phối hợp giữa thuốc nhuận tràng làm trơn và thuốc lợi niệu thải kali, phòng ngừa hạ kali máu bằng cách bổ sung kali và nếu cần, tuỳ theo lâm sàng, theo dõi điện tâm đồ."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Probenecid"],
+      "thuoc": ["Allopurinol", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Probenecid"],
       "muc_do": 2,
       "phan_tich": "Thuốc lợi tiểu thải kali làm tăng acid uric máu và làm giảm tác dụng điều trị chống gút.",
       "xu_ly": "Tốt nhất, nên tránh dùng hai thuốc trong cùng thời gian, nếu không sẽ thấy điều trị chống gút thất bại."
@@ -15551,10 +15551,10 @@ window.tuongTacData = [
       "xu_ly": "Khoảng cách giữa lúc dùng hai thứ thuốc từ ba tháng đến một năm, và tùy thuộc vào mức độ ức chế miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma"],
+      "thuoc": ["Allopurinol", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một chất kìm tế bào với một thuốc chống thống phong (gút) sẽ làm tăng nồng độ acid uric. Ngoài ra, còn có nguy cơ giảm bạch cầu, giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể thất bại trong điều trị bệnh thống phong. Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là các chất gây acid uric niệu để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể thất bại trong điều trị bệnh thống phong. Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là các chất gây acid uric niệu để tránh các bệnh về thận."
     },
     {
       "thuoc": ["Amphotericin B"],
@@ -15564,7 +15564,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicillamin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Uracil", "Vincristin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicillamin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Uracil", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu, do ức chế tuỷ xương, do cộng hợp các tác dụng, có thể dẫn tới mất bạch cầu hạt.",
@@ -15651,9 +15651,9 @@ window.tuongTacData = [
       "xu_ly": "Phải bảo đảm khoảng cách giữa lúc dùng hai thuốc này là từ ba tháng đến một năm, và phụ thuộc vào mức độ ức chế miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol"],
+      "thuoc": ["Allopurinol"],
       "muc_do": 2,
-      "phan_tich": "Alopurinol ức chế chuyển hoá oxy hoá azathioprin và mercaptopurin (tác dụng như chất ức chế xanthin oxydase, là enzym xúc tác cho giáng hoá purin thành acid uric), gây nguy cơ tích luỹ các chất chống chuyển hoá gồm các base purin.",
+      "phan_tich": "Allopurinol ức chế chuyển hoá oxy hoá azathioprin và mercaptopurin (tác dụng như chất ức chế xanthin oxydase, là enzym xúc tác cho giáng hoá purin thành acid uric), gây nguy cơ tích luỹ các chất chống chuyển hoá gồm các base purin.",
       "xu_ly": "Nếu cần phối hợp thuốc, phải giảm liều chất chống chuyển hoá từ 25% đến 30%."
     },
     {
@@ -15664,7 +15664,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicillamin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicillamin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu do ức chế tủy xương, do cộng hợp các tác dụng, có thể dẫn tới mất bạch cầu hạt.",
@@ -15686,7 +15686,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào với một thuốc chống bệnh thống phong làm tăng nồng độ acid uric. Ngoài ra còn tăng nguy cơ giảm bạch cầu, giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể điều trị bệnh thống phong sẽ thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric) hơn là dùng các thuốc gây acid uric niệu, để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh dùng hai thuốc này đồng thời, vì có thể điều trị bệnh thống phong sẽ thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric) hơn là dùng các thuốc gây acid uric niệu, để tránh các bệnh về thận."
     },
     {
       "thuoc": ["Dactinomycin", "Pentostatin", "Nipent"],
@@ -16036,7 +16036,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Penicillamin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Penicillamin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu do ức chế tuỷ xương, do cộng hợp các tác dụng, có thể dẫn tới mất bạch cầu hạt.",
@@ -16058,7 +16058,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma"],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống thống phong làm tăng nồng độ acid uric trong máu. Ngoài ra còn có nguy cơ giảm bạch cầu và giảm tiểu cầu do cộng hợp các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric), thay cho việc dùng các thuốc bài acid uric đường niệu để tránh những bệnh về thận."
+      "xu_ly": "Nên tránh dùng hai thuốc này cùng lúc, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric), thay cho việc dùng các thuốc bài acid uric đường niệu để tránh những bệnh về thận."
     },
     {
       "thuoc": ["Dactinomycin"],
@@ -16857,7 +16857,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Amineptin", "Carmustin", "BiCNU", "Carmubris",, "Citalopram", "Dantrolene", "Estradiol", "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Fluoro-5-uracil", "Fluoxetin", "Fluvoxamin", "Griseofulvin", "Isoniazid", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Paroxetin", "Progabid", "Rifampicin", "Ketoconazol", "Clotrimazol", "Itraconazol", "Fluconazol"
+        "Amineptin", "Carmustin", "BiCNU", "Carmubris", "Citalopram", "Dantrolene", "Estradiol", "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Fluoro-5-uracil", "Fluoxetin", "Fluvoxamin", "Griseofulvin", "Isoniazid", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Paroxetin", "Progabid", "Rifampicin", "Ketoconazol", "Clotrimazol", "Itraconazol", "Fluconazol"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp các thuốc có tiềm năng độc với gan (cộng các tác dụng phụ).",
@@ -17272,7 +17272,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris",, "BiCNU", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium", "Doxorubicin", "Adriamycin", "Adriamycin", "Griseofulvin", "Grisovin", "Isoniazid", "Rimifon", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Methotrexat Ebewe", "Methyldopa", "Aldomet", "Progabid", "Sabril", "Rifampicin", "Rifadin", "Ketoconazol", "Nizoral", "Clotrimazol", "Lotrimin", "Itraconazol", "Sporanox", "Fluconazol", "Diflucan", "Vàng", "Gold"
+        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris", "BiCNU", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium", "Doxorubicin", "Adriamycin", "Adriamycin", "Griseofulvin", "Grisovin", "Isoniazid", "Rimifon", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Methotrexat Ebewe", "Methyldopa", "Aldomet", "Progabid", "Sabril", "Rifampicin", "Rifadin", "Ketoconazol", "Nizoral", "Clotrimazol", "Lotrimin", "Itraconazol", "Sporanox", "Fluconazol", "Diflucan", "Vàng", "Gold"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp hai thuốc cùng có độc tính với gan. Cũng có cả độc thần kinh của niridazol. Nguy cơ xuất hiện co giật, rối loạn tâm thần và độc với gan khi phối hợp thuốc.",
@@ -17791,7 +17791,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "BiCNU", "Doxorubicin", "Adriamycin", "Adriamycin", "Isoniazid", "Rimifon", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Methotrexat Ebewe", "Niridazol", "Ambilhar", "Rifampicin", "Rifadin", "Ketoconazol", "Nizoral", "Clotrimazol", "Lotrimin", "Itraconazol", "Sporanox", "Fluconazol", "Diflucan", "Vàng", "Gold"
+        "Carmustin", "BiCNU", "Carmubris", "BiCNU", "Doxorubicin", "Adriamycin", "Adriamycin", "Isoniazid", "Rimifon", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Methotrexat Ebewe", "Niridazol", "Ambilhar", "Rifampicin", "Rifadin", "Ketoconazol", "Nizoral", "Clotrimazol", "Lotrimin", "Itraconazol", "Sporanox", "Fluconazol", "Diflucan", "Vàng", "Gold"
       ],
       "muc_do": 2,
       "phan_tich": "Paracetamol uống dài ngày với liều trên 6g/ngày (theo thể trọng) sẽ gây độc với gan (viêm gan thể tiêu tế bào). Khi phối hợp với một thuốc độc với gan khác, nguy cơ độc với gan tăng hơn.",
@@ -18027,7 +18027,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "BiCNU"
+        "Carmustin", "BiCNU", "Carmubris", "BiCNU"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu, do ức chế tuỷ xương, do các tác dụng cộng hợp, có thể dẫn đến bất sản tuỷ.",
@@ -18266,14 +18266,14 @@ window.tuongTacData = [
       "xu_ly": "Dùng hai thuốc cách nhau từ 3 tháng tới 1 năm và tuỳ theo mức độ suy giảm miễn dịch."
     },
     {
-      "thuoc": ["Alopurinol", "Zyloric", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Probenecid"],
+      "thuoc": ["Allopurinol", "Zyloric", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Probenecid"],
       "muc_do": 2,
       "phan_tich": "Pentostatin có thể làm tăng acid uric máu. Cần phải hiệu chỉnh liều của thuốc chữa thống phong để kiểm soát tăng acid uric máu.",
-      "xu_ly": "Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là các thuốc đào thải acid uric do nguy cơ acid uric có thể gây bệnh thận."
+      "xu_ly": "Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là các thuốc đào thải acid uric do nguy cơ acid uric có thể gây bệnh thận."
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris",, "BiCNU", "Cisplatin", "Platinex", "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril", "Leponex", "Dactinomycin", "Cosmegen", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Interferon alpha tái tổ hợp", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Procarbazin", "Natulan", "Matulane", "Natulan"
+        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris", "BiCNU", "Cisplatin", "Platinex", "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril", "Leponex", "Dactinomycin", "Cosmegen", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Interferon alpha tái tổ hợp", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Procarbazin", "Natulan", "Matulane", "Natulan"
       ],
       "muc_do": 2,
       "phan_tich": "Dùng cùng lúc hai thuốc ức chế tuỷ xương có thể dẫn đến các rối loạn huyết học nặng tuỳ theo thời gian điều trị.",
@@ -18464,7 +18464,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris",, "BiCNU", "Cisplatin", "Platinex", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan", "Dactinomycin", "Cosmegen", "Doxorubicin", "Adriamycin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Ganciclovir", "Cymevene", "Cytovene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Methotrexat Ebewe", "Penicilamin", "Cuprimine", "Depen", "Cuprenil", "Trolovol", "Procarbazin", "Natulan", "Matulane", "Natulan", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris", "BiCNU", "Cisplatin", "Platinex", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan", "Dactinomycin", "Cosmegen", "Doxorubicin", "Adriamycin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Ganciclovir", "Cymevene", "Cytovene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Methotrexat Ebewe", "Penicilamin", "Cuprimine", "Depen", "Cuprenil", "Trolovol", "Procarbazin", "Natulan", "Matulane", "Natulan", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu do ức chế tuỷ xương, do tác dụng cộng hợp, có thể dẫn đến mất bạch cầu hạt. Chỉ dùng đơn độc các thuốc phenicol cũng có thể bị mất bạch cầu hạt nặng, thậm chí tử vong (độc tính miễn dịch).",
@@ -19698,7 +19698,7 @@ window.tuongTacData = [
       "thuoc": ["Asparaginase"],
       "muc_do": 2,
       "phan_tich": "Asparaginase làm tăng acid uric trong máu.",
-      "xu_ly": "Phối hợp phải được quản lý trong cơ sở bệnh viện. Điều chỉnh phương pháp điều trị chống thống phong. Để tránh sỏi urat, nên chọn alopurinol thay cho các thuốc gây acid uric niệu, vì những thuốc này có thể gây các bệnh thận do acid uric."
+      "xu_ly": "Phối hợp phải được quản lý trong cơ sở bệnh viện. Điều chỉnh phương pháp điều trị chống thống phong. Để tránh sỏi urat, nên chọn Allopurinol thay cho các thuốc gây acid uric niệu, vì những thuốc này có thể gây các bệnh thận do acid uric."
     },
     {
       "thuoc": [
@@ -19724,7 +19724,7 @@ window.tuongTacData = [
       "thuoc": ["Pentostatin", "Nipent", "Nipent"],
       "muc_do": 2,
       "phan_tich": "Pentostatin có thể làm tăng nồng độ acid uric trong máu. Điều chỉnh liều dùng thuốc chống thống phong cần thiết để kiểm soát chứng acid uric máu cao.",
-      "xu_ly": "Nên dùng alopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải uric do có thể có nguy cơ gây bệnh thận với acid uric."
+      "xu_ly": "Nên dùng Allopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải uric do có thể có nguy cơ gây bệnh thận với acid uric."
     },
     {
       "thuoc": [
@@ -19906,7 +19906,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris",, "Gliadel", "Cisplatin", "Platinol", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan", "Dactinomycin", "Cosmegen", "Doxorubicin", "Adriamycin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Ganciclovir", "Cymevene", "Cytovene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Decaris", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Trexall", "Thiotepa", "Tepadina", "Thioplex", "Thioplex", "Vincristin", "Oncovin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris", "Gliadel", "Cisplatin", "Platinol", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan", "Dactinomycin", "Cosmegen", "Doxorubicin", "Adriamycin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Ganciclovir", "Cymevene", "Cytovene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Decaris", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Purinethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Trexall", "Thiotepa", "Tepadina", "Thioplex", "Thioplex", "Vincristin", "Oncovin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu, do hiệp đồng tác dụng ức chế tuỷ xương, có thể dẫn đến mất bạch cầu hạt.",
@@ -19972,7 +19972,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một thuốc kìm tế bào và một thuốc chống thống phong làm tăng nồng độ acid uric. Ngoài ra, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu bởi hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh dùng đồng thời hai thuốc, vì nguy cơ điều trị chống thống phong thất bại. Nên dùng alopurinol (ức chế tổng hợp uric) hơn là các thuốc bài acid uric để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh dùng đồng thời hai thuốc, vì nguy cơ điều trị chống thống phong thất bại. Nên dùng Allopurinol (ức chế tổng hợp uric) hơn là các thuốc bài acid uric để tránh các bệnh về thận."
     },
     {
       "thuoc": [
@@ -20098,7 +20098,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Amineptin", "Survector",
-        "Carmustin", "BiCNU", "Carmubris",, "Gliadel",
+        "Carmustin", "BiCNU", "Carmubris", "Gliadel",
         "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium",
         "Estradiol", "Estrofem", "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Microgynon", "Dienogest", "Drospirenon", "Desogestrel", "Cerazette", "Embevin 28", "Defosey", "Herafeme", "Mercifort", "Lovima", "Hana", "Altavera", "Apri", "Azurette", "Bekyree", "Caziant", "Cesia", "Chateal", "Cyclessa", "Cyred", "Cyred EQ", "Desogen", "Emoquette", "Enskyce", "Isibloom", "Juleber", "Kalliga", "Kariva", "Kimidess", "Kurvelo", "Levlen", "Levora", "Marlissa", "Mircette", "Nordette", "Ortho-Cept", "Pimtrea", "Portia", "Reclipsen", "Simliya", "Solia", "Velivet", "Viorele", "Volnea", "Levonorgestrel", "Postinor", "Escapelle", "Mifestad", "Mifepristone-Levonorgestrel", "Tetragynon", "New Choice", "Plan B", "Microlut", "Mirena",
         "Estroprogestogen", "Diane-35", "Climen",
@@ -20558,11 +20558,11 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Alopurinol", "Zyloric"
+          "Allopurinol", "Zyloric"
         ],
         "muc_do": 2,
-        "phan_tich": "Alopurinol có thể không có tác dụng đối với tăng acid uric máu do pyrazinamid, thậm chí làm nặng thêm tình trạng này.",
-        "xu_ly": "Không dùng alopurinol để điều trị tăng acid uric máu do pyrazinamid."
+        "phan_tich": "Allopurinol có thể không có tác dụng đối với tăng acid uric máu do pyrazinamid, thậm chí làm nặng thêm tình trạng này.",
+        "xu_ly": "Không dùng Allopurinol để điều trị tăng acid uric máu do pyrazinamid."
       },
       {
         "thuoc": [
@@ -23803,8 +23803,8 @@ window.tuongTacData = [
     {
       "thuoc": ["Allopurinol", "Zyloric", "Milurit", "Alloril", "Allohexal", "Lopurin", "Zyloric"],
       "muc_do": 2,
-      "phan_tich": "Alopurinol có thể ức chế clopropamid tiết qua ống thận, dẫn tới nguy cơ hạ glucose máu nghiêm trọng do tăng nửa đời của clorpropamid.",
-      "xu_ly": "Đặc biệt cảnh giác khi sử dụng những thuốc này ở người suy thận khi dùng hai thuốc này. Theo dõi chặt chẽ glucose máu lúc bắt đầu, trong khi và sau khi ngừng điều trị alopurinol. Tương tác này mới chỉ được mô tả với clorpropamid và không nói tới các sulfamid chống tiểu đường khác. Như vậy, tốt hơn nên dùng một thuốc chống tiểu đường khác nếu có thể."
+      "phan_tich": "Allopurinol có thể ức chế clopropamid tiết qua ống thận, dẫn tới nguy cơ hạ glucose máu nghiêm trọng do tăng nửa đời của clorpropamid.",
+      "xu_ly": "Đặc biệt cảnh giác khi sử dụng những thuốc này ở người suy thận khi dùng hai thuốc này. Theo dõi chặt chẽ glucose máu lúc bắt đầu, trong khi và sau khi ngừng điều trị Allopurinol. Tương tác này mới chỉ được mô tả với clorpropamid và không nói tới các sulfamid chống tiểu đường khác. Như vậy, tốt hơn nên dùng một thuốc chống tiểu đường khác nếu có thể."
     },
     {
       "thuoc": ["Asparaginase"],
@@ -24257,7 +24257,7 @@ window.tuongTacData = [
     {
       "thuoc": [
         "Azathioprin", "Imuran", "Azapress", "Imuran",
-        "Carmustin", "BiCNU", "Carmubris",, "BCNU",
+        "Carmustin", "BiCNU", "Carmubris", "BCNU",
         "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium",
         "Estradiol", "Estrofem", "Estroprogestogen", "Marvelon", "Microgynon",
         "Furosemid", "Lasix",
@@ -25120,7 +25120,7 @@ window.tuongTacData = [
     {
       "thuoc": ["Allopurinol", "Zyloric", "Milurit", "Alloril", "Allohexal", "Lopurin", "Zyloric", "Allosig"],
       "muc_do": 2,
-      "phan_tich": "Điều trị bằng alopurinol liều cao (ít nhất 600 mg/ ngày) cùng với theophylin gây giảm độ thanh lọc theophylin qua thận, và tăng nồng độ theophylin trong huyết thanh.",
+      "phan_tich": "Điều trị bằng Allopurinol liều cao (ít nhất 600 mg/ ngày) cùng với theophylin gây giảm độ thanh lọc theophylin qua thận, và tăng nồng độ theophylin trong huyết thanh.",
       "xu_ly": "Cần theo dõi chặt nồng độ theophylin trong huyết thanh và dựa vào đó, hiệu chỉnh liều lượng. Các dấu hiệu ngộ độc theophylin trên lâm sàng gồm: buồn nôn, nôn, đau thượng vị; nhức đầu, trường hợp kích thích mất ngủ; nhịp tim nhanh. Co giật thường là dấu hiệu khẳng định ngộ độc thuốc này, nhưng cũng có thể là dấu hiệu đầu tiên (đặc biệt ở trẻ em). Khuyên người bệnh gặp lại bác sĩ khi thấy dấu hiệu ngộ độc. Cần nhớ theophylin là thuốc có phạm vi điều trị hẹp."
     },
     {
@@ -25310,7 +25310,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris",, "BCNU", "Lomustin", "CeeNU", "CCNU", "Cisplatin", "Platinex", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan", "Ifosfamid", "Holoxan", "Ifex", "Holoxan", "Dactinomycin", "Cosmegen", "Doxorubicin", "Adriamycin", "Adriamycin", "Epirubicin", "Farmorubicin",, "Farmorubicin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Ganciclovir", "Cymevene", "Cytovene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Decaris", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Puri-Nethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Trexall", "Pentostatin", "Nipent", "Nipent", "Procarbazin", "Natulan", "Matulane", "Matulane", "Vincristin", "Oncovin", "Oncovin", "Vinblastin", "Velbe", "Velbe", "Vinorelbin", "Navelbine"
+        "Azathioprin", "Imuran", "Azapress", "Imuran", "Carmustin", "BiCNU", "Carmubris", "BCNU", "Lomustin", "CeeNU", "CCNU", "Cisplatin", "Platinex", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan", "Ifosfamid", "Holoxan", "Ifex", "Holoxan", "Dactinomycin", "Cosmegen", "Doxorubicin", "Adriamycin", "Adriamycin", "Epirubicin", "Farmorubicin", "Farmorubicin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "5-FU", "Ganciclovir", "Cymevene", "Cytovene", "Interferon alpha tái tổ hợp", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Decaris", "Melphalan", "Alkeran", "Mercaptopurin", "Puri-Nethol", "6-MP", "Puri-Nethol", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Trexall", "Pentostatin", "Nipent", "Nipent", "Procarbazin", "Natulan", "Matulane", "Matulane", "Vincristin", "Oncovin", "Oncovin", "Vinblastin", "Velbe", "Velbe", "Vinorelbin", "Navelbine"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu vì ức chế tủy xương do tác dụng hiệp động, có thể dẫn tới mất bạch cầu hạt.",
@@ -25338,7 +25338,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Dùng đồng thời một chất kìm tế bào với một thuốc chống bệnh thống phong (gút) làm tăng nồng độ acid uric. Ngoài ra, còn tăng nguy cơ giảm bạch cầu, giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn.",
-      "xu_ly": "Tốt nhất là nên tránh dùng hai thuốc đồng thời, vì có thể liệu pháp chống bệnh thống phong thất bại. Nên dùng alopurinol (chất ức chế tổng hợp acid uric), thay cho các chất gây acid uric niệu để tránh bệnh về thận."
+      "xu_ly": "Tốt nhất là nên tránh dùng hai thuốc đồng thời, vì có thể liệu pháp chống bệnh thống phong thất bại. Nên dùng Allopurinol (chất ức chế tổng hợp acid uric), thay cho các chất gây acid uric niệu để tránh bệnh về thận."
     },
     {
       "thuoc": [
@@ -27336,7 +27336,7 @@ window.tuongTacData = [
       "thuoc": [
         "Actinomycin D", "Dactinomycin",
         "Azathioprin", "Imuran", "Azapress", "Imuran",
-        "Carmustin", "BiCNU", "Carmubris",, "BCNU",
+        "Carmustin", "BiCNU", "Carmubris", "BCNU",
         "Cisplatin", "Platinex",
         "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Endoxan",
         "Doxorubicin", "Adriamycin", "Adriamycin",
@@ -27371,7 +27371,7 @@ window.tuongTacData = [
       "thuoc": ["Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Colchicine"],
       "muc_do": 2,
       "phan_tich": "Làm tăng tỉ lệ acid uric trong máu. Hơn nữa, tăng nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng không mong muốn của các thuốc.",
-      "xu_ly": "Nên tránh phối hợp vì liệu pháp chống bệnh thống phong sẽ thất bại. Nên sử dụng alopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải acid uric niệu để tránh các bệnh về thận."
+      "xu_ly": "Nên tránh phối hợp vì liệu pháp chống bệnh thống phong sẽ thất bại. Nên sử dụng Allopurinol (ức chế tổng hợp acid uric) hơn là các thuốc thải acid uric niệu để tránh các bệnh về thận."
     },
     {
       "thuoc": ["Digoxin", "Lanoxin", "Cardioxin", "Digox", "Lanoxin", "Digitoxin", "Crystodigin", "Digitaline Nativelle"],
@@ -28741,10 +28741,10 @@ window.tuongTacData = [
       "xu_ly": "Tốt hơn, nên tránh phối hợp thuốc này và thay thế thuốc."
     },
     {
-      "thuoc": ["Alopurinol", "Zyloric"],
+      "thuoc": ["Allopurinol", "Zyloric"],
       "muc_do": 2,
-      "phan_tich": "Giảm hấp thu alopurinol theo đường tiêu hoá, do đó giảm tác dụng của thuốc này.",
-      "xu_ly": "Phải uống thuốc cách nhau ít nhất 1 đến 2 giờ. Các thuốc kháng acid thường được dùng sau bữa ăn 1 giờ 30 phút, và ăn là nguyên nhân của tăng tiết dịch ở dạ dày. Tương tác này với alopurinol còn cần khẳng định thêm."
+      "phan_tich": "Giảm hấp thu Allopurinol theo đường tiêu hoá, do đó giảm tác dụng của thuốc này.",
+      "xu_ly": "Phải uống thuốc cách nhau ít nhất 1 đến 2 giờ. Các thuốc kháng acid thường được dùng sau bữa ăn 1 giờ 30 phút, và ăn là nguyên nhân của tăng tiết dịch ở dạ dày. Tương tác này với Allopurinol còn cần khẳng định thêm."
     },
     {
       "thuoc": [
@@ -31036,7 +31036,7 @@ window.tuongTacData = [
   "tuong_tac": [
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Dẫn chất pyrazol", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Thiotepa", "Tepadina", "Thioplex"
+        "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Dẫn chất pyrazol", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Thiotepa", "Tepadina", "Thioplex"
       ],
       "muc_do": 3,
       "phan_tich": "Sử dụng đồng thời với các thuốc giảm miễn dịch làm tăng nguy cơ xuất hiện tiêu cơ vân và suy thận.",
@@ -31855,7 +31855,7 @@ window.tuongTacData = [
   "tuong_tac": [
     {
       "thuoc": [
-        "Dactinomycin", "Asparaginase", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Ciclosporin", "Sandimmun", "Neoral", "Vilosporin", "Voclosporin", "Lupkynis", "Imusporin", "Cicloral", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Globulin miễn dịch kháng lympho bào", "Glucocorticoid", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Tetracosactid", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Tacrolimus"
+        "Dactinomycin", "Asparaginase", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Ciclosporin", "Sandimmun", "Neoral", "Vilosporin", "Voclosporin", "Lupkynis", "Imusporin", "Cicloral", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Globulin miễn dịch kháng lympho bào", "Glucocorticoid", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Tetracosactid", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Tacrolimus"
       ],
       "muc_do": 3,
       "phan_tich": "Nguy cơ phát triển nhiễm khuẩn tương ứng với vaccin do tác dụng ức chế miễn dịch của thuốc phối hợp.",
@@ -31981,7 +31981,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris",, "Doxorubicin", "Adriamycin", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject"
+        "Carmustin", "BiCNU", "Carmubris", "Doxorubicin", "Adriamycin", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp hai thuốc có tiềm năng độc với gan và độc với máu.",
@@ -31989,7 +31989,7 @@ window.tuongTacData = [
     },
     {
      "thuoc": [
-  "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Carmustin", "BiCNU", "Carmubris",, "Doxorubicin", "Adriamycin", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Cisplatin", "Melphalan", "Pentostatin", "Nipent", "Asparaginase", "Azathioprin", "Imuran", "Azapress", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Tacrolimus"
+  "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Carmustin", "BiCNU", "Carmubris", "Doxorubicin", "Adriamycin", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincristin", "Oncovin", "Cisplatin", "Melphalan", "Pentostatin", "Nipent", "Asparaginase", "Azathioprin", "Imuran", "Azapress", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Tacrolimus"
 ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính huyết học do hiệp đồng tác dụng ức chế tủy xương.",
@@ -32708,7 +32708,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính với máu do ức chế tủy xương do hiệp đồng tác dụng, có thể dẫn đến mất bạch cầu hạt.",
@@ -32728,7 +32728,7 @@ window.tuongTacData = [
       ],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời một thuốc kìm tế bào với một thuốc chống bệnh thống phong làm tăng nồng độ acid uric trong máu. Ngoài ra còn có nguy cơ giảm bạch cầu và giảm tiểu cầu do hiệp đồng các tác dụng phụ của hai thuốc.",
-      "xu_ly": "Nên tránh dùng hai thuốc đồng thời với nhau, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng alopurinol (thuốc ức chế tổng hợp acid uric) hơn là dùng các thuốc bài acid uric niệu để tránh các bệnh thận."
+      "xu_ly": "Nên tránh dùng hai thuốc đồng thời với nhau, vì có thể liệu pháp chống bệnh thống phong sẽ thất bại. Nên dùng Allopurinol (thuốc ức chế tổng hợp acid uric) hơn là dùng các thuốc bài acid uric niệu để tránh các bệnh thận."
     },
     {
       "thuoc": [
@@ -33197,7 +33197,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Actinomycin D", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris",, "Cisplatin", "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Chloramphenicol", "Collydium", "Chlorocid", "Ophthacol", "Chlorocid-C", "Chloromycetin", "Opticol", "Thiamphenicol", "Tisot", "Tifomycine", "Tiamed", "Thiampenicol Stella", "Floron", "Thiosin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincamin", "Vincristin", "Oncovin"
+        "Actinomycin D", "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Chloramphenicol", "Collydium", "Chlorocid", "Ophthacol", "Chlorocid-C", "Chloromycetin", "Opticol", "Thiamphenicol", "Tisot", "Tifomycine", "Tiamed", "Thiampenicol Stella", "Floron", "Thiosin", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Vincamin", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp zidovudin với các thuốc độc với tủy xương đòi hỏi phải rất thận trọng. Có nguy cơ thiếu máu và các rối loạn huyết học khác.",
