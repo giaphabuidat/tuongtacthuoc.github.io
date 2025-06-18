@@ -98,7 +98,7 @@ window.tuongTacData = [
   ]
 },
   {
-  "hoat_chat": "Acid ascorbic", "Ascorvit", "Redoxon", "Cevitam", "Acemin", "Celaskon", "Vitamin C", "Asvitol", "V-C500", "Ceelin",
+  "hoat_chat": ["Acid ascorbic", "Ascorvit", "Redoxon", "Cevitam", "Acemin", "Celaskon", "Vitamin C", "Asvitol", "V-C500", "Ceelin"],
   "mo_ta": "Acid ascorbic và natri ascorbat được chỉ định để dự phòng và điều trị thiếu hụt vitamin C. Thiếu hụt này do thiếu dinh dưỡng và có thể gây bệnh scorbut ở giai đoạn cuối. Acid ascorbic tham gia mạnh vào các phản ứng oxy hóa - khử ở tế bào.",
   "cac_thuoc_trong_nhom": [
     "Acid ascorbic", "Ascorvit", "Redoxon", "Cevitam", "Acemin", "Celaskon", "Vitamin C", "Asvitol", "V-C500", "Ceelin",
@@ -1683,7 +1683,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Azathioprin", "Imuran", "Azapress",
+  "hoat_chat": ["Azathioprin", "Imuran", "Azapress"],
   "mo_ta": "Thuốc ức chế miễn dịch, tác động đến chuyển hoá purin. Thuốc phân giải thành 6-mercaptopurin.",
   "cac_thuoc_trong_nhom": [
     "Azathioprin", "Imuran", "Azapress",
@@ -4123,7 +4123,7 @@ window.tuongTacData = [
   ]
 },
   {
-  "hoat_chat": "Carmustin", "BiCNU", "Carmubris",
+  "hoat_chat": ["Carmustin", "BiCNU", "Carmubris"],
   "mo_ta": "Thuốc kìm tế bào alcoyl hoá",
   "cac_thuoc_trong_nhom": [
     "Carmustin", "BiCNU", "Carmubris",
@@ -4423,7 +4423,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Cholestyramin", "Questran", "Prevalite", "LoCholest",
+  "hoat_chat": ["Cholestyramin", "Questran", "Prevalite", "LoCholest"],
   "mo_ta": "Nhựa trao đổi ion, hạ cholesterol máu. Do nguy cơ hấp thu mọi thuốc, cần thận trọng khi ngừng điều trị.",
   "cac_thuoc_trong_nhom": [
     "Cholestyramin", "Questran", "Prevalite", "LoCholest",
@@ -4677,7 +4677,7 @@ window.tuongTacData = [
   ]
 },
   {
-  "hoat_chat": "Ciclosporin", "Sandimmun", "Neoral", "Vilosporin", "Voclosporin", "Lupkynis", "Imusporin", "Cicloral",
+  "hoat_chat": ["Ciclosporin", "Sandimmun", "Neoral", "Vilosporin", "Voclosporin", "Lupkynis", "Imusporin", "Cicloral"],
   "mo_ta": "Thuốc ức chế miễn dịch, dùng trong ghép thận hoặc một số chỉ định như bệnh vẩy nến.",
   "cac_thuoc_trong_nhom": [
     "Ciclosporin", "Sandimmun", "Neoral", "Vilosporin", "Voclosporin", "Lupkynis", "Imusporin", "Cicloral",
@@ -5923,7 +5923,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril",
+  "hoat_chat": ["Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril"],
   "mo_ta": "Thuốc an thần kinh, dẫn chất của dibenzodiazepin, dùng trong điều trị tâm thần phân liệt mạn tính nặng, kháng với các thuốc an thần kinh khác. Có thể gây mất bạch cầu hạt gây tử vong trong 1-2% trường hợp, cần theo dõi đặc biệt.",
   "cac_thuoc_trong_nhom": [
     "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril",
@@ -6608,7 +6608,7 @@ window.tuongTacData = [
   ]
 },
   {
-  "hoat_chat": "Dantrolen", "Dantrium", "Revonto", "Ryanodex",
+  "hoat_chat": ["Dantrolen", "Dantrium", "Revonto", "Ryanodex"],
   "mo_ta": "Thuốc thư giãn cơ không có tác dụng cura.",
   "cac_thuoc_trong_nhom": [
     "Dantrolen", "Dantrium", "Revonto", "Ryanodex",
@@ -10549,7 +10549,7 @@ window.tuongTacData = [
   "tuong_tac": []
 },
 {
-  "hoat_chat": "Ganciclovir", "Cymevene",
+  "hoat_chat": ["Ganciclovir", "Cymevene"],
   "mo_ta": "Thuốc kìm virus, tác dụng trên Cytomegalovirus. Dành cho nhiễm virus nặng ảnh hưởng đến sự sống hoặc thị giác của người bệnh suy giảm miễn dịch",
   "cac_thuoc_trong_nhom": [
     "Ganciclovir", "Cymevene",
@@ -12962,7 +12962,7 @@ window.tuongTacData = [
     ]
   },
  {
-  "hoat_chat": "Interleukin 2 tái tổ hợp", "Proleukin", "Aldesleukin",
+  "hoat_chat": ["Interleukin 2 tái tổ hợp", "Proleukin", "Aldesleukin"],
   "mo_ta": "Interleukin 2 tái tổ hợp, còn có tên là aldesleukin, có cấu trúc gần với cấu trúc của interleukin 2 người, có tính chất điều hòa miễn dịch và hiện nay được dùng chủ yếu trong điều trị ung thư biểu mô dạng tuyến thận di căn.",
   "cac_thuoc_trong_nhom": [
     "Interleukin 2 tái tổ hợp", "Proleukin", "Aldesleukin",
@@ -15604,7 +15604,7 @@ window.tuongTacData = [
 }
 ,
 {
-  "hoat_chat": "Mercaptopurin", "Puri-Nethol", "6-MP",
+  "hoat_chat": ["Mercaptopurin", "Puri-Nethol", "6-MP"],
   "mo_ta": "Chất kìm tế bào, chống chuyển hoá, tác dụng ở khâu chuyển hoá các purin.",
   "cac_thuoc_trong_nhom": [
     "Mercaptopurin", "Puri-Nethol", "6-MP",
@@ -15915,7 +15915,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject",
+  "hoat_chat": ["Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject"],
   "mo_ta": "Thuốc chống ung thư, ức chế miễn dịch, đối kháng acid folic, dùng trong điều trị ung thư, viêm khớp dạng thấp, vảy nến và các bệnh tự miễn.",
   "cac_thuoc_trong_nhom": [
     "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject",
@@ -16424,7 +16424,7 @@ window.tuongTacData = [
 }
 ,
 {
-  "hoat_chat": "Mexiletin","Mexitil","NaMuscla","Litimex",
+  "hoat_chat": ["Mexiletin","Mexitil","NaMuscla","Litimex"],
   "mo_ta": "Thuốc chống loạn nhịp thuộc nhóm Ib của Vaughan - Williams, có tác dụng ổn định màng và tác dụng gây tê.",
   "cac_thuoc_trong_nhom": [
     "Mexiletin","Mexitil","NaMuscla","Litimex",
@@ -18239,7 +18239,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Pentostatin", "Nipent",
+  "hoat_chat": ["Pentostatin", "Nipent"],
   "mo_ta": "Chất ức chế adenosin desaminase (ADA), enzym chuyển hoá các purin. Được dùng trong bệnh bạch cầu tế bào tóc ở người lớn.",
   "cac_thuoc_trong_nhom": [
     "Pentostatin", "Nipent", "Nipent"
@@ -19224,7 +19224,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon",
+  "hoat_chat": ["Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon"],
   "mo_ta": "Thuốc chống động kinh, tự chuyển hoá in vivo thành phenobarbital.",
   "cac_thuoc_trong_nhom": [
     "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon",
@@ -24071,7 +24071,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Sulfasalazin", "Azulfidine", "Sulfazine", "Salazopyrin", "Colo‑Pleon", "Salazopyrin EN",
+  "hoat_chat": ["Sulfasalazin", "Azulfidine", "Sulfazine", "Salazopyrin", "Colo‑Pleon", "Salazopyrin EN"],
   "cac_thuoc_trong_nhom": [
     "Sulfasalazin", "Azulfidine", "Sulfazine", "Salazopyrin", "Colo‑Pleon", "Salazopyrin EN",
     "Salazopyrine"
@@ -25258,7 +25258,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thiotepa", "Tepadina", "Thioplex",
+  "hoat_chat": ["Thiotepa", "Tepadina", "Thioplex"],
   "cac_thuoc_trong_nhom": [
     "Thiotepa", "Tepadina", "Thioplex",
     "Thioplex",
@@ -31732,7 +31732,7 @@ window.tuongTacData = [
   "tuong_tac": []
 },
 {
-  "hoat_chat": "Trimethoprim", "Trimpex", "Proloprim", "Primsol", "Polytrim", "Bactrim", "Septra", "Co‑trimoxazole",
+  "hoat_chat": ["Trimethoprim", "Trimpex", "Proloprim", "Primsol", "Polytrim", "Bactrim", "Septra", "Co‑trimoxazole"],
   "cac_thuoc_trong_nhom": [
     "Trimethoprim", "Trimpex", "Proloprim", "Primsol", "Polytrim", "Bactrim", "Septra", "Co‑trimoxazole", "Wellcoprim",
     "Sulfamethoxazol + Trimethoprim", "Bactrim", "Septrin", "Co-trimoxazol",
