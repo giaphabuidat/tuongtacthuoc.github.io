@@ -790,7 +790,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu cần phối hợp, phải theo dõi đều đặn thời gian Quick và INR."
     },
     {
-      "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
+      "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
       "muc_do": 2,
       "phan_tich": "Làm giảm hấp thu allopurinol theo đường tiêu hoá.",
       "xu_ly": "Cần để một khoảng thời gian 1-2 giờ giữa lúc uống thuốc kháng acid và allopurinol."
@@ -2144,7 +2144,7 @@ window.tuongTacData = [
       "xu_ly": "Điều chỉnh liều lượng và theo dõi sinh học (INR, prothrombin) thường xuyên hơn, lúc bắt đầu điều trị bằng thuốc chống đông, trong và khi ngừng barbituric."
     },
     {
-      "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"],
+      "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu barbituric qua đường tiêu hoá, làm giảm tác dụng của thuốc phối hợp.",
       "xu_ly": "Dùng hai loại thuốc cách nhau ít nhất 1 - 2 giờ."
@@ -2434,7 +2434,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Vì thuốc kháng acid làm giảm hấp thụ qua đường tiêu hoá, nên tác dụng của thuốc phối hợp bị giảm.",
@@ -3103,7 +3103,7 @@ window.tuongTacData = [
       "xu_ly": "Phải thận trọng khi dùng những thuốc này cùng với nhau. Theo dõi cẩn thận bệnh nhân về tác dụng không mong muốn đường tiêu hoá có thể gặp, đặc biệt là loét dạ dày."
     },
     {
-      "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"],
+      "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu qua đường tiêu hoá, làm giảm tác dụng của biphosphonat.",
       "xu_ly": "Cần uống hai thuốc cách nhau ít nhất 1 đến 2 giờ. Nên nhớ rằng các kháng acid thường được uống 1giờ 30 phút sau bữa ăn, vì thức ăn làm tăng tiết dịch dạ dày."
@@ -3455,7 +3455,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi đáp ứng lâm sàng của người bệnh với haloperidol khi bắt đầu, khi ngừng hoặc thay đổi liều của một số phenothiazin."
     },
     {
-      "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"],
+      "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid gây giảm hấp thu ở đường tiêu hoá và làm giảm tác dụng của thuốc được phối hợp.",
       "xu_ly": "Cần để một khoảng cách ít nhất từ 1 đến 2 giờ giữa lúc uống thuốc kháng acid và thuốc. Cần nhớ rằng các thuốc kháng acid thường được uống 1 giờ 30 phút sau bữa ăn, vì ăn uống gây tăng tiết dịch dạ dày."
@@ -5115,7 +5115,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu cimetidin qua đường tiêu hoá.",
@@ -5245,7 +5245,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu ở đường tiêu hoá, giảm tác dụng của cisaprid.",
@@ -5818,8 +5818,7 @@ window.tuongTacData = [
         "xu_ly": "Theo dõi đáp ứng lâm sàng của người bệnh với haloperidol khi bắt đầu, khi ngừng hoặc thay đổi liều của một số phenothiazin."
       },
       {
-        "thuoc": [
-          "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort",
+        "thuoc": ["Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort",
           "Magnesi hydroxyd",
           "Than hoạt"
         ],
@@ -7219,7 +7218,7 @@ window.tuongTacData = [
   "tuong_tac": [
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Natri bicarbonat", "Sodibic", "Bicarbonat Natri TW3", "Nabica", "Bicacil", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Natri bicarbonat", "Sodibic", "Bicarbonat Natri TW3", "Nabica", "Bicacil", "Than hoạt"
       ],
       "muc_do": 1,
       "phan_tich": "Giảm hấp thu diacerhein, có thể dẫn đến giảm tác dụng điều trị.",
@@ -21282,7 +21281,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids"
       ],
       "muc_do": 2,
       "phan_tich": "Các thuốc kháng acid chứa nhôm có thể làm chậm hấp thu quinin qua đường tiêu hóa.",
@@ -21384,7 +21383,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Thuốc uống kháng acid", "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids", "Than hoạt"
+        "Thuốc uống kháng acid", "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Các quinolon nói chung và fluoroquinolon nói riêng, sử dụng bằng đường uống, tạo phức với các cation hóa trị 2 và 3 như nhôm, magnesi, calci, sắt, kẽm, dẫn đến giảm hấp thu.",
@@ -21445,7 +21444,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu ở đường tiêu hoá, nên giảm tác dụng của thuốc được phối hợp.",
@@ -23556,8 +23555,7 @@ window.tuongTacData = [
     "xu_ly": "Theo dõi lâm sàng, và nếu cần, hiệu chỉnh liều lượng theo nồng độ theophylin trong huyết thanh trong khi dùng và khi ngừng dùng các quinolon nói trên. Cũng có thể thay đổi chiến lược điều trị với kháng sinh theo nguy cơ quá liều theophylin."
   },
   {
-    "thuoc": [
-      "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
+    "thuoc": ["Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
     ],
     "muc_do": 2,
     "phan_tich": "Các quinolon nói chung và các fluoroquinolon nói riêng khi uống sẽ tạo phức với các cation hoá trị 2 hay 3, như nhôm, magnesi, calci, sắt và kẽm v.v... làm giảm hấp thu thuốc.",
@@ -23664,7 +23662,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp thuốc này có thể có lợi, tuy nhiên việc dùng đồng thời hai thuốc sẽ làm giảm liên kết giữa sucralfat với niêm mạc.",
@@ -24381,7 +24379,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
       ],
       "muc_do": 3,
       "phan_tich": "Có thể làm giảm nồng độ tacrolimus, do tính không bền vững của tacrolimus trong môi trường kiềm hoặc do hiện tượng hấp phụ, và điều này xảy ra trong vòng hai giờ. Tương tác dược động học về hấp thu thuốc, được mô tả với thuốc có muối nhôm (hydroxyd hay oxyd). Sự kiềm hoá cũng xảy ra khi dùng thuốc có muối calci và magnesi.",
@@ -24855,7 +24853,7 @@ window.tuongTacData = [
       "xu_ly": "Cân nhắc xem có cần phải kê đơn hai thuốc không, và nếu cần, hiệu chỉnh liều lượng và theo dõi ion đồ. Cần phải chú ý đến việc sử dụng dấu diếm các thuốc đồng hoá steroid (vận động viên thể thao) và cho người bệnh biết nguy cơ xảy ra nếu dùng hai thuốc đồng thời."
     },
     {
-      "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Phosgel", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
+      "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Phosgel", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu ở đường tiêu hoá, nên làm giảm tác dụng của thuốc phối hợp.",
       "xu_ly": "Phải uống hai thuốc cách nhau 1 đến 2 giờ. Nhớ là các thuốc kháng acid thường được dùng sau bữa ăn 1 giờ 30 phút, và ăn là nguyên nhân tăng tiết dịch vị."
@@ -25005,7 +25003,7 @@ window.tuongTacData = [
       "xu_ly": "Tăng ure có thể do một thuốc, hoặc cả hai thuốc."
     },
     {
-      "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Phosgel", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
+      "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Phosgel", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"],
       "muc_do": 2,
       "phan_tich": "Thuốc kháng acid làm giảm hấp thu ở đường tiêu hoá nên làm giảm tác dụng của thuốc phối hợp.",
       "xu_ly": "Thuốc kháng acid và thuốc phối hợp phải uống cách nhau ít nhất 1 đến 2 giờ. Nhớ rằng các thuốc kháng acid thường được uống sau bữa ăn 1 giờ 30 phút, và ăn là nguyên nhân tăng tiết dịch vị."
@@ -26833,7 +26831,7 @@ window.tuongTacData = [
     "xu_ly": "Giảm liều celecoxib một nửa, giảm liều parecoxib."
   },
   {
-    "thuoc": ["Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Phosgel", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt", "Carbomix"],
+    "thuoc": ["Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Phosgel", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt", "Carbomix"],
     "muc_do": 2,
     "phan_tich": "Vì thuốc kháng acid gây giảm hấp thu qua đường tiêu hoá nên tác dụng của thuốc phối hợp cũng bị giảm.",
     "xu_ly": "Nhất thiết phải uống thuốc kháng acid và thuốc chống nấm cách nhau ít nhất 1 đến 2 giờ. Cần nhớ là thường uống thuốc kháng acid 1 giờ 30 phút sau bữa ăn, khi thức ăn là nguồn gốc tăng bài tiết dịch vị."
@@ -28698,7 +28696,7 @@ window.tuongTacData = [
     "Hydrotalcid", "Talcid",
     "Magnesi trisilicat",
     "Diosmectid", "Smecta",
-    "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Antacil", "Gamaxcin", "Maalox",
+    "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Antacil", "Gamaxcin", "Maalox",
     "Natri bicarbonat", "Sodibic", "Bicarbonat Natri TW3", "Nabica", "Bicacil", "Nabica", "Natri hydrocarbonat",
     "Than hoạt", "Carbophos"
   ],
@@ -30559,7 +30557,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Nhôm hydroxyd", Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
+        "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Magnesi hydroxyd", "Calci carbonat", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Sự giảm hấp thu qua đường tiêu hóa bởi chất kháng acid sẽ làm giảm tác dụng của thuốc phối hợp. Tương tác này đặc biệt có ý nghĩa với các kháng acid có muối oxyd và hydroxyd magnesi, nhôm và calci.",
