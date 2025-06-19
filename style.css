@@ -259,7 +259,7 @@ h1 {
 .main-menu {
     background: #1976d2;
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    position: right;
+    position: relative;
     margin-bottom: 24px;
 }
 .main-menu ul {
@@ -267,6 +267,7 @@ h1 {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row-reverse; /* Đảo hướng từ phải qua trái */
 }
 .main-menu li {
     margin: 0;
