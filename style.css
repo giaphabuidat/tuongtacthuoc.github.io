@@ -267,7 +267,7 @@ h1 {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row-reverse; /* Đảo hướng từ phải qua trái */
+    justify-content: flex-end; /* Đẩy các mục sang phải */
 }
 .main-menu li {
     margin: 0;
