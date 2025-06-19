@@ -91,6 +91,20 @@
 </head>
 
 <body>
+    <!-- Menu Hamburger -->
+    <nav class="main-menu">
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="menu-list">
+            <li><a href="/">Trang chủ</a></li>
+            <li><a href="#search">Tra cứu</a></li>
+            <li><a href="#huongdan">Hướng dẫn</a></li>
+            <li><a href="#lienhe">Liên hệ</a></li>
+        </ul>
+    </nav>
     <h1>Tra cứu tương tác thuốc</h1>
     <div class="search-container">
         <input type="text" id="search-input" placeholder="Nhập tên hoạt chất hoặc thuốc...">
@@ -171,5 +185,11 @@
         });
       });
     </script>
+    <script>
+document.getElementById('menu-toggle').onclick = function() {
+    document.getElementById('menu-list').classList.toggle('active');
+};
+</script>
+
 </body>
 </html>
