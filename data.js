@@ -521,7 +521,7 @@ window.tuongTacData = [
   {
   "hoat_chat": "Actinomycin D",
   "mo_ta": "Kháng sinh kìm tế bào, chống ung thư, ức chế tổng hợp RNA/DNA, dùng điều trị nhiều loại ung thư (u Wilms, sarcoma Ewing, u cơ vân, ung thư tinh hoàn...).",
-  "cac_thuoc_trong_nhom": [
+  "cac_thuoc_trong_nhom": ["Actinomycin D",
     "Dactinomycin",
     "Cosmegen"
   ],
@@ -1451,7 +1451,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Amineptin", "Phenobarbital","Luminal","Solfoton","Sezaby", "Thiopental", "Pentothal", "Trapanal", "Pentobarbital","Nembutal", "Secobarbital", "Seconal", "Tuinal", "Vesparax", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Sulpirid", "Amisulprid", "Levosulpirid", "Metoclopramid", "Bromopride", "Diazepam", "Alprazolam", "Clonazepam", "Bromazepam", "Midazolam", "Triazolam", "Nitrazepam", "Clordiazepoxyd", "Buspiron", "Haloperidol", "Droperidol", "Fluphenazin", "Prolixin", "Modecate", "Chlorpromazin", "Levomepromazin", "Thioridazin", "Fluphenazin", "Prolixin", "Modecate", "Perphenazin", "Trifluoperazin", "Promethazin", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Clomipramin", "Anafranil", "Clopram", "Hydiphen", "Clomicalm", "Nortriptylin","Aventyl","Pamelor","Norpress","Nortrilen","Norval", "Doxepin","Silenor","Sinequan","Aponal","Quitaxon","Adapine", "Mianserin", "Maprotilin", "Trazodon", "Viloxazin", "Procarbazin", "Natulan", "Matulane", "Carbamazepin", "Valproat", "Lamotrigin", "Topiramat", "Gabapentin", "Pregabalin", "Clonidin", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dextropropoxyphen", "Fluoxetin", "Fluvoxamin", "Gluthetimid", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Medifoxamin", "Oxaflozan", "Phenothiazin", "Thuốc an thần kinh", "Thuốc chống động kinh không barbituric", "Thuốc chống trầm cảm ba vòng", "Thuốc ức chế MAO không chọn lọc"
+        "Amineptin", "Phenobarbital","Luminal","Solfoton","Sezaby", "Thiopental", "Pentothal", "Trapanal", "Pentobarbital","Nembutal", "Secobarbital", "Seconal", "Tuinal", "Vesparax", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Sulpirid", "Amisulprid", "Levosulpirid", "Metoclopramid", "Bromopride", "Diazepam", "Alprazolam", "Clonazepam", "Bromazepam", "Midazolam", "Triazolam", "Nitrazepam", "Clordiazepoxyd", "Buspiron", "Haloperidol", "Droperidol", "Fluphenazin", "Prolixin", "Modecate", "Chlorpromazin", "Levomepromazin", "Thioridazin", "Fluphenazin", "Prolixin", "Modecate", "Perphenazin", "Trifluoperazin", "Promethazin", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Clomipramin", "Anafranil", "Clopram", "Hydiphen", "Clomicalm", "Nortriptylin","Aventyl","Pamelor","Norpress","Nortrilen","Norval", "Doxepin","Silenor","Sinequan","Aponal","Quitaxon","Adapine", "Mianserin", "Maprotilin", "Trazodon", "Viloxazin", "Procarbazin", "Natulan", "Matulane", "Carbamazepin", "Valproat", "Lamotrigin", "Topiramat", "Gabapentin", "Pregabalin", "Clonidin", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dextropropoxyphen", "Fluoxetin", "Fluvoxamin", "Gluthetimid", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Medifoxamin", "Oxaflozan", "Phenothiazin", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Phenytoin", "Dilantin", "Epanutin", "Carbamazepine", "Tegretol", "Finlepsin", "Stazepine", "Oxcarbazepine", "Trileptal", "Valproic acid", "Depakene", "Sodium valproate", "Depakine", "Convulex", "Epilim", "Divalproex sodium", "Depakote", "Lamotrigine", "Lamictal", "Levetiracetam", "Keppra", "Epitam", "Topiramate", "Topamax", "Gabapentin", "Neurontin", "Gabatop", "Pregabalin", "Lyrica", "Ethosuximide", "Zarontin", "Tiagabine", "Gabitril", "Vigabatrin", "Sabril", "Lacosamide", "Vimpat", "Zonisamide", "Zonegran", "Clobazam", "Frisium", "Rufinamide", "Banzel", "Perampanel", "Fycompa", "Amitriptyline", "Laroxyl", "Elavil", "Endep", "Tryptanol", "Nortriptyline", "Pamelor", "Sensoval", "Norpress", "Imipramine", "Tofranil", "Deprimin", "Desipramine", "Norpramin", "Pertofran", "Clomipramine", "Anafranil", "Doxepin", "Sinequan", "Adapin", "Quitaxon", "Trimipramine", "Surmontil", "Protriptyline", "Vivactil", "Maprotiline", "Ludiomil", "Phenelzine", "Nardil", "Isocarboxazid", "Marplan", "Tranylcypromine", "Parnate", "Hydracarbazine", "Benmoxin", "Nerusil", "Neuralex", "Iproclozide", "Sursum", "Iproniazid", "Marsilid", "Iprozid", "Ipronid", "Rivivol", "Mebanazine", "Actomol", "Nialamide", "Niamid", "Octamoxin", "Ximaol", "Nimaol", "Pheniprazine", "Catron", "Phenoxypropazine", "Drazine", "Pivalylbenzhydrazine", "Tersavid", "Safrazine", "Safra", "Caroxazone", "Surodil", "Timostenil"
       ],
       "muc_do": 1,
       "phan_tich": "Tác dụng đối kháng. Có khả năng làm tăng tính hung hãn ở người nghiện amphetamin.",
@@ -1886,7 +1886,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Clonidin", "Guanethidin", "Methyldopa", "Sotalol", "Hydralazin", "Minoxidil", "Nitroprussid", "Nicardipin", "Triamterene","Dyrenium","Dyazide","Maxzide", "Eplerenon", "Amiloride", "Spironolacton", "Thuốc giãn mạch chống tăng huyết áp", "Reserpin"
+        "Clonidin", "Guanethidin", "Methyldopa", "Sotalol", "Hydralazin", "Minoxidil", "Nitroprussid", "Nicardipin", "Triamterene","Dyrenium","Dyazide","Maxzide", "Eplerenon", "Amiloride", "Spironolacton", "Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart", "Reserpin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng tác dụng làm hạ huyết áp.",
@@ -4391,7 +4391,12 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi chặt chẽ hàm lượng aminoglycosid và chức năng thận. Nếu xuất hiện rối loạn chức năng thận, nên giảm liều hoặc ngừng một hoặc cả hai thuốc và dùng thuốc thay thế."
     },
     {
-     "thuoc": ["Heparin, Indometacin, Aspirin, Diclofenac, Ibuprofen, Naproxen, Piroxicam, Meloxicam, Ketoprofen, Lornoxicam, Tenoxicam, Sulindac, Etodolac, Celecoxib, Etoricoxib, Phenylbutazon, Dipyrone, Metamizol, Acid acetylsalicylic, Sodium salicylate, Methyl salicylate, Ticlopidin, Alteplase, Reteplase, Streptokinase, Urokinase, Warfarin, Acenocoumarol, Phenindion"],
+     "thuoc": [
+  "Heparin", "Indometacin", "Aspirin", "Diclofenac", "Ibuprofen", "Naproxen", "Piroxicam", "Meloxicam",
+  "Ketoprofen", "Lornoxicam", "Tenoxicam", "Sulindac", "Etodolac", "Celecoxib", "Etoricoxib", "Phenylbutazon",
+  "Dipyrone", "Metamizol", "Acid acetylsalicylic", "Sodium salicylate", "Methyl salicylate", "Ticlopidin",
+  "Alteplase", "Reteplase", "Streptokinase", "Urokinase", "Warfarin", "Acenocoumarol", "Phenindion"
+],
       "muc_do": 3,
       "phan_tich": "Tăng nguy cơ chảy máu, chủ yếu với các cephalosporin có nhân thiomethyltetrazol (latamoxef, cefoperazon, cefamandol, cefmenoxim, cefotetan). Nhân này có tác dụng như một dẫn chất coumarin, có tác dụng chống đông (kháng vitamin K), do đó cộng thêm các tính chất chống đông của nó vào những tính chất kháng vitamin K, hoặc chống kết tập tiểu cầu của các hợp chất khác nhau đã khảo sát.",
       "xu_ly": "Phối hợp này, chủ yếu được mô tả với latamoxef, không nên dùng, vì lý do làm tăng nguy cơ chảy máu. Đặc biệt, đề phòng khi dùng các liều cao của những kháng sinh này."
@@ -5977,7 +5982,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Benzamid", "Bepridil", "Bretylium", "Angiotensin", "Clonidin", "Diazoxyd", "Dihydropyridin", "Diltiazem", "Furosemid", "Guanethidin", "Methyldopa", "Nitrat chống đau thắt ngực", "Reserpin", "Sotalol", "Thuốc an thần kinh", "Thuốc chẹn beta", "Thuốc lợi tiểu giữ kali", "Thuốc lợi tiểu thải kali", "Verapamil", "Thuốc ức chế enzym chuyển dạng"
+        "Benzamid", "Bepridil", "Bretylium", "Angiotensin", "Clonidin", "Diazoxyd", "Dihydropyridin", "Diltiazem", "Furosemid", "Guanethidin", "Methyldopa", "Nitrat chống đau thắt ngực", "Reserpin", "Sotalol", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Spironolactone", "Aldactone", "Amiloride", "Modamide", "Triamterene", "Dyrenium", "Eplerenone", "Inspra", "Hydrochlorothiazide", "Esidrix", "Chlorothiazide", "Chlorthalidone", "Indapamide", "Natrilix", "Metolazone", "Furosemide", "Lasix", "Torsemide", "Bumetanide", "Acid ethacrynic", "Acetazolamide", "Diamox", "Verapamil", "Thuốc ức chế enzym chuyển dạng"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ làm tăng tác dụng giảm huyết áp.",
@@ -15297,7 +15302,7 @@ window.tuongTacData = [
       "xu_ly": "Hiệu chỉnh lại liều lượng theo kết quả định lượng theophylin. Nếu không, thay thế bằng kháng sinh khác."
     },
     {
-      "thuoc": ["Thuốc lợi tiểu thải kali"],
+      "thuoc": ["Hydrochlorothiazide", "Esidrix", "Chlorothiazide", "Chlorthalidone", "Indapamide", "Natrilix", "Metolazone", "Furosemide", "Lasix", "Torsemide", "Bumetanide", "Acid ethacrynic", "Acetazolamide", "Diamox"],
       "muc_do": 3,
       "phan_tich": "Nguy cơ xuất hiện xoắn đỉnh khi phối hợp chỉ được mô tả với erythromycin tiêm tĩnh mạch. Hạ kali máu, nhịp tim chậm và khoảng QT dài từ trước (chỉ biết được trên điện tâm đồ) là những yếu tố tạo điều kiện xuất hiện xoắn đỉnh. Những thuốc gây hạ kali máu tạo điều kiện xuất hiện xoắn đỉnh khi phối hợp với các thuốc không chống loạn nhịp. Tương tác chỉ mới được ghi nhận với sultoprid trong nhóm benzamid và erythromycin tiêm tĩnh mạch trong nhóm macrolid.",
       "xu_ly": "Nên tránh phối hợp thuốc này. Dùng các thuốc không gây xoắn đỉnh. Nếu cần phối hợp thuốc, cần phải theo dõi liên tục khoảng QT và kiểm tra đều đặn kali máu. Cần chú ý những dấu hiệu lâm sàng báo hiệu hạ kali máu như mệt mỏi, yếu cơ, chuột rút."
@@ -15860,7 +15865,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Amineptin", "Baclofen", "Phenobarbital","Luminal","Solfoton","Sezaby", "Clonazepam", "Diazepam", "Nitrazepam", "Chlordiazepoxide", "Butyrophenon", "Carbamat", "Carbamazepin", "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril", "Dextropropoxyphen", "Fluoxetin", "Fluvoxamin", "Gluthetimid", "Interferon alpha tái tổ hợp", "Medifoxamin", "Oxaflozan", "Paroxetin", "Procarbazin", "Natulan", "Matulane", "Reserpin", "Phenytoin", "Thuốc chống động kinh không barbituric", "Thuốc chống trầm cảm ba vòng", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Clomipramin", "Anafranil", "Clopram", "Hydiphen", "Clomicalm"
+        "Amineptin", "Baclofen", "Phenobarbital","Luminal","Solfoton","Sezaby", "Clonazepam", "Diazepam", "Nitrazepam", "Chlordiazepoxide", "Butyrophenon", "Carbamat", "Carbamazepin", "Clozapin", "Leponex", "Clozapine Teva", "Clozapine Sandoz", "Clopine", "Zapinyl", "Clozaril", "Dextropropoxyphen", "Fluoxetin", "Fluvoxamin", "Gluthetimid", "Interferon alpha tái tổ hợp", "Medifoxamin", "Oxaflozan", "Paroxetin", "Procarbazin", "Natulan", "Matulane", "Reserpin", "Phenytoin", "Phenytoin", "Dilantin", "Epanutin", "Carbamazepine", "Tegretol", "Finlepsin", "Stazepine", "Oxcarbazepine", "Trileptal", "Valproic acid", "Depakene", "Sodium valproate", "Depakine", "Convulex", "Epilim", "Divalproex sodium", "Depakote", "Lamotrigine", "Lamictal", "Levetiracetam", "Keppra", "Epitam", "Topiramate", "Topamax", "Gabapentin", "Neurontin", "Gabatop", "Pregabalin", "Lyrica", "Ethosuximide", "Zarontin", "Tiagabine", "Gabitril", "Vigabatrin", "Sabril", "Lacosamide", "Vimpat", "Zonisamide", "Zonegran", "Clobazam", "Frisium", "Rufinamide", "Banzel", "Perampanel", "Fycompa", "Amitriptyline", "Laroxyl", "Elavil", "Endep", "Tryptanol", "Nortriptyline", "Pamelor", "Sensoval", "Norpress", "Imipramine", "Tofranil", "Deprimin", "Desipramine", "Norpramin", "Pertofran", "Clomipramine", "Anafranil", "Doxepin", "Sinequan", "Adapin", "Quitaxon", "Trimipramine", "Surmontil", "Protriptyline", "Vivactil", "Maprotiline", "Ludiomil", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Clomipramin", "Anafranil", "Clopram", "Hydiphen", "Clomicalm"
       ],
       "muc_do": 1,
       "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương kèm theo an thần mạnh, đặc biệt có hại đối với người lái xe và người đứng máy.",
@@ -22459,7 +22464,7 @@ window.tuongTacData = [
         "Fluoxetin", "Prozac", "Fluvoxamin", "Luvox", "Gluthetimid", "Doriden", "Interferon alpha tái tổ hợp",
         "Medifoxamin", "Methyldopa", "Aldomet", "Mianserin", "Tolvon", "Oxaflozan", "Phenothiazin", "Chlorpromazin", "Largactil",
         "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Thuốc chống động kinh không phải barbiturat", "Valproat", "Depakine", "Lamotrigin", "Lamictal",
-        "Thuốc chống trầm cảm ba vòng", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Laroxyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Tofranil", "Thuốc kháng histamin kháng H1 có tác dụng an thần", "Promethazin", "Phenergan", "Diphenhydramin", "Benadryl"
+        "Amitriptyline", "Laroxyl", "Elavil", "Endep", "Tryptanol", "Nortriptyline", "Pamelor", "Sensoval", "Norpress", "Imipramine", "Tofranil", "Deprimin", "Desipramine", "Norpramin", "Pertofran", "Clomipramine", "Anafranil", "Doxepin", "Sinequan", "Adapin", "Quitaxon", "Trimipramine", "Surmontil", "Protriptyline", "Vivactil", "Maprotiline", "Ludiomil", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Laroxyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Tofranil", "Thuốc kháng histamin kháng H1 có tác dụng an thần", "Promethazin", "Phenergan", "Diphenhydramin", "Benadryl"
       ],
       "muc_do": 3,
       "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, kéo theo tăng tác dụng an thần gây buồn ngủ. Với một số thuốc có thể thấy một số tác dụng tâm thần - vận động, đặc biệt trong tuần lễ điều trị đầu tiên. Tương tác dược lực.",
@@ -25381,12 +25386,12 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc an thần kinh các loại",
+  "hoat_chat": ["Thuốc an thần kinh các loại"],
   "cac_thuoc_trong_nhom": [
     "Flupentixol", "Fluanxol", "Fluanxol LP",
     "Loxapin", "Loxapac",
     "Pimozid", "Orap",
-    "Zuclopentixol", "Clopixol"
+    "Zuclopentixol", "Clopixol", 
   ],
   "mo_ta": "Các thioxanthen thuộc nhóm này. Thuốc dùng để điều trị các chứng rối loạn tâm thần. Cần phân biệt: các thuốc an thần kinh họ benzamid, các butyrophenon, các thuốc an thần kinh họ phenothiazin. Mỗi loại tạo thành một nhóm riêng.",
   "chu_y_khi_chi_dinh": {
@@ -25751,7 +25756,7 @@ window.tuongTacData = [
     ]
   },
 {
-    "hoat_chat": "Thuốc chẹn beta",
+    "hoat_chat": ["Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace"],
     "cac_thuoc_trong_nhom": [
       "Acebutolol", "Sectral",
       "Atenolol", "Apo-Atenol", "Ateloc", "Atenolol 50 Stada", "Atenolol 100 Stada", "Atenova", "Bliconol", "Noten", "Tredol", "Tenolol", "Tenormin", "Tenoret", "Tenoretic", "Tenoric",
@@ -25763,7 +25768,7 @@ window.tuongTacData = [
       "Nadolol", "Apo-Nadol",
       "Propranolol", "Inderal", "Apo-Propranolol", "Hemangiol", "Avlocardyl", "Dorocardyl", "Hopranolol", "Novo-pranol", "Avlocardyl LP",
       "Tertatolol", "Artex 5",
-      "Timolol", "Nyolol", "Ofan-Timolol"
+      "Timolol", "Nyolol", "Ofan-Timolol","Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace"
     ],
     "mo_ta": "Thuốc đối kháng cạnh tranh với các catecholamin ở thụ thể beta adrenergic. Thuốc chống đau thắt ngực, chống tăng huyết áp, chống loạn nhịp tim (nhóm II Vaughan-Williams).",
     "chu_y_khi_chi_dinh": {
@@ -27726,7 +27731,7 @@ window.tuongTacData = [
       "xu_ly": "Các nguy cơ nói trên đã thấy với pethidin. Với các thuốc khác, nếu cần phối hợp thuốc, làm một test với liều thấp để phát hiện tương tác và đánh giá mức độ nặng nhẹ. Nếu không, nên thận trọng đợi sau khi ngừng thuốc IMAO được hai tuần lễ mới dùng các chất chủ vận của morphin."
     },
     {
-      "thuoc": ["Thuốc ức chế MAO không chọn lọc", "Procarbazin", "Natulan", "Matulane", "Natulan"],
+      "thuoc": ["Phenelzine", "Nardil", "Isocarboxazid", "Marplan", "Tranylcypromine", "Parnate", "Hydracarbazine", "Benmoxin", "Nerusil", "Neuralex", "Iproclozide", "Sursum", "Iproniazid", "Marsilid", "Iprozid", "Ipronid", "Rivivol", "Mebanazine", "Actomol", "Nialamide", "Niamid", "Octamoxin", "Ximaol", "Nimaol", "Pheniprazine", "Catron", "Phenoxypropazine", "Drazine", "Pivalylbenzhydrazine", "Tersavid", "Safrazine", "Safra", "Caroxazone", "Surodil", "Timostenil", "Procarbazin", "Natulan", "Matulane", "Natulan"],
       "muc_do": 4,
       "phan_tich": "Với pethidin (Dolosal*), có khả năng xuất hiện các triệu chứng nghiêm trọng và không dự đoán trước được, gọi là hội chứng serotoninergic, với những rối loạn tâm thần (kích thích, lú lẫn, có khi hôn mê), rối loạn vận động (giật cơ, run, cứng cơ, tăng hoạt động), rối loạn thần kinh thực vật (tăng hoặc giảm huyết áp, nhịp tim nhanh, sốt cao, toát mồ hôi, rùng mình). Với các thuốc giảm đau khác thuộc loại morphin, nên thận trọng; khi cần phối hợp thuốc thì làm một test với một phần tư liều thuốc giảm đau, và theo dõi những phản ứng ở người bệnh.",
       "xu_ly": "Chống chỉ định phối hợp thuốc này với pethidin. Với thuốc giảm đau khác thuộc loại morphin, nên thận trọng. Nếu cần phối hợp thuốc này, phải làm một test, dùng một phần tư liều thuốc giảm đau và theo dõi phản ứng của người bệnh nhiều giờ sau khi làm test. Tránh dùng thuốc ho có các dẫn chất của thuốc phiện."
@@ -27756,7 +27761,7 @@ window.tuongTacData = [
       "xu_ly": "Chống chỉ định phối hợp. Cần chọn một thuốc giảm đau khác hơn là thay đổi đột ngột thuốc chống trầm cảm hay thuốc bổ trợ điều trị Parkinson (selegillin)."
     },
     {
-      "thuoc": ["Amineptin", "Survector", "Interferon alpha tái tổ hợp", "Medifoxamin", "Carbamazepin", "Tegretol", "Phenytoin", "Epanutin", "Thuốc chống động kinh không barbituric"],
+      "thuoc": ["Amineptin", "Survector", "Interferon alpha tái tổ hợp", "Medifoxamin", "Carbamazepin", "Tegretol", "Phenytoin", "Epanutin", "Phenytoin", "Dilantin", "Epanutin", "Carbamazepine", "Tegretol", "Finlepsin", "Stazepine", "Oxcarbazepine", "Trileptal", "Valproic acid", "Depakene", "Sodium valproate", "Depakine", "Convulex", "Epilim", "Divalproex sodium", "Depakote", "Lamotrigine", "Lamictal", "Levetiracetam", "Keppra", "Epitam", "Topiramate", "Topamax", "Gabapentin", "Neurontin", "Gabatop", "Pregabalin", "Lyrica", "Ethosuximide", "Zarontin", "Tiagabine", "Gabitril", "Vigabatrin", "Sabril", "Lacosamide", "Vimpat", "Zonisamide", "Zonegran", "Clobazam", "Frisium", "Rufinamide", "Banzel", "Perampanel", "Fycompa"],
       "muc_do": 2,
       "phan_tich": "Tăng ức chế thần kinh trung ương, tăng ức chế hô hấp và tăng hạ huyết áp. Ngoài ra, sự phối hợp hai thuốc có thể làm tăng nguy cơ phụ thuộc thuốc.",
       "xu_ly": "Tính đến nguy cơ này để hiệu chỉnh liều lượng hai thuốc, nếu cần phối hợp. Phải tính đến giảm tỉnh táo ở những người lái xe và người đứng máy."
@@ -27817,7 +27822,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Baclofen", "Lioresal", "Barbituric", "Phenobarbital","Luminal","Solfoton","Sezaby", "Gardenal", "Benzamid", "Sulpirid", "Dogmatil", "Benzodiazepin", "Diazepam", "Valium", "Seduxen", "Alprazolam", "Xanax", "Clonazepam", "Rivotril", "Butyrophenon", "Haloperidol", "Haldol", "Droperidol", "Droleptan", "Carbamat", "Meprobamat", "Equanil", "Carbamazepin", "Tegretol", "Fluoxetin", "Prozac", "Fluvoxamin", "Luvox", "Kháng histamin kháng H1 an thần", "Chlorpheniramin", "Tiffy", "Mianserin", "Oxaflozan", "Phenytoin", "Epanutin", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Thuốc an thần kinh khác", "Thuốc ức chế hệ thần kinh trung ương khác"
+        "Baclofen", "Lioresal", "Barbituric", "Phenobarbital","Luminal","Solfoton","Sezaby", "Gardenal", "Benzamid", "Sulpirid", "Dogmatil", "Benzodiazepin", "Diazepam", "Valium", "Seduxen", "Alprazolam", "Xanax", "Clonazepam", "Rivotril", "Butyrophenon", "Haloperidol", "Haldol", "Droperidol", "Droleptan", "Carbamat", "Meprobamat", "Equanil", "Carbamazepin", "Tegretol", "Fluoxetin", "Prozac", "Fluvoxamin", "Luvox", "Kháng histamin kháng H1 an thần", "Chlorpheniramin", "Tiffy", "Mianserin", "Oxaflozan", "Phenytoin", "Epanutin", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Thuốc ức chế hệ thần kinh trung ương khác"
       ],
       "muc_do": 1,
       "phan_tich": "Tăng tác dụng ức chế thần kinh trung ương, kéo theo tăng tác dụng an thần gây buồn ngủ. Cơ chế do tương tác dược lực.",
@@ -27836,7 +27841,7 @@ window.tuongTacData = [
       "xu_ly": "Nếu cần phối hợp thuốc, phải nghĩ đến nguy cơ trong việc xác định liều lượng hai thuốc. Lập một chương trình dùng thuốc đều đặn. Phải nghĩ đến giảm tỉnh táo ở người lái xe và người đứng máy. Phải theo dõi huyết áp trong quá trình phối hợp hai thuốc. Hạ huyết áp nặng hay nhẹ tuỳ thuộc thuốc cụ thể đã dùng phối hợp. Nếu cần, hiệu chỉnh liều lượng của một hoặc hai thứ thuốc. Khuyên người bệnh gặp lại bác sĩ để hiệu chỉnh liều nếu cần, khi người bệnh thấy chóng mặt lúc đầu điều trị. Khuyên không uống rượu, không dùng thêm thuốc hoặc đồ uống có rượu. Tăng cường theo dõi người bệnh cao tuổi (nguy cơ ngã) và khuyên phải chuyển dần dần từ thế nằm hay ngồi sang tư thế đứng."
     },
     {
-      "thuoc": ["Dextropropoxyphen", "Depronal", "Reserpin", "Serpasil", "Thuốc chống trầm cảm ba vòng", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Apo-Amitriptyline", "Novo-Triptyn", "Amoxapin", "Moxadil", "Clomipramin", "Anafranil", "Clopram", "Hydiphen", "Clomicalm", "Anafranil"],
+      "thuoc": ["Dextropropoxyphen", "Depronal", "Reserpin", "Serpasil", "Amitriptyline", "Laroxyl", "Elavil", "Endep", "Tryptanol", "Nortriptyline", "Pamelor", "Sensoval", "Norpress", "Imipramine", "Tofranil", "Deprimin", "Desipramine", "Norpramin", "Pertofran", "Clomipramine", "Anafranil", "Doxepin", "Sinequan", "Adapin", "Quitaxon", "Trimipramine", "Surmontil", "Protriptyline", "Vivactil", "Maprotiline", "Ludiomil", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Apo-Amitriptyline", "Novo-Triptyn", "Amoxapin", "Moxadil", "Clomipramin", "Anafranil", "Clopram", "Hydiphen", "Clomicalm", "Anafranil"],
       "muc_do": 1,
       "phan_tich": "Tăng tác dụng ức chế thần kinh trung ương, ức chế hô hấp và hạ huyết áp. Ngoài ra, nếu xác định người bệnh có phụ thuộc thuốc, thì việc phối hợp này sẽ làm tăng tính phụ thuộc.",
       "xu_ly": "Phải tính đến nguy cơ này để điều chỉnh thích hợp liều lượng hai thuốc nếu cần phối hợp này. Phải nghĩ đến giảm tỉnh táo ở người lái xe và hoặc đứng máy. Khuyên không uống rượu và thuốc hoặc đồ uống có rượu."
@@ -28491,11 +28496,11 @@ window.tuongTacData = [
     "tuong_tac": []
   },
   {
-    "hoat_chat": "Thuốc giãn mạch chống tăng huyết áp",
+    "hoat_chat": ["Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart"],
     "cac_thuoc_trong_nhom": [
       "Dihydralazin mesylat", "Depressan", "Nepresol", "Trasipressol",
       "Minoxidil", "Alopexy", "Baldmin", "Loniten", "Lonotan", "Neoxidil", "Regaine",
-      "Sodium nitroprussid", "Nipride", "Nitropress"
+      "Sodium nitroprussid", "Nipride", "Nitropress", "Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart"
     ],
     "mo_ta": "Nhóm thuốc giãn mạch ngoại biên, dùng điều trị tăng huyết áp động mạch và một số loại suy tim. Tác dụng phụ: nhịp tim nhanh, giữ nước, đau đầu, đỏ mặt.",
     "chu_y_khi_chi_dinh": {
@@ -29704,7 +29709,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Diazoxid", "Proglycem", "Amlodipin", "Amlor", "Nifedipin", "Adalat", "Felodipin", "Plendil", "Diltiazem", "Dilzem", "Furosemid", "Lasix", "Guanethidin", "Ismelin", "Levodopa", "Madopar", "Methyldopa", "Aldomet", "Nitroglycerin", "Nitromint", "Thuốc chẹn beta", "Atenolol", "Tenormin", "Metoprolol", "Betaloc", "Bisoprolol", "Concor", "Nebivolol", "Bystolic", "Spironolacton", "Aldacton", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Natrilix", "Perindopril", "Coversyl", "Lisinopril", "Zestril", "Ramipril", "Altace", "Captopril", "Capoten", "Benazepril", "Lotensin"
+          "Diazoxid", "Proglycem", "Amlodipin", "Amlor", "Nifedipin", "Adalat", "Felodipin", "Plendil", "Diltiazem", "Dilzem", "Furosemid", "Lasix", "Guanethidin", "Ismelin", "Levodopa", "Madopar", "Methyldopa", "Aldomet", "Nitroglycerin", "Nitromint", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Atenolol", "Tenormin", "Metoprolol", "Betaloc", "Bisoprolol", "Concor", "Nebivolol", "Bystolic", "Spironolacton", "Aldacton", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Natrilix", "Perindopril", "Coversyl", "Lisinopril", "Zestril", "Ramipril", "Altace", "Captopril", "Capoten", "Benazepril", "Lotensin"
         ],
         "muc_do": 2,
         "phan_tich": "Dùng đồng thời các thuốc chống tăng huyết áp hoặc các thuốc có thể làm hạ huyết áp với thuốc gây mê barbituric có thể gây tụt huyết nghiêm trọng.",
@@ -30949,7 +30954,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Hydralazin", "Apresolin", "Dihydralazin", "Thuốc giãn mạch chống tăng huyết áp"
+        "Hydralazin", "Apresolin", "Dihydralazin", "Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart"
       ],
       "muc_do": 2,
       "phan_tich": "Tăng tác dụng chống tăng huyết áp.",
@@ -30957,7 +30962,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Furosemid", "Lasix", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Natrilix", "Thuốc lợi tiểu thải kali"
+        "Furosemid", "Lasix", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Natrilix", "Hydrochlorothiazide", "Esidrix", "Chlorothiazide", "Chlorthalidone", "Indapamide", "Natrilix", "Metolazone", "Furosemide", "Lasix", "Torsemide", "Bumetanide", "Acid ethacrynic", "Acetazolamide", "Diamox"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ hạ huyết áp nghiêm trọng và/ hoặc suy thận cấp trong trường hợp giảm natri máu. Mất nhiều nước và natri hoặc hẹp động mạch thận dẫn đến tăng cường kích thích hệ renin-angiotensin; phong bế hệ này, thuốc ức chế enzym chuyển dạng có thể ngay sau lần dùng đầu tiên, gây cơn tụt huyết áp đột ngột và hiếm hơn suy thận cấp.",
@@ -31317,9 +31322,9 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc ức chế MAO không chọn lọc",
+  "hoat_chat": ["Phenelzine", "Nardil", "Isocarboxazid", "Marplan", "Tranylcypromine", "Parnate", "Hydracarbazine", "Benmoxin", "Nerusil", "Neuralex", "Iproclozide", "Sursum", "Iproniazid", "Marsilid", "Iprozid", "Ipronid", "Rivivol", "Mebanazine", "Actomol", "Nialamide", "Niamid", "Octamoxin", "Ximaol", "Nimaol", "Pheniprazine", "Catron", "Phenoxypropazine", "Drazine", "Pivalylbenzhydrazine", "Tersavid", "Safrazine", "Safra", "Caroxazone", "Surodil", "Timostenil"],
   "cac_thuoc_trong_nhom": [
-    "Iproniazid", "Marsilid"
+    "Iproniazid", "Marsilid", "Phenelzine", "Nardil", "Isocarboxazid", "Marplan", "Tranylcypromine", "Parnate", "Hydracarbazine", "Benmoxin", "Nerusil", "Neuralex", "Iproclozide", "Sursum", "Iproniazid", "Marsilid", "Iprozid", "Ipronid", "Rivivol", "Mebanazine", "Actomol", "Nialamide", "Niamid", "Octamoxin", "Ximaol", "Nimaol", "Pheniprazine", "Catron", "Phenoxypropazine", "Drazine", "Pivalylbenzhydrazine", "Tersavid", "Safrazine", "Safra", "Caroxazone", "Surodil", "Timostenil"
   ],
   "mo_ta": "Các chất ức chế monoamin oxydase không chọn lọc, tác dụng hướng tâm thần chống trầm cảm, ức chế phân giải các monoamin và tyramin.",
   "chu_y_khi_chi_dinh": {
@@ -31413,7 +31418,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Diazoxyd", "Amlodipin", "Nifedipin", "Felodipin", "Diltiazem", "Verapamil", "Furosemid", "Indapamid", "Guanethidin", "Sotalol", "Atenolol", "Metoprolol", "Bisoprolol", "Thuốc chẹn beta", "Hydralazin", "Minoxidil", "Nitroprussid", "Thuốc giãn mạch chống tăng huyết áp", "Captopril", "Enalapril", "Perindopril", "Lisinopril", "Ramipril", "Thuốc ức chế enzym chuyển dạng angiotensin"
+        "Diazoxyd", "Amlodipin", "Nifedipin", "Felodipin", "Diltiazem", "Verapamil", "Furosemid", "Indapamid", "Guanethidin", "Sotalol", "Atenolol", "Metoprolol", "Bisoprolol", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Hydralazin", "Minoxidil", "Nitroprussid", "Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart", "Captopril", "Enalapril", "Perindopril", "Lisinopril", "Ramipril", "Thuốc ức chế enzym chuyển dạng angiotensin"
       ],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời hai thuốc này có thể dẫn đến những biến động huyết áp quan trọng.",
