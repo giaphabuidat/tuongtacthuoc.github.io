@@ -256,4 +256,73 @@ h1 {
         padding: 10px 0;
     }
 }
+.main-menu {
+    background: #1976d2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    position: relative;
+    margin-bottom: 24px;
+}
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.main-menu li {
+    margin: 0;
+}
+.main-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 24px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.main-menu a:hover, .main-menu a:focus {
+    background: #1565c0;
+}
+
+/* Hamburger icon */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.menu-toggle span {
+    height: 4px;
+    width: 28px;
+    background: #fff;
+    margin: 5px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .main-menu ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background: #1976d2;
+        position: absolute;
+        left: 0;
+        top: 48px;
+        z-index: 100;
+    }
+    .main-menu ul.active {
+        display: flex;
+    }
+    .main-menu a {
+        padding: 14px 16px;
+        border-top: 1px solid #1565c0;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+}
 
