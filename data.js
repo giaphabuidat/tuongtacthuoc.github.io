@@ -3044,7 +3044,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi chặt chẽ glucose máu và thông báo cho người bệnh. Đặt kế hoạch dùng thuốc đều đặn."
     },
     {
-      "thuoc": ["Chất đối quang chứa iod"],
+      "thuoc": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
       "muc_do": 2,
       "phan_tich": "Nguy cơ nhiễm acid lactic do suy chức năng thận tạo nên bởi các chất đối quang, đặc biệt là loại chứa 3 ion iod hoá và 6 ion iod.",
       "xu_ly": "Chú ý đến người bệnh suy thận. Khuyên nên ngừng điều trị metformin trước khi xét nghiệm X quang 48 giờ và chỉ điều trị lại với metformin 48 giờ sau xét nghiệm này."
@@ -4854,7 +4854,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi chức năng thận thường xuyên."
     },
     {
-      "thuoc": ["Chất đối quang có iod"],
+      "thuoc": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
       "muc_do": 2,
       "phan_tich": "Tăng creatinin niệu, hiệp đồng độc thận.",
       "xu_ly": "Theo dõi chức năng thận trước và sau xét nghiệm X quang."
@@ -5982,7 +5982,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Benzamid", "Bepridil", "Bretylium", "Angiotensin", "Clonidin", "Diazoxyd", "Dihydropyridin", "Diltiazem", "Furosemid", "Guanethidin", "Methyldopa", "Nitrat chống đau thắt ngực", "Reserpin", "Sotalol", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Spironolactone", "Aldactone", "Amiloride", "Modamide", "Triamterene", "Dyrenium", "Eplerenone", "Inspra", "Hydrochlorothiazide", "Esidrix", "Chlorothiazide", "Chlorthalidone", "Indapamide", "Natrilix", "Metolazone", "Furosemide", "Lasix", "Torsemide", "Bumetanide", "Acid ethacrynic", "Acetazolamide", "Diamox", "Verapamil", "Thuốc ức chế enzym chuyển dạng"
+        "Benzamid", "Bepridil", "Bretylium", "Angiotensin", "Clonidin", "Diazoxyd", "Dihydropyridin", "Diltiazem", "Furosemid", "Guanethidin", "Methyldopa", "Nitrat chống đau thắt ngực", "Reserpin", "Sotalol", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Spironolactone", "Aldactone", "Amiloride", "Modamide", "Triamterene", "Dyrenium", "Eplerenone", "Inspra", "Hydrochlorothiazide", "Esidrix", "Chlorothiazide", "Chlorthalidone", "Indapamide", "Natrilix", "Metolazone", "Furosemide", "Lasix", "Torsemide", "Bumetanide", "Acid ethacrynic", "Acetazolamide", "Diamox", "Verapamil", "Captopril", "Capoten", "Hypoten", "Enalapril", "Renitec", "Enap", "Vasotec", "Lisinopril", "Zestril", "Prinivil", "Lisodur", "Perindopril", "Coversyl", "Prenessa", "Coversum", "Ramipril", "Tritace", "Ramica", "Quinapril", "Accupril", "Fosinopril", "Monopril", "Trandolapril", "Mavik", "Odrik", "Benazepril", "Lotensin", "Moexipril", "Univasc"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ làm tăng tác dụng giảm huyết áp.",
@@ -5996,7 +5996,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Phenicol", "Thuốc chống ung thư"
+        "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Colchicin", "Colchicine Opodex", "Colchicine TV.Pharm", "Colgout", "Colcrys", "Mitigare", "Colchicine Alkaloid", "Colchicine Core Pharma", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Phenicol", "Cyclophosphamide", "Endoxan", "Cycloxan", "Ifosfamide", "Holoxan", "Chlorambucil", "Leukeran", "Melphalan", "Alkeran", "Busulfan", "Myleran", "Carmustine", "BiCNU", "Lomustine", "CeeNU", "Temozolomide", "Temodal", "Methotrexate", "Rheumatrex", "Trexall", "5-Fluorouracil", "Adrucil", "Efudex", "Capecitabine", "Xeloda", "Cytarabine", "Ara-C", "Gemcitabine", "Gemzar", "Mercaptopurine", "Purinethol", "Thioguanine", "Tabloid", "Doxorubicin", "Adriamycin", "Daunorubicin", "Cerubidine", "Epirubicin", "Ellence", "Mitomycin C", "Mutamycin", "Bleomycin", "Blenoxane", "Vincristine", "Oncovin", "Vinblastine", "Velban", "Paclitaxel", "Taxol", "Docetaxel", "Taxotere", "Ixabepilone", "Ixempra", "Irinotecan", "Camptosar", "Topotecan", "Hycamtin", "Etoposide", "VP-16", "Teniposide", "Vumon", "Tamoxifen", "Nolvadex", "Letrozole", "Femara", "Anastrozole", "Arimidex", "Exemestane", "Aromasin", "Leuprolide", "Lupron", "Goserelin", "Zoladex", "Flutamide", "Eulexin", "Bicalutamide", "Casodex", "Imatinib", "Glivec", "Erlotinib", "Tarceva", "Gefitinib", "Iressa", "Trastuzumab", "Herceptin", "Bevacizumab", "Avastin", "Rituximab", "MabThera", "Cetuximab", "Erbitux", "Nivolumab", "Opdivo", "Pembrolizumab", "Keytruda", "Atezolizumab", "Tecentriq", "Durvalumab", "Imfinzi", "Ipilimumab", "Yervoy", "CAR-T therapy", "Kymriah", "Yescarta"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính về máu, do ức chế tuỷ xương, do tác dụng hiệp đồng, có thể dẫn đến mất bạch cầu hạt. Với clozapin chỉ dùng đơn độc, cũng có thể mất bạch cầu hạt nghiêm trọng, thậm chí gây tử vong (độc tính miễn dịch).",
@@ -6441,7 +6441,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Thuốc chống ung thư các loại", "Vàng", "Vincristin", "Oncovin"
+        "Azathioprin", "Imuran", "Azapress", "Carmustin", "BiCNU", "Carmubris", "Dactinomycin", "Fluoro-5-uracil", "Ganciclovir", "Cymevene", "Interferon alpha", "Intron A", "Roferon-A", "Alfaferone", "Reaferon", "Inferon", "Viraferon", "Levamisol", "Decaris", "Levamisole Egis", "Levamid", "Asmol", "Melphalan", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Penicilamin", "Cuprimine", "Depen", "Pentostatin", "Nipent", "Procarbazin", "Natulan", "Matulane", "Thiotepa", "Tepadina", "Thioplex", "Cyclophosphamide", "Endoxan", "Cycloxan", "Ifosfamide", "Holoxan", "Chlorambucil", "Leukeran", "Melphalan", "Alkeran", "Busulfan", "Myleran", "Carmustine", "BiCNU", "Lomustine", "CeeNU", "Temozolomide", "Temodal", "Methotrexate", "Rheumatrex", "Trexall", "5-Fluorouracil", "Adrucil", "Efudex", "Capecitabine", "Xeloda", "Cytarabine", "Ara-C", "Gemcitabine", "Gemzar", "Mercaptopurine", "Purinethol", "Thioguanine", "Tabloid", "Doxorubicin", "Adriamycin", "Daunorubicin", "Cerubidine", "Epirubicin", "Ellence", "Mitomycin C", "Mutamycin", "Bleomycin", "Blenoxane", "Vincristine", "Oncovin", "Vinblastine", "Velban", "Paclitaxel", "Taxol", "Docetaxel", "Taxotere", "Ixabepilone", "Ixempra", "Irinotecan", "Camptosar", "Topotecan", "Hycamtin", "Etoposide", "VP-16", "Teniposide", "Vumon", "Tamoxifen", "Nolvadex", "Letrozole", "Femara", "Anastrozole", "Arimidex", "Exemestane", "Aromasin", "Leuprolide", "Lupron", "Goserelin", "Zoladex", "Flutamide", "Eulexin", "Bicalutamide", "Casodex", "Imatinib", "Glivec", "Erlotinib", "Tarceva", "Gefitinib", "Iressa", "Trastuzumab", "Herceptin", "Bevacizumab", "Avastin", "Rituximab", "MabThera", "Cetuximab", "Erbitux", "Nivolumab", "Opdivo", "Pembrolizumab", "Keytruda", "Atezolizumab", "Tecentriq", "Durvalumab", "Imfinzi", "Ipilimumab", "Yervoy", "CAR-T therapy", "Kymriah", "Yescarta", "Vàng", "Vincristin", "Oncovin"
       ],
       "muc_do": 2,
       "phan_tich": "Nguy cơ tăng độc tính về máu do ức chế tuỷ xương, do tác dụng hiệp đồng, có thể dẫn đến mất bạch cầu hạt.",
@@ -8955,8 +8955,6 @@ window.tuongTacData = [
     "Orafar",
     "Patitussin",
     "Solclean",
-    "Thuốc ho người lớn",
-    "Thuốc ho trẻ em",
     "Traguton",
     "Viên xông Hương Tràm"
   ],
@@ -10452,7 +10450,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi huyết áp động mạch và điều chỉnh liều của thuốc chống tăng huyết áp được lựa chọn ban đầu, trong và sau khi ngừng điều trị bằng reserpin. Reserpin hiện nay rất hiếm được kê đơn làm thuốc điều trị chống tăng huyết áp, trừ ở một số nước."
     },
     {
-      "thuoc": ["Sản phẩm cản quang có iod"],
+      "thuoc": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
       "muc_do": 2,
       "phan_tich": "Tăng nguy cơ suy thận cấp, nếu bị mất nước do thuốc lợi tiểu (đặc biệt với các sản phẩm có ba iod ion hoá và các sản phẩm có 6 iod).",
       "xu_ly": "Nên tiếp nước cho người bệnh trước khi dùng sản phẩm cản quang có iod. Khuyên người bệnh thông tin cho thầy thuốc X quang là đang điều trị thuốc lợi tiểu để có những biện pháp cần thiết."
@@ -13144,7 +13142,7 @@ window.tuongTacData = [
       "xu_ly": "Cần theo dõi cẩn thận chức năng thận nếu phối hợp."
     },
     {
-      "thuoc": ["Thuốc cản quang có iod"],
+      "thuoc": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
       "muc_do": 2,
       "phan_tich": "Các thuốc cản quang có iod, nếu dùng ngay sau interleukin, làm tái xuất hiện các triệu chứng điển hình do interleukin (mẫn cảm với thuốc, đau khớp, chóng mặt, hạ huyết áp, buồn nôn...).",
       "xu_ly": "Có thể các triệu chứng này ít xuất hiện hơn, thậm chí không xuất hơn, nếu đảm bảo một khoảng thời gian 6 tuần lễ giữa lần dùng interleukin và lần dùng thuốc cản quang có iod. Interleukin là một sản phẩm mới, khó sử dụng và chỉ được dùng ở cơ sở chuyên khoa có theo dõi liên tục vì các tác dụng không mong muốn. Cần cân nhắc các tương tác theo mức độ nặng nhẹ của bệnh, và người kê đơn luôn phải tính đến tương quan nguy cơ/lợi ích."
@@ -15043,7 +15041,7 @@ window.tuongTacData = [
       "xu_ly": "Theo dõi huyết động học và điều chỉnh các rối loạn chuyển hoá. Khuyên người bệnh phải can thiệp ngoại khoa thông tin cho thầy thuốc gây mê những thuốc đang dùng."
     },
     {
-      "thuoc": ["Thuốc đối quang có iod"],
+      "thuoc": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
       "muc_do": 2,
       "phan_tich": "Tăng nguy cơ suy thận cấp, nếu đã bị mất nước do thuốc lợi tiểu.",
       "xu_ly": "Nên tiếp nước cho người bệnh trước khi dùng thuốc đối quang có iod. Khuyên người bệnh thông tin cho bác sĩ X quang là đang điều trị thuốc lợi tiểu để có những biện pháp cần thiết."
@@ -20749,7 +20747,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Thuốc chống ung thư", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Doxorubicin", "Adriamycin"
+          "Cyclophosphamide", "Endoxan", "Cycloxan", "Ifosfamide", "Holoxan", "Chlorambucil", "Leukeran", "Melphalan", "Alkeran", "Busulfan", "Myleran", "Carmustine", "BiCNU", "Lomustine", "CeeNU", "Temozolomide", "Temodal", "Methotrexate", "Rheumatrex", "Trexall", "5-Fluorouracil", "Adrucil", "Efudex", "Capecitabine", "Xeloda", "Cytarabine", "Ara-C", "Gemcitabine", "Gemzar", "Mercaptopurine", "Purinethol", "Thioguanine", "Tabloid", "Doxorubicin", "Adriamycin", "Daunorubicin", "Cerubidine", "Epirubicin", "Ellence", "Mitomycin C", "Mutamycin", "Bleomycin", "Blenoxane", "Vincristine", "Oncovin", "Vinblastine", "Velban", "Paclitaxel", "Taxol", "Docetaxel", "Taxotere", "Ixabepilone", "Ixempra", "Irinotecan", "Camptosar", "Topotecan", "Hycamtin", "Etoposide", "VP-16", "Teniposide", "Vumon", "Tamoxifen", "Nolvadex", "Letrozole", "Femara", "Anastrozole", "Arimidex", "Exemestane", "Aromasin", "Leuprolide", "Lupron", "Goserelin", "Zoladex", "Flutamide", "Eulexin", "Bicalutamide", "Casodex", "Imatinib", "Glivec", "Erlotinib", "Tarceva", "Gefitinib", "Iressa", "Trastuzumab", "Herceptin", "Bevacizumab", "Avastin", "Rituximab", "MabThera", "Cetuximab", "Erbitux", "Nivolumab", "Opdivo", "Pembrolizumab", "Keytruda", "Atezolizumab", "Tecentriq", "Durvalumab", "Imfinzi", "Ipilimumab", "Yervoy", "CAR-T therapy", "Kymriah", "Yescarta", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Doxorubicin", "Adriamycin"
         ],
         "muc_do": 2,
         "phan_tich": "Tăng độc tính với máu do hiệp đồng ức chế tủy xương.",
@@ -20765,7 +20763,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Clonidin", "Catapres", "Diazoxid", "Proglycem", "Amlodipin", "Nifedipin", "Diltiazem", "Furosemid", "Lasix", "Methyldopa", "Aldomet", "Reserpin", "Serpasil", "Sotalol", "Betapace", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Thuốc lợi niệu giữ kali", "Spironolacton", "Verospiron", "Thuốc lợi niệu thải kali", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Fludex", "Chlortalidon", "Hygroton", "Thuốc ức chế enzym chuyển dạng angiotensin", "Captopril", "Enalapril", "Lisinopril", "Perindopril", "Ramipril", "Thuốc giãn mạch hạ huyết áp"
+          "Clonidin", "Catapres", "Diazoxid", "Proglycem", "Amlodipin", "Nifedipin", "Diltiazem", "Furosemid", "Lasix", "Methyldopa", "Aldomet", "Reserpin", "Serpasil", "Sotalol", "Betapace", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Thuốc lợi niệu giữ kali", "Spironolacton", "Verospiron", "Thuốc lợi niệu thải kali", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Fludex", "Chlortalidon", "Hygroton", "Captopril", "Capoten", "Hypoten", "Enalapril", "Renitec", "Enap", "Vasotec", "Lisinopril", "Zestril", "Prinivil", "Lisodur", "Perindopril", "Coversyl", "Prenessa", "Coversum", "Ramipril", "Tritace", "Ramica", "Quinapril", "Accupril", "Fosinopril", "Monopril", "Trandolapril", "Mavik", "Odrik", "Benazepril", "Lotensin", "Moexipril", "Univasc", "Captopril", "Enalapril", "Lisinopril", "Perindopril", "Ramipril", "Thuốc giãn mạch hạ huyết áp"
         ],
         "muc_do": 1,
         "phan_tich": "Giảm tác dụng hạ huyết áp do ức chế tổng hợp prostaglandin giãn mạch của thận và/hoặc giữ muối nước.",
@@ -23216,7 +23214,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Chất cản quang có iod"
+        "Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"
       ],
       "muc_do": 4,
       "phan_tich": "Nếu gặp dị ứng, các chất chẹn beta (kể cả dạng thuốc nhỏ mắt) làm giảm bù tim mạch, đặc biệt trong trường hợp hạ huyết áp hay sốc. Sự tiết adrenalin cho phép cơ thể có một đáp ứng sinh lý bình thường trong trường hợp sốc phản vệ. Chính đáp ứng này đã bị phong bế.",
@@ -25793,7 +25791,7 @@ window.tuongTacData = [
         "xu_ly": "Hỏi người bệnh về tiền sử. Người bệnh có dùng floctafenin lần đầu tiên không? Trong trường hợp sốc, sự giảm các cơ chế bù có thể nguy hiểm và phải chống chỉ định phối hợp này. Không kê thuốc giảm đau này cho những người bệnh đã có tiền sử dị ứng. Thay thuốc giảm đau dễ hơn thay thuốc chẹn beta."
       },
       {
-        "thuoc": ["Thuốc cản quang có iod"],
+        "thuoc": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
         "muc_do": 4,
         "phan_tich": "Trong trường hợp phản ứng dị ứng, các thuốc chẹn beta (kể cả dạng thuốc nhỏ mắt) làm giảm bù tim mạch, đặc biệt khi hạ huyết áp và sốc. Bài tiết adrenalin cho phép cơ thể có đáp ứng sinh lý bình thường trong trường hợp choáng phản vệ, nhưng khi phối hợp với thuốc chẹn beta, đáp ứng này bị chẹn.",
         "xu_ly": "Hỏi người bệnh về tiền sử. Có phải đây là lần đầu tiên người bệnh được cho một thuốc cản quang có iod không? Trong trường hợp sốc, sự giảm các cơ chế bù trừ có thể nguy hiểm và phải chống chỉ định phối hợp này. Không kê thuốc cho những người bệnh đã có tiền sử dị ứng."
@@ -27295,7 +27293,7 @@ window.tuongTacData = [
     ]
   },
 {
-  "hoat_chat": "Thuốc chống ung thư các loại",
+  "hoat_chat": ["Cyclophosphamide", "Endoxan", "Cycloxan", "Ifosfamide", "Holoxan", "Chlorambucil", "Leukeran", "Melphalan", "Alkeran", "Busulfan", "Myleran", "Carmustine", "BiCNU", "Lomustine", "CeeNU", "Temozolomide", "Temodal", "Methotrexate", "Rheumatrex", "Trexall", "5-Fluorouracil", "Adrucil", "Efudex", "Capecitabine", "Xeloda", "Cytarabine", "Ara-C", "Gemcitabine", "Gemzar", "Mercaptopurine", "Purinethol", "Thioguanine", "Tabloid", "Doxorubicin", "Adriamycin", "Daunorubicin", "Cerubidine", "Epirubicin", "Ellence", "Mitomycin C", "Mutamycin", "Bleomycin", "Blenoxane", "Vincristine", "Oncovin", "Vinblastine", "Velban", "Paclitaxel", "Taxol", "Docetaxel", "Taxotere", "Ixabepilone", "Ixempra", "Irinotecan", "Camptosar", "Topotecan", "Hycamtin", "Etoposide", "VP-16", "Teniposide", "Vumon", "Tamoxifen", "Nolvadex", "Letrozole", "Femara", "Anastrozole", "Arimidex", "Exemestane", "Aromasin", "Leuprolide", "Lupron", "Goserelin", "Zoladex", "Flutamide", "Eulexin", "Bicalutamide", "Casodex", "Imatinib", "Glivec", "Erlotinib", "Tarceva", "Gefitinib", "Iressa", "Trastuzumab", "Herceptin", "Bevacizumab", "Avastin", "Rituximab", "MabThera", "Cetuximab", "Erbitux", "Nivolumab", "Opdivo", "Pembrolizumab", "Keytruda", "Atezolizumab", "Tecentriq", "Durvalumab", "Imfinzi", "Ipilimumab", "Yervoy", "CAR-T therapy", "Kymriah", "Yescarta"],
   "cac_thuoc_trong_nhom": [
     "Altretamin", "Hexastat",
     "Amsacrin", "Amekrin",
@@ -28377,7 +28375,7 @@ window.tuongTacData = [
     "tuong_tac": []
   },
 {
-  "hoat_chat": "Thuốc đối quang có iod",
+  "hoat_chat": ["Diatrizoate", "Urografin", "Hypaque", "Iothalamate", "Conray", "Metrizoate", "Isopaque", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Ioversol", "Optiray", "Iopromide", "Ultravist", "Iomeprol", "Iomeron", "Iodixanol", "Visipaque"],
   "cac_thuoc_trong_nhom": [
     "Acid amidotrizoic",
     "Urografin",
@@ -30759,7 +30757,7 @@ window.tuongTacData = [
   "tuong_tac": []
 },
 {
-  "hoat_chat": "Thuốc ức chế enzym chuyển dạng angiotensin",
+  "hoat_chat": ["Captopril", "Capoten", "Hypoten", "Enalapril", "Renitec", "Enap", "Vasotec", "Lisinopril", "Zestril", "Prinivil", "Lisodur", "Perindopril", "Coversyl", "Prenessa", "Coversum", "Ramipril", "Tritace", "Ramica", "Quinapril", "Accupril", "Fosinopril", "Monopril", "Trandolapril", "Mavik", "Odrik", "Benazepril", "Lotensin", "Moexipril", "Univasc"],
   "cac_thuoc_trong_nhom": [
     "Benazepril", "Briazide", "Briem", "Cibacen", "Cibadrex",
     "Captopril", "Apo-Capto", "Captohexal", "Captopril Domesco", "Captopril stada", "Epsitron", "Lopril", "Ropril", "Tensiomin",
@@ -31418,7 +31416,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Diazoxyd", "Amlodipin", "Nifedipin", "Felodipin", "Diltiazem", "Verapamil", "Furosemid", "Indapamid", "Guanethidin", "Sotalol", "Atenolol", "Metoprolol", "Bisoprolol", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Hydralazin", "Minoxidil", "Nitroprussid", "Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart", "Captopril", "Enalapril", "Perindopril", "Lisinopril", "Ramipril", "Thuốc ức chế enzym chuyển dạng angiotensin"
+        "Diazoxyd", "Amlodipin", "Nifedipin", "Felodipin", "Diltiazem", "Verapamil", "Furosemid", "Indapamid", "Guanethidin", "Sotalol", "Atenolol", "Metoprolol", "Bisoprolol", "Propranolol", "Inderal", "Timolol", "Blocadren", "Nadolol", "Corgard", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Betaloc", "Betalok Zok", "Bisoprolol", "Zebeta", "Concor", "Acebutolol", "Sectral", "Betaxolol", "Kerlone", "Carteolol", "Cartrol", "Carvedilol", "Coreg", "Labetalol", "Trandate", "Nebivolol", "Nebilet", "Bystolic", "Penbutolol", "Levatol", "Pindolol", "Visken", "Sotalol", "Betapace", "Hydralazin", "Minoxidil", "Nitroprussid", "Hydralazine", "Apresoline", "Apo-Hydralazine", "Minoxidil", "Loniten", "Sodium Nitroprusside", "Nitropress", "Amlodipine", "Amlor", "Nicardipine", "Cardene", "Nicardipine Aguettant", "BFS-Nicardipin", "Clevidipine", "Cleviprex", "Felodipine", "Plendil", "Nifedipine", "Adalat", "Adalat LA", "Diltiazem", "Dilzem", "Herz Diltiazem", "Verapamil", "Isoptin", "Nitroglycerin", "Nitromint", "Nitrostat", "Isosorbide mononitrate", "Imdur", "Donox", "Mohero CR", "Isomonit", "Vasotrol", "Isosorbide dinitrate", "Isoket", "Sorbitrate", "Nesiritide", "Nicorandil", "Sigmart", "Captopril", "Enalapril", "Perindopril", "Lisinopril", "Ramipril", "Captopril", "Capoten", "Hypoten", "Enalapril", "Renitec", "Enap", "Vasotec", "Lisinopril", "Zestril", "Prinivil", "Lisodur", "Perindopril", "Coversyl", "Prenessa", "Coversum", "Ramipril", "Tritace", "Ramica", "Quinapril", "Accupril", "Fosinopril", "Monopril", "Trandolapril", "Mavik", "Odrik", "Benazepril", "Lotensin", "Moexipril", "Univasc"
       ],
       "muc_do": 2,
       "phan_tich": "Sử dụng đồng thời hai thuốc này có thể dẫn đến những biến động huyết áp quan trọng.",
