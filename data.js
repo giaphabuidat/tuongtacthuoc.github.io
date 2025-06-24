@@ -13150,10 +13150,10 @@ window.tuongTacData = [
   ]
 },
  {
-  "hoat_chat": "Isoniazid hoặc thuốc tương tự",
+  "hoat_chat": ["Isoniazid", "Rimifon", "Isocid", "Hydazid", "Hyzid", "Nydrazid"],
   "mo_ta": "Thuốc chống lao có tác dụng ức chế enzym. Pyrazinamid, mặc dầu có cấu trúc hoá học gần giống isoniazid, nhưng được xếp vào nhóm riêng.",
   "cac_thuoc_trong_nhom": [
-    "Isoniazid hoặc thuốc tương tự",
+    "Isoniazid", "Rimifon", "Isocid", "Hydazid", "Hyzid", "Nydrazid",
     "Isoniazid",
     "Rimifon"
   ],
@@ -14857,7 +14857,7 @@ window.tuongTacData = [
       "xu_ly": "Phối hợp này cần tránh. Nếu cần phối hợp, theo dõi thường xuyên khoảng QT và kiểm tra đều đặn kali máu."
     },
     {
-      "thuoc": ["Thuốc nhuận tràng làm trơn"],
+      "thuoc": ["Docusate sodium", "Colace", "DulcoEase", "Softtabs", "Docusate calcium", "Surfak", "Dioctyl sulfosuccinate", "Regulex", "Microlax", "Liquid paraffin", "Paraffin oil", "Mineral oil", "Cremaffin"],
       "muc_do": 3,
       "phan_tich": "Sử dụng thuốc nhuận tràng làm trơn dài hạn (cũng giống như tiêu chảy nặng) có thể gây hạ kali máu.",
       "xu_ly": "Nếu cần phối hợp giữa thuốc nhuận tràng làm trơn và thuốc lợi niệu thải kali, phòng ngừa hạ kali máu bằng cách bổ sung kali và nếu cần, tuỳ theo lâm sàng, theo dõi điện tâm đồ."
@@ -15029,13 +15029,13 @@ window.tuongTacData = [
       "xu_ly": "Việc theo dõi huyết áp phải thường xuyên. Nếu có thể, phải tránh phối hợp để ngăn chặn nguy cơ quan trọng về biến động huyết áp."
     },
     {
-      "thuoc": ["Thuốc cường thần kinh giao cảm beta"],
+      "thuoc": ["Dobutamine", "Dobutrex", "Salbutamol", "Ventolin", "Albuterol", "Terbutaline", "Bricanyl", "Fenoterol", "Berotec", "Formoterol", "Foradil", "Oxis", "Salmeterol", "Serevent", "Indacaterol", "Onbrez", "Clenbuterol", "Spiropent", "Ritodrine", "Yutopar", "Isoprenaline", "Isuprel", "Mirabegron", "Betmiga", "Myrbetriq"],
       "muc_do": 2,
       "phan_tich": "Tương tác kiểu đối kháng dược lý. Các thuốc giống beta có tác dụng tăng huyết áp, tác dụng này có thể giảm khi dùng đồng thời với các thuốc lợi tiểu thải kali.",
       "xu_ly": "Theo dõi đều đặn huyết áp. Thông tin cho người bệnh về nguy cơ biến đổi huyết áp, xây dựng kế hoạch dùng thuốc đều đặn và tính đến dạng thuốc sử dụng để đánh giá mức độ nặng nhẹ về biến động huyết áp."
     },
     {
-      "thuoc": ["Thuốc gây mê bay hơi chứa halogen"],
+      "thuoc": ["Halothane", "Fluothane", "Isoflurane", "Forane", "Terrell", "Desflurane", "Suprane", "Sevoflurane", "Ultane", "Sevorane", "Enflurane", "Ethrane"],
       "muc_do": 2,
       "phan_tich": "Nguy cơ hạ huyết áp do giảm thể tích máu.",
       "xu_ly": "Theo dõi huyết động học và điều chỉnh các rối loạn chuyển hoá. Khuyên người bệnh phải can thiệp ngoại khoa thông tin cho thầy thuốc gây mê những thuốc đang dùng."
@@ -15047,7 +15047,7 @@ window.tuongTacData = [
       "xu_ly": "Nên tiếp nước cho người bệnh trước khi dùng thuốc đối quang có iod. Khuyên người bệnh thông tin cho bác sĩ X quang là đang điều trị thuốc lợi tiểu để có những biện pháp cần thiết."
     },
     {
-      "thuoc": ["Thuốc nhuận tràng kích thích"],
+      "thuoc": ["Bisacodyl", "Dulcolax", "Correctol", "Laxoberon", "Fleet Bisacodyl", "Sennosides", "Senna", "Senokot", "Ex-Lax", "X-Prep", "Sodium picosulfate", "Prepopik", "Castor oil", "Dầu thầu dầu"],
       "muc_do": 2,
       "phan_tich": "Phối hợp hai thuốc gây hạ kali máu dẫn đến tăng nguy cơ hạ kali máu, nhất là khi các thuốc nhuận tràng được dùng dài ngày.",
       "xu_ly": "Theo dõi kali máu và hiệu chỉnh lại bằng bổ sung muối kali, nếu cần. Hạ kali máu thể hiện lâm sàng bằng mệt nhọc, thậm chí co cứng cơ và đôi khi rối loạn nhịp tim. Chú ý đến mất nước quá mức làm trầm trọng thêm sự mất kali. Nếu cần, có thể khuyên bổ sung tạm thời kali."
@@ -17095,7 +17095,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Levonorgestrel", "Postinor", "Escapelle", "Mifestad", "Mifepristone-Levonorgestrel", "Tetragynon", "New Choice", "Plan B", "Microlut", "Mirena", "Postinor", "Plan B", "Norlevo", "Thuốc ngừa thai phối hợp"
+        "Levonorgestrel", "Postinor", "Escapelle", "Mifestad", "Mifepristone-Levonorgestrel", "Tetragynon", "New Choice", "Plan B", "Microlut", "Mirena", "Postinor", "Plan B", "Norlevo", "Ethinylestradiol + Levonorgestrel", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Ethinylestradiol + Desogestrel", "Marvelon", "Regulon", "Ethinylestradiol + Drospirenone", "Yaz", "Yasmin", "Drosperin", "Angeliq", "Ethinylestradiol + Dienogest", "Qlaira", "Natazia", "Ethinylestradiol + Gestodene", "Femodene", "Femodette", "Gynera", "Meliane", "Ethinylestradiol + Cyproteron", "Diane-35", "Minerva", "Acnotin", "Ethinylestradiol + Norgestimate", "Ortho Tri-Cyclen", "Tri-Cyclen Lo", "Ethinylestradiol + Norethisterone", "Norinyl", "Loestrin", "Synphasic"
       ],
       "muc_do": 2,
       "phan_tich": "Hiệu lực của thuốc ngừa thai uống có thể bị mất, dẫn đến thụ thai ngoài ý muốn. Có thể do tăng chuyển hoá của thuốc ngừa thai ở gan.",
@@ -18176,7 +18176,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Amiodaron", "Cordarone", "Bepridil", "Corticoid khoáng", "Furosemid", "Lasix", "Glucocorticoid", "Halofantrin", "Tetracosactid", "Thuốc nhuận tràng kích thích"
+        "Amiodaron", "Cordarone", "Bepridil", "Corticoid khoáng", "Furosemid", "Lasix", "Glucocorticoid", "Halofantrin", "Tetracosactid", "Bisacodyl", "Dulcolax", "Correctol", "Laxoberon", "Fleet Bisacodyl", "Sennosides", "Senna", "Senokot", "Ex-Lax", "X-Prep", "Sodium picosulfate", "Prepopik", "Castor oil", "Dầu thầu dầu"
       ],
       "muc_do": 3,
       "phan_tich": "Nguy cơ xuất hiện xoắn đỉnh khi phối hợp thuốc. Hạ kali máu, nhịp tim chậm và khoảng QT dài (trên điện tâm đồ) là các yếu tố thuận lợi cho xuất hiện xoắn đỉnh. Xoắn đỉnh là một nhịp thất đặc biệt, có thể xuất hiện thành từng cơn rất ngắn (vài giây, mệt thỉu: cảm giác ngất nhưng không mất tri giác), đôi khi tiến triển thành rung thất.",
@@ -20659,7 +20659,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Thuốc chống viêm không steroid khác", "Diclofenac", "Ibuprofen", "Naproxen"
+          "Metamizole", "Dipyrone", "Analgin", "Novalgin", "Phenylbutazone", "Butazolidin", "Nimesulide", "Nimulid", "Nimegesic", "Mefenamic acid", "Ponstel", "Mephenamin", "Pamin", "Tolfenamic acid", "Clotam", "Floctafenine", "Idarac", "Nabumetone", "Relafen", "Oxyphenbutazone", "Sulindac", "Clinoril", "Salicylate sodium", "Salsalate", "Disalcid", "Choline magnesium trisalicylate", "Trilisate", "Diclofenac", "Ibuprofen", "Naproxen"
         ],
         "muc_do": 3,
         "phan_tich": "Hiệp đồng tác dụng gây loét và tăng nguy cơ chảy máu tiêu hóa.",
@@ -20667,7 +20667,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Thuốc tan huyết khối", "Alteplase", "Streptokinase", "Tenecteplase"
+          "Streptokinase", "Streptase", "Urokinase", "Abbokinase", "Alteplase", "Actilyse", "Reteplase", "Retavase", "Tenecteplase", "Metalyse", "Lanoteplase", "Alteplase", "Streptokinase", "Tenecteplase"
         ],
         "muc_do": 3,
         "phan_tich": "Tăng nguy cơ chảy máu.",
@@ -20675,7 +20675,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Thuốc uống chống đông máu kháng vitamin K", "Warfarin", "Coumadin", "Jantoven", "Coumadin", "Acenocoumarol"
+          "Warfarin", "Coumadin", "Marevan", "Acenocoumarol", "Sintrom", "Nicoumalone", "Phenindione", "Dindevan", "Warfarin", "Coumadin", "Jantoven", "Coumadin", "Acenocoumarol"
         ],
         "muc_do": 3,
         "phan_tich": "Tăng tác dụng chống đông, hiệp đồng tác dụng chống kết tập tiểu cầu, tăng nguy cơ loét/chảy máu.",
@@ -26129,7 +26129,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc uống chống đông máu kháng vitamin K",
+  "hoat_chat": ["Warfarin", "Coumadin", "Marevan", "Acenocoumarol", "Sintrom", "Nicoumalone", "Phenindione", "Dindevan"],
   "cac_thuoc_trong_nhom": [
     "Acenocoumarol", "Sintrom",
     "Warfarin", "Coumadin", "Jantoven", "Coumadin",
@@ -28053,7 +28053,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc cường thần kinh giao cảm beta",
+  "hoat_chat": ["Dobutamine", "Dobutrex", "Salbutamol", "Ventolin", "Albuterol", "Terbutaline", "Bricanyl", "Fenoterol", "Berotec", "Formoterol", "Foradil", "Oxis", "Salmeterol", "Serevent", "Indacaterol", "Onbrez", "Clenbuterol", "Spiropent", "Ritodrine", "Yutopar", "Isoprenaline", "Isuprel", "Mirabegron", "Betmiga", "Myrbetriq"],
   "cac_thuoc_trong_nhom": [
     "Dobutamin", "Dobuject", "Dobutamin Ebewe", "Dobutamine", "Dobutrex",
     "Dopamin", "Dopamine hydrochloride",
@@ -29386,7 +29386,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Furosemid", "Lasix", "Glucocorticoid", "Prednisolon", "Solupred", "Methylprednisolon", "Medrol", "Dexamethason", "Dexasone", "Thuốc nhuận tràng kích thích", "Bisacodyl", "Dulcolax", "Corticoid khoáng", "Fludrocortison", "Florinef", "Tetracosactid"
+        "Furosemid", "Lasix", "Glucocorticoid", "Prednisolon", "Solupred", "Methylprednisolon", "Medrol", "Dexamethason", "Dexasone", "Bisacodyl", "Dulcolax", "Correctol", "Laxoberon", "Fleet Bisacodyl", "Sennosides", "Senna", "Senokot", "Ex-Lax", "X-Prep", "Sodium picosulfate", "Prepopik", "Castor oil", "Dầu thầu dầu", "Bisacodyl", "Dulcolax", "Corticoid khoáng", "Fludrocortison", "Florinef", "Tetracosactid"
       ],
       "muc_do": 3,
       "phan_tich": "Tương tác được ghi với thuốc kháng histamin không an thần: astemizol hoặc terfenadin. Hạ kali máu (nhưng cả tiêu chảy kéo dài cũng có thể gây mất nước và điện giải) là một yếu tố dễ gây xoắn đỉnh. Nguy cơ tăng khi các thuốc làm hạ kali máu được phối hợp với những thuốc có khả năng gây xoắn đỉnh.",
@@ -29824,7 +29824,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc gây mê bay hơi chứa halogen",
+  "hoat_chat": ["Halothane", "Fluothane", "Isoflurane", "Forane", "Terrell", "Desflurane", "Suprane", "Sevoflurane", "Ultane", "Sevorane", "Enflurane", "Ethrane"],
   "cac_thuoc_trong_nhom": [
     "Desfluran", "Suprane",
     "Enfluran", "Alyrane",
@@ -30099,11 +30099,11 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc nhuận tràng kích thích",
+  "hoat_chat": ["Bisacodyl", "Dulcolax", "Correctol", "Laxoberon", "Fleet Bisacodyl", "Sennosides", "Senna", "Senokot", "Ex-Lax", "X-Prep", "Sodium picosulfate", "Prepopik", "Castor oil", "Dầu thầu dầu"],
   "cac_thuoc_trong_nhom": [
     "Bisacodyl", "Dulcolax", "Mucinum",
     "Vỏ hạt isapgol", "Gôm sterculia", "Senna", "Cascara",
-    "Igol", "Normacol"
+    "Igol", "Normacol", "Bisacodyl", "Dulcolax", "Correctol", "Laxoberon", "Fleet Bisacodyl", "Sennosides", "Senna", "Senokot", "Ex-Lax", "X-Prep", "Sodium picosulfate", "Prepopik", "Castor oil", "Dầu thầu dầu"
   ],
   "mo_ta": "Thuốc nhuận tràng kích thích ruột bài tiết nước và chất điện giải, làm tăng nhu động ruột, hỗ trợ điều trị táo bón.",
   "chu_y_khi_chi_dinh": {
@@ -30270,9 +30270,9 @@ window.tuongTacData = [
     ]
   },
   {
-    "hoat_chat": "Thuốc nhuận tràng làm trơn",
+    "hoat_chat": ["Docusate sodium", "Colace", "DulcoEase", "Softtabs", "Docusate calcium", "Surfak", "Dioctyl sulfosuccinate", "Regulex", "Microlax", "Liquid paraffin", "Paraffin oil", "Mineral oil", "Cremaffin"],
     "cac_thuoc_trong_nhom": [
-      "Dầu parafin", "Paraffin lỏng", "Lubentyl"
+      "Dầu parafin", "Paraffin lỏng", "Lubentyl", "Docusate sodium", "Colace", "DulcoEase", "Softtabs", "Docusate calcium", "Surfak", "Dioctyl sulfosuccinate", "Regulex", "Microlax", "Liquid paraffin", "Paraffin oil", "Mineral oil", "Cremaffin"
     ],
     "mo_ta": "Các sản phẩm chủ yếu là dầu khoáng, phủ một lớp màng trơn lên phân, giúp phân di chuyển dễ dàng qua đại tràng, làm mềm phân, hỗ trợ đại tiện.",
     "chu_y_khi_chi_dinh": {
@@ -30399,7 +30399,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Digoxin", "Lanoxin", "Cardioxin", "Digox", "Lanoxin", "Digitoxin", "Crystodigin", "Digitaline Nativelle", "Phenothiazin", "Chlorpromazin", "Largactil", "Levomepromazin", "Nozinan", "Promethazin", "Phenergan", "Perphenazin", "Trilafon", "Thioridazin", "Melleril", "Salicylat", "Aspirin", "Upsarin", "Aspegic", "Ecotrin", "Bayer Aspirin", "Aspro", "Disprin", "Cardirene", "Cartia", "ASA Stada", "Aspilets", "Thuốc uống chống đông máu kháng vitamin K", "Warfarin", "Coumadin", "Jantoven", "Coumadin", "Acenocoumarol", "Sintrom", "Phenindion", "Pindione"
+          "Digoxin", "Lanoxin", "Cardioxin", "Digox", "Lanoxin", "Digitoxin", "Crystodigin", "Digitaline Nativelle", "Phenothiazin", "Chlorpromazin", "Largactil", "Levomepromazin", "Nozinan", "Promethazin", "Phenergan", "Perphenazin", "Trilafon", "Thioridazin", "Melleril", "Salicylat", "Aspirin", "Upsarin", "Aspegic", "Ecotrin", "Bayer Aspirin", "Aspro", "Disprin", "Cardirene", "Cartia", "ASA Stada", "Aspilets", "Warfarin", "Coumadin", "Marevan", "Acenocoumarol", "Sintrom", "Nicoumalone", "Phenindione", "Dindevan", "Warfarin", "Coumadin", "Jantoven", "Coumadin", "Acenocoumarol", "Sintrom", "Phenindion", "Pindione"
         ],
         "muc_do": 2,
         "phan_tich": "Dùng thuốc nhuận tràng nhầy và thẩm thấu cùng với các thuốc trên sẽ làm giảm hấp thu và hoạt tính các thuốc đó.",
