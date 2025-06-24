@@ -20763,7 +20763,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Clonidin", "Catapres", "Diazoxid", "Proglycem", "Amlodipin", "Nifedipin", "Diltiazem", "Furosemid", "Lasix", "Methyldopa", "Aldomet", "Reserpin", "Serpasil", "Sotalol", "Betapace", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Thuốc lợi niệu giữ kali", "Spironolacton", "Verospiron", "Thuốc lợi niệu thải kali", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Fludex", "Chlortalidon", "Hygroton", "Captopril", "Capoten", "Hypoten", "Enalapril", "Renitec", "Enap", "Vasotec", "Lisinopril", "Zestril", "Prinivil", "Lisodur", "Perindopril", "Coversyl", "Prenessa", "Coversum", "Ramipril", "Tritace", "Ramica", "Quinapril", "Accupril", "Fosinopril", "Monopril", "Trandolapril", "Mavik", "Odrik", "Benazepril", "Lotensin", "Moexipril", "Univasc", "Captopril", "Enalapril", "Lisinopril", "Perindopril", "Ramipril", "Thuốc giãn mạch hạ huyết áp"
+          "Clonidin", "Catapres", "Diazoxid", "Proglycem", "Amlodipin", "Nifedipin", "Diltiazem", "Furosemid", "Lasix", "Methyldopa", "Aldomet", "Reserpin", "Serpasil", "Sotalol", "Betapace", "Atenolol", "Tenormin", "Metoprolol", "Lopressor", "Spironolactone", "Aldactone", "Verospiron", "Spiractin", "Eplerenone", "Inspra", "Amiloride", "Midamor", "Triamterene", "Dyrenium", "Dytide", "Hydrene", "Spironolacton", "Verospiron", "Furosemide", "Lasix", "Frusid", "Frusemide", "Bumetanide", "Burinex", "Torasemide", "Demadex", "Hydrochlorothiazide", "Microzide", "Esidrex", "Chlorthalidone", "Hygroton", "Indapamide", "Natrilix", "Fludex", "Metolazone", "Zaroxolyn", "Hydrochlorothiazid", "Hypothiazid", "Indapamid", "Fludex", "Chlortalidon", "Hygroton", "Captopril", "Capoten", "Hypoten", "Enalapril", "Renitec", "Enap", "Vasotec", "Lisinopril", "Zestril", "Prinivil", "Lisodur", "Perindopril", "Coversyl", "Prenessa", "Coversum", "Ramipril", "Tritace", "Ramica", "Quinapril", "Accupril", "Fosinopril", "Monopril", "Trandolapril", "Mavik", "Odrik", "Benazepril", "Lotensin", "Moexipril", "Univasc", "Captopril", "Enalapril", "Lisinopril", "Perindopril", "Ramipril", "Hydralazine", "Apresoline", "Minoxidil", "Loniten", "Diazoxide", "Hyperstat", "Sodium nitroprusside", "Nitropress", "Fenoldopam", "Corlopam"
         ],
         "muc_do": 1,
         "phan_tich": "Giảm tác dụng hạ huyết áp do ức chế tổng hợp prostaglandin giãn mạch của thận và/hoặc giữ muối nước.",
@@ -20779,7 +20779,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Estrogen", "Estradiol", "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Thuốc ngừa thai estroprogestogen", "Diane-35", "Climen"
+          "Estrogen", "Estradiol", "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Ethinylestradiol + Levonorgestrel", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Ethinylestradiol + Desogestrel", "Marvelon", "Regulon", "Ethinylestradiol + Drospirenone", "Yaz", "Yasmin", "Drosperin", "Angeliq", "Ethinylestradiol + Dienogest", "Qlaira", "Natazia", "Ethinylestradiol + Gestodene", "Femodene", "Femodette", "Gynera", "Meliane", "Ethinylestradiol + Cyproterone", "Diane-35", "Minerva", "Acnotin", "Ethinylestradiol + Norgestimate", "Ortho Tri-Cyclen", "Tri-Cyclen Lo", "Ethinylestradiol + Norethisterone", "Norinyl", "Loestrin", "Synphasic", "Diane-35", "Climen"
         ],
         "muc_do": 1,
         "phan_tich": "Phenylbutazon gây cảm ứng enzym, làm tăng dị hoá estrogen và thuốc ngừa thai estroprogestogen, giảm hiệu lực.",
@@ -21386,7 +21386,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Thuốc uống kháng acid", "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids", "Than hoạt"
+        "Nhôm hydroxyd", "Alugel", "Maalox", "Mylanta", "Phosphalugel", "Gastropulgite", "Yumangel", "Almagel", "Gelusil", "Magnesi hydroxyd", "Milk of Magnesia", "Maalox", "Mylanta", "Riopan", "Calci carbonat", "Tums", "Rennie", "Titralac", "Caltrate", "Natri bicarbonat", "Alka-Seltzer", "Baking soda", "Nhôm hydroxyd", "Almagat", "Gelusil", "Maalox", "Mylanta", "Phosphalugel", "Yumangel", "Yumangel F", "Gastropulgite", "Almagel", "Alusal", "Gelactive Fort", "Mallote", "Ahmcimil's", "Kremil-S", "Riopan", "Tums", "Rennie", "Trimafort", "Maalox", "Gaviscon", "Rolaids", "Than hoạt"
       ],
       "muc_do": 2,
       "phan_tich": "Các quinolon nói chung và fluoroquinolon nói riêng, sử dụng bằng đường uống, tạo phức với các cation hóa trị 2 và 3 như nhôm, magnesi, calci, sắt, kẽm, dẫn đến giảm hấp thu.",
@@ -22461,8 +22461,8 @@ window.tuongTacData = [
         "Carbamazepin", "Tegretol", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrolene", "Dextropropoxyphen", "Di-antalvic",
         "Fluoxetin", "Prozac", "Fluvoxamin", "Luvox", "Gluthetimid", "Doriden", "Interferon alpha tái tổ hợp",
         "Medifoxamin", "Methyldopa", "Aldomet", "Mianserin", "Tolvon", "Oxaflozan", "Phenothiazin", "Chlorpromazin", "Largactil",
-        "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Thuốc chống động kinh không phải barbiturat", "Valproat", "Depakine", "Lamotrigin", "Lamictal",
-        "Amitriptyline", "Laroxyl", "Elavil", "Endep", "Tryptanol", "Nortriptyline", "Pamelor", "Sensoval", "Norpress", "Imipramine", "Tofranil", "Deprimin", "Desipramine", "Norpramin", "Pertofran", "Clomipramine", "Anafranil", "Doxepin", "Sinequan", "Adapin", "Quitaxon", "Trimipramine", "Surmontil", "Protriptyline", "Vivactil", "Maprotiline", "Ludiomil", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Laroxyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Tofranil", "Thuốc kháng histamin kháng H1 có tác dụng an thần", "Promethazin", "Phenergan", "Diphenhydramin", "Benadryl"
+        "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Phenytoin", "Dilantin", "Epanutin", "Carbamazepine", "Tegretol", "Carbatrol", "Finlepsin", "Oxcarbazepine", "Trileptal", "Oxtellar", "Valproic acid", "Depakene", "Depakine", "Divalproex sodium", "Depakote", "Lamotrigine", "Lamictal", "Levetiracetam", "Keppra", "Topiramate", "Topamax", "Gabapentin", "Neurontin", "Pregabalin", "Lyrica", "Lacosamide", "Vimpat", "Zonisamide", "Zonegran", "Ethosuximide", "Zarontin", "Clonazepam", "Rivotril", "Valproat", "Depakine", "Lamotrigin", "Lamictal",
+        "Amitriptyline", "Laroxyl", "Elavil", "Endep", "Tryptanol", "Nortriptyline", "Pamelor", "Sensoval", "Norpress", "Imipramine", "Tofranil", "Deprimin", "Desipramine", "Norpramin", "Pertofran", "Clomipramine", "Anafranil", "Doxepin", "Sinequan", "Adapin", "Quitaxon", "Trimipramine", "Surmontil", "Protriptyline", "Vivactil", "Maprotiline", "Ludiomil", "Amitriptylin",  "Elavil", "Laroxyl", "Endep", "Triptyl", "Laroxyl", "Imipramin", "Tofranil", "Janimine", "Tofranil-PM", "Tofranil", "Diphenhydramine", "Benadryl", "Unisom", "Hydroxyzine", "Atarax", "Vistaril", "Promethazine", "Phenergan", "Chlorpheniramine", "Chlorphen", "Piriton", "Clemastine", "Tavegyl", "Cyproheptadine", "Periactin", "Doxylamine", "Unisom", "Dozile", "Triprolidine", "Actifed", "Meclizine", "Antivert", "Bonine", "Promethazin", "Phenergan", "Diphenhydramin", "Benadryl"
       ],
       "muc_do": 3,
       "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, kéo theo tăng tác dụng an thần gây buồn ngủ. Với một số thuốc có thể thấy một số tác dụng tâm thần - vận động, đặc biệt trong tuần lễ điều trị đầu tiên. Tương tác dược lực.",
@@ -25478,7 +25478,7 @@ window.tuongTacData = [
       "xu_ly": "Tốt nhất không nên phối hợp hai thuốc, vì người kê đơn không kiểm soát được người bệnh uống rượu. Nguy cơ an thần buồn ngủ nguy hiểm nhất đối với người lái xe và người vận hành máy móc. Khuyên người bệnh không uống rượu, không dùng các chế phẩm có rượu, khi điều trị...."
     },
     {
-      "thuoc": ["Carbamazepin", "Tegretol", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium", "Interferon alpha tái tổ hợp", "Medifoxamin", "Paroxetin", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Procarbazin", "Natulan", "Matulane", "Natulan", "Thuốc ức chế hệ thần kinh trung ương các loại"],
+      "thuoc": ["Carbamazepin", "Tegretol", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Dantrium", "Interferon alpha tái tổ hợp", "Medifoxamin", "Paroxetin", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Procarbazin", "Natulan", "Matulane", "Natulan", "Diazepam", "Valium", "Stesolid", "Seduxen", "Lorazepam", "Ativan", "Clonazepam", "Rivotril", "Alprazolam", "Xanax", "Phenobarbital", "Gardenal", "Thiopental", "Pentothal", "Midazolam", "Dormicum", "Zolpidem", "Stilnox", "Ambien", "Zopiclone", "Imovane", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Risperidone", "Risperdal", "Sodium valproate", "Depakine", "Epilim", "Carbamazepine", "Tegretol", "Gabapentin", "Neurontin", "Pregabalin", "Lyrica", "Ketamine", "Ketalar", "Propofol", "Diprivan"],
       "muc_do": 2,
       "phan_tich": "Tăng tác dụng ức chế hệ thần kinh trung ương, dẫn đến tăng tác dụng an thần buồn ngủ. Tương tác dược lực.",
       "xu_ly": "Chú ý đến giảm tỉnh táo ở người lái xe và người vận hành máy móc. Khuyên không uống rượu , không dùng chế phẩm có rượu."
@@ -26541,7 +26541,7 @@ window.tuongTacData = [
   },
   {
     "thuoc": [
-      "Thuốc nhuận tràng tạo thạch", "Thuốc nhuận tràng thẩm thấu", "Lactulose", "Duphalac", "Macrogol", "Forlax", "Sorbitol"
+      "Magnesi hydroxyd", "Milk of Magnesia", "Magnesi sulfat", "Epsom Salt", "Natri sulfat", "Glauber’s salt", "Natri phosphat", "Fleet Phospho-soda", "Lactulose", "Duphalac", "Lactulon", "Sorbitol", "Sorbitol oral solution", "Polyethylene glycol", "Forlax", "Movicol", "Miralax", "Macrogol", "Transipeg", "Importal", "Lactulose", "Duphalac", "Lactulon", "Sorbitol", "Sorbitol oral solution", "Polyethylene glycol", "Miralax", "Forlax", "Movicol", "Macrogol", "Transipeg", "Importal", "Magnesi hydroxyd", "Milk of Magnesia", "Magnesi sulfat", "Epsom Salt", "Natri sulfat", "Glauber’s salt", "Natri phosphat", "Fleet Phospho-soda", "Lactulose", "Duphalac", "Macrogol", "Forlax", "Sorbitol"
     ],
     "muc_do": 2,
     "phan_tich": "Dùng các thuốc nhuận tràng tạo thạch và thẩm thấu cùng với các kháng vitamin K làm giảm hấp thu thuốc kháng vitamin K và làm giảm hoạt tính của chúng.",
@@ -27133,7 +27133,7 @@ window.tuongTacData = [
         "xu_ly": "Chú ý tới giảm tỉnh táo ở người lái xe và ở người vận hành máy. Khuyên không uống rượu và không dùng các chế phẩm có rượu."
       },
       {
-        "thuoc": ["Thuốc acid hoá nước tiểu"],
+        "thuoc": ["Ascorbic acid", "Vitamin C", "Cebion", "Redoxon", "Ammonium chloride", "Urolyt", "Methionine", "D-met", "Uracid", "Hippuric acid", "Hiprex"],
         "muc_do": 2,
         "phan_tich": "Vì các thuốc chống trầm cảm ba vòng là những base, các chất acid hoá nước tiểu có thể làm tăng bài tiết chúng qua nước tiểu. Ngược lại, các chất kiềm hoá nước tiểu có thể làm giảm sự bài tiết đó (tạo thuận lợi cho sự tái hấp thu qua ống thận).",
         "xu_ly": "Dù tương tác này có thể xảy ra về mặt lý-hoá, nhưng biểu hiện lâm sàng chưa có ý nghĩa."
@@ -27682,7 +27682,7 @@ window.tuongTacData = [
       "xu_ly": "Tốt nhất là tránh phối hợp. Nếu cần phối hợp, chỉ nên phối hợp ngắn ngày (nhiều khả năng ít gây tai biến), nhưng nếu thường xuyên phối hợp, cần phải bù nước đầy đủ cho người bệnh, giám sát chức năng thận (độ thanh lọc creatinin), giám sát huyết áp và giữ cho huyết áp ổn định (có khi phải tăng liều thuốc hạ huyết áp nếu cần), đặc biệt khi bắt đầu phối hợp."
     },
     {
-      "thuoc": ["Thuốc làm tan huyết khối", "Alteplase", "Actilyse", "Tenecteplase", "Metalyse", "Reteplase", "Retavase", "Streptokinase", "Streptase", "Urokinase", "Abbokinase"],
+      "thuoc": ["Streptokinase", "Streptase", "Urokinase", "Abbokinase", "Alteplase", "Actilyse", "Reteplase", "Retavase", "Tenecteplase", "Metalyse", "Lanoteplase", "Alteplase", "Actilyse", "Tenecteplase", "Metalyse", "Reteplase", "Retavase", "Streptokinase", "Streptase", "Urokinase", "Abbokinase"],
       "muc_do": 2,
       "phan_tich": "Phối hợp với thuốc chống kết tập tiểu cầu hoặc chống đông máu làm tăng nguy cơ chảy máu.",
       "xu_ly": "Nếu nhất thiết phải phối hợp, phải giám sát bằng các thử nghiệm đông máu thích hợp như thời gian Howell và thời gian Cephalin-Kaolin. Nếu có thể, tìm một giải pháp điều trị khác."
@@ -27694,7 +27694,7 @@ window.tuongTacData = [
   "cac_thuoc_trong_nhom": [
     "Alfentanil", "Rapifen",
     "Codein", "Acetadein", "Acodine", "Acoralen F", "Actadol codein", "Alicopin", "Codepect", "Codipront", "Codipront N", "Copin tab", "Dafalgan codein", "Dopharalgin", "Efferalgan codein", "Eucalyptine Le Brun", "Neo-Codion", "Nicol – Fort", "Nucofed", "Mekodin", "Paracetamol codein", "Paracodein", "Pacodal", "Polery", "Terpincodein", "Terpicod", "Terpin-codein F", "Tercodin", "Tercodin nang",
-    "Dextromethorphan", "Actifed DM", "Alex", "Alrafen cough", "Ameflu", "Atussin", "Agrodin", "Bé ho thuốc cốm", "Blue Cap", "Coandin", "Cetamol plus", "Cofdex", "Dantuoxin", "Decolsin", "Dexpin", "Dotouxi", "Dotussal", "Edcophar", "Hadosena", "Lykadex", "Maxcom", "Medicol", "Methorphan", "Neo-coadon", "Neogodian DM", "Necovon", "Necovo", "Neogodian DM", "Nortussin", "Recotus", "Pulmofar", "Rhumenol D 500", "Sedopharm", "Siro Natussal", "Terpin Copham", "Terpin Mekong", "Terpin Trodex", "Terpotrophan", "Touxirup", "Tuxo", "Tustophan",
+    "Dextromethorphan", "Actifed DM", "Alex", "Alrafen cough", "Ameflu", "Atussin", "Agrodin", "Blue Cap", "Coandin", "Cetamol plus", "Cofdex", "Dantuoxin", "Decolsin", "Dexpin", "Dotouxi", "Dotussal", "Edcophar", "Hadosena", "Lykadex", "Maxcom", "Medicol", "Methorphan", "Neo-coadon", "Neogodian DM", "Necovon", "Necovo", "Neogodian DM", "Nortussin", "Recotus", "Pulmofar", "Rhumenol D 500", "Sedopharm", "Siro Natussal", "Terpin Copham", "Terpin Mekong", "Terpin Trodex", "Terpotrophan", "Touxirup", "Tuxo", "Tustophan",
     "Dextromoramid", "Palfium",
     "Dihydrocodein", "Codaewon", "Dicodin",
     "Fentanyl", "Fentanyl citrat", "Thalamonal",
@@ -27723,7 +27723,7 @@ window.tuongTacData = [
   },
   "tuong_tac": [
     {
-      "thuoc": ["Thuốc ức chế MAO typ B"],
+      "thuoc": ["Selegiline", "Eldepryl", "Jumex", "Rasagiline", "Azilect", "Safinamide", "Xadago"],
       "muc_do": 4,
       "phan_tich": "Tương tác giữa thuốc ức chế MAO typ B với pethidin (Dolosal, Dolargan) có thể gây lú lẫn, kích thích, tăng thân nhiệt, co giật, co thắt mạch và tăng huyết áp (hội chứng serotoninergic). Hiện còn tranh luận về mức độ nặng nhẹ của các nguy cơ đó với các chất chủ vận khác.",
       "xu_ly": "Các nguy cơ nói trên đã thấy với pethidin. Với các thuốc khác, nếu cần phối hợp thuốc, làm một test với liều thấp để phát hiện tương tác và đánh giá mức độ nặng nhẹ. Nếu không, nên thận trọng đợi sau khi ngừng thuốc IMAO được hai tuần lễ mới dùng các chất chủ vận của morphin."
@@ -27753,7 +27753,7 @@ window.tuongTacData = [
       "xu_ly": "Với người nghiện rượu, phải giảm liều thuốc chủ vận của morphin. Khi kê đơn một thuốc ức chế thần kinh trung ương, cần khuyên người bệnh không dùng rượu đồng thời. Cần quan tâm đến hàm lượng rượu có trong biệt dược hoặc đồ uống mà người bệnh tự dùng. Cần chú ý trường hợp ngoại trú, đối với người lái xe và người đứng máy."
     },
     {
-      "thuoc": ["Thuốc ức chế MAO typ A", "Moclobemid", "Toloxaton", "Selegillin"],
+      "thuoc": ["Moclobemide", "Aurorix", "Clorgyline", "Moclobemid", "Toloxaton", "Selegillin"],
       "muc_do": 3,
       "phan_tich": "Trong họ thuốc này, tương tác chỉ mới được mô tả với pethidin. Pethidin (Dolosal*) là một chất giảm đau loại morphin có tác dụng nhanh và ngắn, hay dùng trong những cơn đau quặn thận. Khi phối hợp với thuốc ức chế MAO typ A (moclobemid và toloxaton) hay typ B (selegillin) là những thuốc ức chế MAO chọn lọc và thuận nghịch, có nguy cơ tích lũy serotonin với các hiện tượng sốt cao, cứng cơ, thậm chí mê sảng.",
       "xu_ly": "Chống chỉ định phối hợp. Cần chọn một thuốc giảm đau khác hơn là thay đổi đột ngột thuốc chống trầm cảm hay thuốc bổ trợ điều trị Parkinson (selegillin)."
@@ -29496,11 +29496,11 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc làm tan huyết khối",
+  "hoat_chat": ["Streptokinase", "Streptase", "Urokinase", "Abbokinase", "Alteplase", "Actilyse", "Reteplase", "Retavase", "Tenecteplase", "Metalyse", "Lanoteplase"],
   "cac_thuoc_trong_nhom": [
     "Alteplase", "Actilyse",
     "Anistreplase", "Eminase",
-    "Urokinase", "Urokinase-KGCC", "KD-Unase"
+    "Urokinase", "Urokinase-KGCC", "KD-Unase", "Streptokinase", "Streptase", "Urokinase", "Abbokinase", "Alteplase", "Actilyse", "Reteplase", "Retavase", "Tenecteplase", "Metalyse", "Lanoteplase"
   ],
   "mo_ta": "Thuốc làm tan cục máu đông dùng trong giai đoạn cấp cứu nhồi máu cơ tim (trong vòng 6 giờ).",
   "chu_y_khi_chi_dinh": {
@@ -31118,7 +31118,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc ức chế MAO typ A",
+  "hoat_chat": ["Moclobemide", "Aurorix", "Clorgyline"],
   "cac_thuoc_trong_nhom": [
     "Moclobemid", "Aurorix",
     "Toloxaton", "Humoryl"
@@ -31170,7 +31170,7 @@ window.tuongTacData = [
   ]
 },
 {
-  "hoat_chat": "Thuốc ức chế MAO typ B",
+  "hoat_chat": ["Selegiline", "Eldepryl", "Jumex", "Rasagiline", "Azilect", "Safinamide", "Xadago"],
   "cac_thuoc_trong_nhom": [
     "Selegilin", "Jumex"
   ],
