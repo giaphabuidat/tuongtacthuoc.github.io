@@ -267,7 +267,7 @@ h1 {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Đẩy các mục sang phải */
+    justify-content: center; /* Đẩy các mục sang phải */
 }
 .main-menu li {
     margin: 0;
