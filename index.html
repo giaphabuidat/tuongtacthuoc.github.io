@@ -143,28 +143,22 @@
 <script>
 const btn = document.getElementById('toggle-dark');
 btn.onclick = function() {
-  if(document.body.classList.contains('dark')) {
-    document.body.classList.remove('dark');
-    document.body.classList.add('light');
-    localStorage.setItem('darkMode', 'light');
-  } else if(document.body.classList.contains('light')) {
-    document.body.classList.remove('light');
-    localStorage.removeItem('darkMode'); // Quay về theo hệ điều hành
-  } else {
-    document.body.classList.add('dark');
-    localStorage.setItem('darkMode', 'dark');
-  }
+  // Bật/tắt class 'dark' trên body
+  document.body.classList.toggle('dark');
+  
+  // Lưu trạng thái vào localStorage (true = dark mode, false = light mode)
+  localStorage.setItem('darkMode', document.body.classList.contains('dark'));
 };
 
-// Khôi phục trạng thái khi tải lại
-const savedMode = localStorage.getItem('darkMode');
-if(savedMode === 'dark') {
+// Khôi phục trạng thái khi tải trang
+const isDarkMode = localStorage.getItem('darkMode') === 'true';
+if (isDarkMode) {
   document.body.classList.add('dark');
-} else if(savedMode === 'light') {
-  document.body.classList.add('light');
+} else {
+  document.body.classList.remove('dark'); // Đảm bảo light mode
 }
-
 </script>
+
  <script src="data.js"></script>
     <script src="app.js"></script>
     <script>
