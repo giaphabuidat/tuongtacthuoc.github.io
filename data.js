@@ -5912,7 +5912,7 @@ window.tuongTacData = [
   "tuong_tac": [
     {
       "thuoc": [
-        "Xà phòng", "Chất diện hoạt anion", "Alginat", "Gôm tragacanth", "Kaolin", "Calci", "Magnesi", "Kẽm", "Kali iodid", "Borat", "Bicarbonat", "Carbonat", "Clorid", "Citrat", "Nitrat", "Phosphat", "Sulfat", "Natri laurylsulfat"
+        "Xà phòng", "Sodium lauryl sulfate", "SLS", "Texapon", "Sodium laureth sulfate", "SLES", "Sodium stearate", "Sodium dodecylbenzenesulfonate", "Sodium cetyl sulfate", "Sodium oleate", "Sodium cocoyl isethionate", "Alginat", "Gôm tragacanth", "Kaolin", "Calci", "Magnesi", "Kẽm", "Kali iodid", "Borat", "Bicarbonat", "Carbonat", "Clorid", "Citrat", "Nitrat", "Phosphat", "Sulfat", "Natri laurylsulfat"
       ],
       "phan_tich": "Các muối clorhexidin tương kỵ với xà phòng, chất diện hoạt anion, các chất ổn định dịch treo như alginat, gôm tragacanth, các bột không tan như kaolin, các muối calci, magnesi, kẽm, kali iodid và các anion như borat, bicarbonat, carbonat, clorid, citrat, nitrat, phosphat, sulfat. Thuốc đánh răng chứa natri laurylsulfat làm giảm tác dụng sát khuẩn của clorhexidin.",
       "xu_ly": "Không phối hợp hoặc dùng cách nhau ít nhất 30 phút với các chất diện hoạt anion. Không dùng chung với các muối kể trên, tránh nước cứng."
@@ -26658,7 +26658,7 @@ window.tuongTacData = [
     "tuong_tac": []
   },
 {
-  "hoat_chat": "Thuốc chống nấm dẫn xuất imidazol",
+  "hoat_chat": ["Ketoconazole", "Nizoral", "Clotrimazole", "Canesten", "Clorimaderm", "Miconazole", "Daktarin", "Micotine", "Econazole", "Spectrazole", "Tioconazole", "Trosyd", "Isoconazole", "Travogen", "Bifonazole", "Canespor"],
   "cac_thuoc_trong_nhom": [
     "Bifonazol", "Neltolon", "Mycospor", "Onychoset",
     "Clotrimazol", "Canesten", "Clomaz", "Cristan", "Lykamidil",
@@ -27795,7 +27795,7 @@ window.tuongTacData = [
       "xu_ly": "Phải nghĩ đến giảm tỉnh táo ở người lái xe hoặc đứng máy. Khuyên không dùng thêm rượu và các thuốc hoặc đồ uống có rượu."
     },
     {
-      "thuoc": ["Thuốc đối kháng với morphin", "Naloxon", "Nalone", "Narcanti", "Naltrexon", "Revia"],
+      "thuoc": ["Naloxone", "Narcan", "Nalone", "Naltrexone", "Revia", "Vivitrol", "Nalmefene", "Selincro", "Naloxon", "Nalone", "Narcanti", "Naltrexon", "Revia"],
       "muc_do": 2,
       "phan_tich": "Đối kháng dược lý, đặc biệt đối kháng tác dụng giảm đau, ức chế hô hấp, ức chế thần kinh trung ương của các chất chủ vận của morphin.",
       "xu_ly": "Có thể dùng như thuốc giải độc. Khi dùng cho người nghiện ma tuý, phải chú ý đến nguy cơ hội chứng cai nghiện."
@@ -27820,7 +27820,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Baclofen", "Lioresal", "Barbituric", "Phenobarbital","Luminal","Solfoton","Sezaby", "Gardenal", "Benzamid", "Sulpirid", "Dogmatil", "Benzodiazepin", "Diazepam", "Valium", "Seduxen", "Alprazolam", "Xanax", "Clonazepam", "Rivotril", "Butyrophenon", "Haloperidol", "Haldol", "Droperidol", "Droleptan", "Carbamat", "Meprobamat", "Equanil", "Carbamazepin", "Tegretol", "Fluoxetin", "Prozac", "Fluvoxamin", "Luvox", "Kháng histamin kháng H1 an thần", "Chlorpheniramin", "Tiffy", "Mianserin", "Oxaflozan", "Phenytoin", "Epanutin", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Thuốc ức chế hệ thần kinh trung ương khác"
+        "Baclofen", "Lioresal", "Barbituric", "Phenobarbital","Luminal","Solfoton","Sezaby", "Gardenal", "Benzamid", "Sulpirid", "Dogmatil", "Benzodiazepin", "Diazepam", "Valium", "Seduxen", "Alprazolam", "Xanax", "Clonazepam", "Rivotril", "Butyrophenon", "Haloperidol", "Haldol", "Droperidol", "Droleptan", "Carbamat", "Meprobamat", "Equanil", "Carbamazepin", "Tegretol", "Fluoxetin", "Prozac", "Fluvoxamin", "Luvox", "Kháng histamin kháng H1 an thần", "Chlorpheniramin", "Tiffy", "Mianserin", "Oxaflozan", "Phenytoin", "Epanutin", "Primidone","Mysoline","Prysoline","Lepsiral","Resimatil","Apo-Primidone","Primidon", "Mysoline", "Chlorpromazine", "Largactil", "Haloperidol", "Haldol", "Fluphenazine", "Prolixin", "Perphenazine", "Trilafon", "Trifluoperazine", "Stelazine", "Thioridazine", "Mellaril", "Pimozide", "Orap", "Droperidol", "Levomepromazine", "Nozinan", "Risperidone", "Risperdal", "Olanzapine", "Zyprexa", "Quetiapine", "Seroquel", "Clozapine", "Clozaril", "Aripiprazole", "Abilify", "Ziprasidone", "Geodon", "Paliperidone", "Invega", "Lurasidone", "Latuda", "Asenapine", "Saphris", "Cariprazine", "Vraylar", "Amisulpride", "Solian", "Lithium carbonate", "Eskalith", "Lithobid", "Valproic acid", "Depakene", "Depakine", "Lamotrigine", "Lamictal", "Topiramate", "Topamax", "Levetiracetam", "Keppra", "Tiapride", "Tiapridal", "Clonidine", "Catapres", "Baclofen", "Lioresal", "Tizanidine", "Sirdalud", "Chloral hydrate", "Noctec", "Meprobamate", "Equanil", "Miltown", "Buspirone", "Buspar"
       ],
       "muc_do": 1,
       "phan_tich": "Tăng tác dụng ức chế thần kinh trung ương, kéo theo tăng tác dụng an thần gây buồn ngủ. Cơ chế do tương tác dược lực.",
@@ -27851,7 +27851,7 @@ window.tuongTacData = [
       "xu_ly": "Phải tính đến nguy cơ, khi xác định liều lượng của hai thuốc phối hợp. Nghĩ đến giảm tỉnh táo ở người lái xe, người đứng máy. Khuyên không uống rượu, không dùng thêm thuốc hoặc đồ uống có rượu."
     },
     {
-      "thuoc": ["Thiopental", "Pentothal", "Trapanal", "Pentothal", "Phenobarbital","Luminal","Solfoton","Sezaby", "Gardenal", "Halothan", "Fluothane", "Isofluran", "Forane", "Sevofluran", "Ultane", "Thuốc gây mê khác"],
+      "thuoc": ["Thiopental", "Pentothal", "Trapanal", "Pentothal", "Phenobarbital","Luminal","Solfoton","Sezaby", "Gardenal", "Halothan", "Fluothane", "Isofluran", "Forane", "Sevofluran", "Ultane", "Ketamine", "Ketalar", "Etomidate", "Hypnomidate", "Propofol", "Diprivan", "Thiopental", "Pentothal", "Midazolam", "Dormicum"],
       "muc_do": 1,
       "phan_tich": "Nguy cơ tăng tác dụng ức chế thần kinh trung ương.",
       "xu_ly": "Nếu cần phối hợp hai thứ thuốc, phải chú ý đến nguy cơ này khi gây mê và nhắc người bệnh phải phẫu thuật thông báo cho bác sĩ gây mê biết những thuốc đã dùng."
@@ -28554,7 +28554,7 @@ window.tuongTacData = [
         "thuoc": [
           "Amphetamin", "Corticosteroid khoáng", "Fludrocortison",
           "Phenylbutazon", "Indometacin", "Ibuprofen", "Diclofenac", "Piroxicam", "Meloxicam",
-          "Estrogen", "Progestogen", "Thuốc tránh thai phối hợp",
+          "Estrogen", "Progestogen", "Ethinylestradiol + Levonorgestrel", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Ethinylestradiol + Desogestrel", "Marvelon", "Regulon", "Ethinylestradiol + Drospirenone", "Yaz", "Yasmin", "Drosperin", "Ethinylestradiol + Dienogest", "Qlaira", "Ethinylestradiol + Gestodene", "Femodene", "Gynera", "Meliane", "Ethinylestradiol + Cyproterone", "Diane-35", "Minerva", "Ethinylestradiol + Norethisterone", "Stediril", "Norinyl", "Ethinylestradiol + Norgestrel", "Ovral",
           "Tetracosactid",
           "Carbenoxolon"
         ],
@@ -29446,7 +29446,7 @@ window.tuongTacData = [
       "xu_ly": "Dùng hai loại thuốc này cách nhau ít nhất 3 đến 4 giờ. Như vậy vẫn có thể chưa tránh được tương tác thuốc, phải dùng tetracyclin với liều cao hơn."
     },
     {
-      "thuoc": ["Chất acid hoá nước tiểu", "Acid ascorbic", "Ascorvit", "Redoxon", "Cevitam", "Acemin", "Celaskon", "Vitamin C", "Asvitol", "V-C500", "Ceelin", "Acid citric", "Ammonium chloride"],
+      "thuoc": ["Acid ascorbic", "Ascorvit", "Redoxon", "Cevitam", "Acemin", "Celaskon", "Vitamin C", "Asvitol", "V-C500", "Ceelin", "Acid citric", "Ammonium chloride"],
       "muc_do": 2,
       "phan_tich": "Trung hoà hoá- lý",
       "xu_ly": "Kết hợp hợp lý hay bất hợp lý tuỳ theo sự trung hoà hoá-lý phù hợp hoặc không phù hợp với mục đích điều trị (trung hoà tính base)."
@@ -29570,63 +29570,6 @@ window.tuongTacData = [
     }
   ]
 },
-{
-    "hoat_chat": "Thuốc làm thay đổi chất nhầy phế quản",
-    "cac_thuoc_trong_nhom": [
-      "Bromhexin", "Bisolvon", "Dosulvon", "Paxirasol", "Zedex-siro",
-      "Carbocystein", "Bronchathiol", "Bronchokod", "Bronchocyst", "Fluditec", "Solmux Broncho",
-      "Acetylcystein", "Acemuc", "Exomuc", "Fluimucil", "Mucomyst", "Muxystine"
-    ],
-    "mo_ta": "Nhóm thuốc tiêu chất nhầy và điều hòa bài tiết đờm, giúp làm loãng đờm, tăng vận chuyển chất nhầy qua hệ thống lông chuyển phế quản.",
-    "chu_y_khi_chi_dinh": {
-      "than_trong": {
-        "muc_do": 2,
-        "noi_dung": "Loét dạ dày - tá tràng; viêm dạ dày (đặc biệt với acetylcystein)"
-      }
-    },
-    "tuong_tac": []
-  },
-  {
-    "hoat_chat": "Thuốc gây mê barbituric",
-    "cac_thuoc_trong_nhom": [
-      "Thiopental natri", "Nesdonal", "Pentothal"
-    ],
-    "mo_ta": "Dẫn chất acid barbituric dùng trong gây mê toàn thân ngắn, có khả năng cảm ứng enzyme gan.",
-    "chu_y_khi_chi_dinh": {
-      "chong_chi_dinh": {
-        "muc_do": 4,
-        "noi_dung": "Rối loạn chuyển hóa porphyrin (nguy cơ cơn porphyria cấp)"
-      },
-      "can_nhac_nguy_co_loi_ich": {
-        "muc_do": 3,
-        "noi_dung": "Thời kỳ mang thai (nghi ngờ gây dị tật thai nhi)"
-      },
-      "can_theo_doi": {
-        "muc_do": 1,
-        "noi_dung": "Suy tim, suy gan, suy thận, suy hô hấp, hen"
-      }
-    },
-    "tuong_tac": [
-      {
-        "thuoc": ["Benzamid", "Sulpirid", "Tiaprid"],
-        "muc_do": 2,
-        "phan_tich": "Tăng ức chế hệ thần kinh trung ương dẫn đến nguy cơ suy hô hấp khi gây mê",
-        "xu_ly": "Tính toán liều gây mê thích hợp, theo dõi sát hô hấp"
-      },
-      {
-        "thuoc": ["Bepridil", "Vasodilat"],
-        "muc_do": 2,
-        "phan_tich": "Hiệp đồng hạ huyết áp gây tụt huyết áp nghiêm trọng",
-        "xu_ly": "Ngừng thuốc hạ áp trước phẫu thuật 24-48h nếu có thể"
-      },
-      {
-        "thuoc": ["Fluvoxamin", "Luvox"],
-        "muc_do": 2,
-        "phan_tich": "Tăng tác dụng an thần và ức chế hô hấp",
-        "xu_ly": "Điều chỉnh liều barbituric, chuẩn bị phương tiện hồi sức cấp cứu"
-      }
-    ]
-  },
   {
     "hoat_chat": "Thuốc làm thay đổi chất nhầy phế quản",
     "cac_thuoc_trong_nhom": [
@@ -29648,9 +29591,9 @@ window.tuongTacData = [
     "tuong_tac": []
   },
   {
-    "hoat_chat": "Thuốc gây mê barbituric",
+    "hoat_chat": ["Thiopental", "Pentothal", "Methohexital", "Brevital", "Thiamylal", "Surital"],
     "cac_thuoc_trong_nhom": [
-      "Thiopental natri", "Nesdonal", "Pentothal"
+      "Thiopental natri", "Nesdonal", "Pentothal", "Thiopental", "Pentothal", "Methohexital", "Brevital", "Thiamylal", "Surital"
     ],
     "mo_ta": "Là những thuốc gây mê, dẫn chất của acid barbituric, dùng trong phẫu thuật thời gian ngắn. Một số tương tác đã xảy ra do tác dụng cảm ứng enzym của barbituric, tác dụng này chỉ biểu hiện sau nhiều lần dùng thuốc.",
     "chu_y_khi_chi_dinh": {
@@ -30310,7 +30253,7 @@ window.tuongTacData = [
       },
       {
         "thuoc": [
-          "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Estrogen", "Progestogen", "Thuốc tránh thai phối hợp"
+          "Ethinylestradiol", "Estinyl", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Estraceptin", "Estrogen", "Progestogen", "Ethinylestradiol + Levonorgestrel", "Marvelon", "Mercilon", "Gracial", "Regulon", "Novynette", "Ethinylestradiol + Desogestrel", "Marvelon", "Regulon", "Ethinylestradiol + Drospirenone", "Yaz", "Yasmin", "Drosperin", "Ethinylestradiol + Dienogest", "Qlaira", "Ethinylestradiol + Gestodene", "Femodene", "Gynera", "Meliane", "Ethinylestradiol + Cyproterone", "Diane-35", "Minerva", "Ethinylestradiol + Norethisterone", "Stediril", "Norinyl", "Ethinylestradiol + Norgestrel", "Ovral"
         ],
         "muc_do": 2,
         "phan_tich": "Dùng dầu khoáng cùng với các estrogen-progestogen làm giảm hấp thu và giảm hoạt tính các estroprogestogen.",
@@ -30466,7 +30409,7 @@ window.tuongTacData = [
   },
   "tuong_tac": [
     {
-      "thuoc": ["Thuốc chứa thủy ngân"],
+      "thuoc": ["Mercurochrome", "Thimerosal", "Merthiolate", "Phenylmercuric nitrate", "Phenylmercuric acetate", "Mercuric chloride", "Sublimate", "Mercurous chloride", "Calomel"],
       "muc_do": 4,
       "phan_tich": "Tạo kết tủa HgI2 ăn mô gây bỏng hóa học",
       "xu_ly": "Tuyệt đối không phối hợp, cách ly thời gian sử dụng ít nhất 48h"
@@ -30491,9 +30434,9 @@ window.tuongTacData = [
   "tuong_tac": []
 },
 {
-  "hoat_chat": "Thuốc sát khuẩn có thủy ngân",
+  "hoat_chat": ["Thuốc sát khuẩn có thủy ngân"],
   "cac_thuoc_trong_nhom": [
-    "Merbromin", "Thuốc đỏ",
+    "Merbromin", "Mercurochrome", "Merbromin",
     "Mercurobutol", "Mercryl Laurylé",
     "Phenyl thủy ngân borat"
   ],
@@ -30506,7 +30449,7 @@ window.tuongTacData = [
   },
   "tuong_tac": [
     {
-      "thuoc": ["Thuốc chứa iod"],
+      "thuoc": ["Mercurochr"Povidone-iodine", "Betadine", "Iodovidone", "Povisep", "Lugol's solution", "Iodine potassium iodide solution", "Iodine tincture", "Tinctura Iodi", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Iopromide", "Ultravist", "Iodixanol", "Visipaque", "Iomeprol", "Iomeron"ome", "Merbromin"],
       "muc_do": 4,
       "phan_tich": "Phản ứng tạo HgI2 gây hoại tử mô",
       "xu_ly": "Cấm dùng chung, cần rửa sạch trước khi đổi loại thuốc"
@@ -30984,7 +30927,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Indometacin", "Indocid", "Phenylbutazon", "Butazolidin", "Diclofenac", "Voltaren", "Ibuprofen", "Brufen", "Naproxen", "Naprosyn", "Piroxicam", "Feldene", "Meloxicam", "Mobic", "Ketoprofen", "Profénid", "Aspirin", "Upsarin", "Aspegic", "Ecotrin", "Bayer Aspirin", "Aspro", "Disprin", "Cardirene", "Cartia", "ASA Stada", "Aspilets", "Salicylat", "Dẫn chất pyrazol", "Thuốc chống viêm không steroid"
+        "Indometacin", "Indocid", "Phenylbutazon", "Butazolidin", "Diclofenac", "Voltaren", "Ibuprofen", "Brufen", "Naproxen", "Naprosyn", "Piroxicam", "Feldene", "Meloxicam", "Mobic", "Ketoprofen", "Profénid", "Aspirin", "Upsarin", "Aspegic", "Ecotrin", "Bayer Aspirin", "Aspro", "Disprin", "Cardirene", "Cartia", "ASA Stada", "Aspilets", "Salicylat", "Phenylbutazone", "Butazolidin", "Oxyphenbutazone", "Metamizole", "Dipyrone", "Analgin", "Novalgin", "Ibuprofen", "Brufen", "Advil", "Nurofen", "Diclofenac", "Voltaren", "Cataflam", "Diclobene", "Naproxen", "Aleve", "Naprosyn", "Piroxicam", "Feldene", "Meloxicam", "Mobic", "Tenoxicam", "Tilcotil", "Lornoxicam", "Xefo", "Ketoprofen", "Profenid", "Oki", "Indometacin", "Indocin", "Sulindac", "Clinoril", "Etoricoxib", "Arcoxia", "Celecoxib", "Celebrex", "Etodolac", "Lodine", "Mefenamic acid", "Pamin", "Mephenamin", "Tolfenamic acid", "Clotam", "Nimesulide", "Nimulid", "Nimegesic", "Paracetamol", "Panadol", "Efferalgan", "Tylenol", "Metamizole", "Dipyrone", "Analgin", "Novalgin", "Phenylbutazone", "Butazolidin"
       ],
       "muc_do": 1,
       "phan_tich": "Giảm tác dụng chống tăng huyết áp; các thuốc chống viêm không steroid ức chế tổng hợp prostaglandin thận giãn mạch và/ hoặc kéo theo sự lưu giữ nước và natri.",
@@ -30992,7 +30935,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Thiopental natri", "Nesdonal", "Pentothal", "Thuốc gây mê barbituric"
+        "Thiopental natri", "Nesdonal", "Pentothal", "Thiopental", "Pentothal", "Methohexital", "Brevital", "Thiamylal", "Surital"
       ],
       "muc_do": 1,
       "phan_tich": "Dùng đồng thời các thuốc chống tăng huyết áp hoặc thuốc có khả năng gây hạ huyết áp với các thuốc gây mê barbituric có thể dẫn đến hạ huyết áp nghiêm trọng.",
@@ -31037,7 +30980,7 @@ window.tuongTacData = [
   "tuong_tac": [
     {
       "thuoc": [
-        "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Dẫn chất pyrazol", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Thiotepa", "Tepadina", "Thioplex"
+        "Carmustin", "BiCNU", "Carmubris", "Cisplatin", "Cyclophosphamid", "Endoxan", "Cycloxan", "Phosphamide", "Cycloblastin", "Genoxal", "Dactinomycin", "Phenylbutazone", "Butazolidin", "Oxyphenbutazone", "Metamizole", "Dipyrone", "Analgin", "Novalgin", "Doxorubicin", "Adriamycin", "Fluorouracil","Adrucil","Efudex","Carac","Fluoroplex","Tolak", "Mercaptopurin", "Puri-Nethol", "6-MP", "Methotrexat", "Rheumatrex", "Trexall", "Emthexate", "Metoject", "Thiotepa", "Tepadina", "Thioplex"
       ],
       "muc_do": 3,
       "phan_tich": "Sử dụng đồng thời với các thuốc giảm miễn dịch làm tăng nguy cơ xuất hiện tiêu cơ vân và suy thận.",
@@ -31974,7 +31917,7 @@ window.tuongTacData = [
     },
     {
       "thuoc": [
-        "Azathioprin", "Imuran", "Azapress", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Progabid", "Rifampicin", "Thuốc chống nấm dẫn xuất imidazol"
+        "Azathioprin", "Imuran", "Azapress", "Dantrolen", "Dantrium", "Revonto", "Ryanodex", "Progabid", "Rifampicin", "Ketoconazole", "Nizoral", "Clotrimazole", "Canesten", "Clorimaderm", "Miconazole", "Daktarin", "Micotine", "Econazole", "Spectrazole", "Tioconazole", "Trosyd", "Isoconazole", "Travogen", "Bifonazole", "Canespor"
       ],
       "muc_do": 2,
       "phan_tich": "Phối hợp các thuốc có tiềm năng độc với gan (cộng hợp các tác dụng không mong muốn).",
