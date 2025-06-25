@@ -1,5 +1,6 @@
-/* Biến màu (dễ mở rộng dark mode) */
+/* Biến màu tối ưu cho cả light/dark mode */
 :root {
+  /* Light mode variables */
   --color-primary: #1976d2;
   --color-primary-dark: #1565c0;
   --color-primary-light: #42a5f5;
@@ -14,36 +15,47 @@
   --color-info: #1976d2;
   --color-success: #4caf50;
   --footer-text: #fff;
+  --card-bg: #fff;
+  --suggestion-bg: #fff;
+  --selected-item-bg: #fff;
+  --faq-bg: #f6f8fa;
 }
 
-/* DARK MODE: tự động theo hệ điều hành */
+/* Dark mode variables */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #90caf9;
     --color-primary-dark: #1565c0;
     --color-primary-light: #1976d2;
-    --color-bg: #101622;
-    --color-bg-alt: #19223a;
+    --color-bg: #121a2a;
+    --color-bg-alt: #1a223a;
     --color-text: #e3eaf6;
     --color-text-light: #b6c3e0;
     --color-border: #28304a;
-    --color-shadow: rgba(25, 118, 210, 0.20);
+    --color-shadow: rgba(25, 118, 210, 0.2);
     --footer-text: #e3f2fd;
+    --card-bg: #1a223a;
+    --suggestion-bg: #1a223a;
+    --selected-item-bg: #1a223a;
+    --faq-bg: #0f172a;
   }
 }
 
-/* DARK MODE: thủ công khi có class .dark trên body */
 body.dark {
   --color-primary: #90caf9;
   --color-primary-dark: #1565c0;
   --color-primary-light: #1976d2;
-  --color-bg: #101622;
-  --color-bg-alt: #19223a;
+  --color-bg: #121a2a;
+  --color-bg-alt: #1a223a;
   --color-text: #e3eaf6;
   --color-text-light: #b6c3e0;
   --color-border: #28304a;
-  --color-shadow: rgba(25, 118, 210, 0.20);
+  --color-shadow: rgba(25, 118, 210, 0.2);
   --footer-text: #e3f2fd;
+  --card-bg: #1a223a;
+  --suggestion-bg: #1a223a;
+  --selected-item-bg: #1a223a;
+  --faq-bg: #0f172a;
 }
 
 /* Reset & body */
@@ -53,6 +65,7 @@ body {
   color: var(--color-text);
   margin: 0;
   padding: 0 0 40px 0;
+  transition: background 0.3s, color 0.3s;
 }
 
 /* Tiêu đề chính */
@@ -80,6 +93,8 @@ h1 {
   outline: none;
   box-sizing: border-box;
   transition: border-color 0.2s, box-shadow 0.2s;
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 #search-input:focus {
@@ -91,8 +106,8 @@ h1 {
 .suggestions {
   position: absolute;
   width: 100%;
-  background: #fff;
-  border: 1px solid #e3e3e3;
+  background: var(--suggestion-bg);
+  border: 1px solid var(--color-border);
   border-top: none;
   z-index: 10;
   max-height: 220px;
@@ -106,6 +121,7 @@ h1 {
   cursor: pointer;
   transition: background 0.2s;
   font-size: 16px;
+  color: var(--color-text);
 }
 
 .suggestion-item:hover {
@@ -144,8 +160,8 @@ h1 {
 }
 
 .selected-item {
-  background: white;
-  border: 1px solid #e3e3e3;
+  background: var(--selected-item-bg);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 10px 12px;
   margin: 8px 0;
@@ -175,6 +191,7 @@ h1 {
 .selected-item-content {
   flex-grow: 1;
   font-size: 16px;
+  color: var(--color-text);
 }
 
 .remove-btn {
@@ -228,7 +245,7 @@ h1 {
 }
 
 .result-card {
-  background: #fff;
+  background: var(--card-bg);
   border-radius: 10px;
   padding: 20px 24px;
   margin: 18px 0;
@@ -271,7 +288,7 @@ h1 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   position: relative;
   margin-bottom: 24px;
-  padding-right: 32px; /* căn phải menu */
+  padding-right: 32px;
 }
 
 .main-menu ul {
@@ -279,7 +296,7 @@ h1 {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end; /* căn phải */
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -350,7 +367,7 @@ h1 {
 #faq-section {
   max-width: 700px;
   margin: 48px auto 32px auto;
-  background: var(--color-bg);
+  background: var(--faq-bg);
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(30, 64, 175, 0.06);
   padding: 32px 24px 24px 24px;
@@ -384,7 +401,7 @@ h1 {
   width: 100%;
   text-align: left;
   padding: 16px 20px;
-  background: var(--faq-question-bg, #f3f8fe);
+  background: var(--color-bg-alt);
   border: none;
   outline: none;
   font-size: 1.07rem;
@@ -398,14 +415,15 @@ h1 {
 }
 
 .faq-question:hover {
-  background: var(--faq-question-hover, #e3eefc);
+  background: var(--color-primary-light);
+  color: #fff;
 }
 
 .faq-answer {
   padding: 15px 20px 18px 20px;
-  background: var(--faq-answer-bg, #f9fafb);
+  background: var(--color-bg-alt);
   font-size: 1rem;
-  color: var(--color-text-light);
+  color: var(--color-text);
   border-top: 1px solid var(--color-border);
   animation: fadeIn 0.2s;
 }
@@ -427,7 +445,7 @@ h1 {
 /* Footer */
 .footer {
   background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
-  color: var(--footer-text, #fff);
+  color: var(--footer-text);
   padding: 32px 0 18px 0;
   font-size: 1rem;
   margin-top: 36px;
@@ -555,4 +573,24 @@ h1 {
     font-size: 20px;
     padding: 10px 0;
   }
+}
+
+/* Nút chuyển chế độ */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  font-size: 1.3em;
+  box-shadow: 0 2px 8px var(--color-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
