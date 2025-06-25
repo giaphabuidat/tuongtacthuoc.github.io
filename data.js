@@ -30449,7 +30449,7 @@ window.tuongTacData = [
   },
   "tuong_tac": [
     {
-      "thuoc": ["Mercurochr"Povidone-iodine", "Betadine", "Iodovidone", "Povisep", "Lugol's solution", "Iodine potassium iodide solution", "Iodine tincture", "Tinctura Iodi", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Iopromide", "Ultravist", "Iodixanol", "Visipaque", "Iomeprol", "Iomeron"ome", "Merbromin"],
+      "thuoc": ["Mercurochr,"Povidone-iodine", "Betadine", "Iodovidone", "Povisep", "Lugol's solution", "Iodine potassium iodide solution", "Iodine tincture", "Tinctura Iodi", "Iohexol", "Omnipaque", "Iopamidol", "Isovue", "Iopromide", "Ultravist", "Iodixanol", "Visipaque", "Iomeprol", "Iomeron"ome", "Merbromin"],
       "muc_do": 4,
       "phan_tich": "Phản ứng tạo HgI2 gây hoại tử mô",
       "xu_ly": "Cấm dùng chung, cần rửa sạch trước khi đổi loại thuốc"
