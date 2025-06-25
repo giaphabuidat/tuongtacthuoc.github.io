@@ -58,6 +58,23 @@ body.dark {
   --faq-bg: #0f172a;
 }
 
+body.light {
+  --color-primary: #1976d2;
+  --color-primary-dark: #1565c0;
+  --color-primary-light: #42a5f5;
+  --color-bg: #f7fafd;
+  --color-bg-alt: #f8f9ff;
+  --color-text: #222;
+  --color-text-light: #444;
+  --color-border: #e3e7ef;
+  --color-shadow: rgba(25, 118, 210, 0.07);
+  --footer-text: #fff;
+  --card-bg: #fff;
+  --suggestion-bg: #fff;
+  --selected-item-bg: #fff;
+  --faq-bg: #f6f8fa;
+}
+
 /* Reset & body */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
