@@ -21,26 +21,6 @@
   --faq-bg: #f6f8fa;
 }
 
-/* Dark mode variables */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-primary: #90caf9;
-    --color-primary-dark: #1565c0;
-    --color-primary-light: #1976d2;
-    --color-bg: #121a2a;
-    --color-bg-alt: #1a223a;
-    --color-text: #e3eaf6;
-    --color-text-light: #b6c3e0;
-    --color-border: #28304a;
-    --color-shadow: rgba(25, 118, 210, 0.2);
-    --footer-text: #e3f2fd;
-    --card-bg: #1a223a;
-    --suggestion-bg: #1a223a;
-    --selected-item-bg: #1a223a;
-    --faq-bg: #0f172a;
-  }
-}
-
 body.dark {
   --color-primary: #90caf9;
   --color-primary-dark: #1565c0;
