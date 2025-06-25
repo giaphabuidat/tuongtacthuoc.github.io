@@ -13,6 +13,37 @@
   --color-warning: #fbc02d;
   --color-info: #1976d2;
   --color-success: #4caf50;
+  --footer-text: #fff;
+}
+
+/* DARK MODE: tự động theo hệ điều hành */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #90caf9;
+    --color-primary-dark: #1565c0;
+    --color-primary-light: #1976d2;
+    --color-bg: #101622;
+    --color-bg-alt: #19223a;
+    --color-text: #e3eaf6;
+    --color-text-light: #b6c3e0;
+    --color-border: #28304a;
+    --color-shadow: rgba(25, 118, 210, 0.20);
+    --footer-text: #e3f2fd;
+  }
+}
+
+/* DARK MODE: thủ công khi có class .dark trên body */
+body.dark {
+  --color-primary: #90caf9;
+  --color-primary-dark: #1565c0;
+  --color-primary-light: #1976d2;
+  --color-bg: #101622;
+  --color-bg-alt: #19223a;
+  --color-text: #e3eaf6;
+  --color-text-light: #b6c3e0;
+  --color-border: #28304a;
+  --color-shadow: rgba(25, 118, 210, 0.20);
+  --footer-text: #e3f2fd;
 }
 
 /* Reset & body */
