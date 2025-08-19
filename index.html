@@ -32,6 +32,9 @@
     <meta name="twitter:title" content="Tra cứu tương tác thuốc | Dược lý & An toàn kê đơn">
     <meta name="twitter:description" content="Tra cứu nhanh tương tác thuốc, hoạt chất, cảnh báo nguy hiểm và hướng xử trí.">
     <meta name="twitter:image" content="https://tuongtacthuoc.vn/og-image.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCCV5GNKXW"></script>
 <script>
@@ -80,6 +83,7 @@
         <div class="results-column">
             <h2>Kết quả tương tác</h2>
             <div id="results"></div>
+            <button id="btn-export-pdf" style="margin-top:16px;">Tải kết quả PDF</button>
         </div>
     </div>
     
@@ -194,6 +198,25 @@ if (isDarkMode) {
           }
         });
       });
-    </script>     
+    </script> 
+
+    <script>
+document.getElementById('btn-export-pdf').onclick = function() {
+  const { jsPDF } = window.jspdf;
+  const resultsDiv = document.getElementById('results');
+  html2canvas(resultsDiv).then(function(canvas) {
+    var imgData = canvas.toDataURL('image/png');
+    var pdf = new jsPDF('p', 'mm', 'a4');
+    var pageWidth = pdf.internal.pageSize.getWidth();
+    var pageHeight = pdf.internal.pageSize.getHeight();
+    // Tính kích thước hình phù hợp trang A4
+    var imgProps = pdf.getImageProperties(imgData);
+    var pdfWidth = pageWidth * 0.95;
+    var pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+    pdf.addImage(imgData, 'PNG', (pageWidth-pdfWidth)/2, 20, pdfWidth, pdfHeight);
+    pdf.save('tuong-tac-thuoc.pdf');
+  });
+};
+</script>
 </body>
 </html>
